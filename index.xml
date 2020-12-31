@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jacopo Donati</title>
+    <link>https://www.jacopodonati.it/</link>
+    <description>Recent content on Jacopo Donati</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <copyright>© 2021 Jacopo Donati</copyright><atom:link href="https://www.jacopodonati.it/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
