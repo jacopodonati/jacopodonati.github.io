@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.jacopodonati.it/in-lettura/</loc>
+    <lastmod>2021-01-01T14:51:33+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacopodonati.it/</loc>
+    <lastmod>2021-01-01T14:51:33+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacopodonati.it/in-lettura/teller-janne-niente/</loc>
+    <lastmod>2021-01-01T14:51:33+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.jacopodonati.it/blog/</loc>
     <lastmod>2021-01-01T08:55:53+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jacopodonati.it/blog/20210101-il-primo-post/</loc>
-    <lastmod>2021-01-01T08:55:53+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jacopodonati.it/</loc>
     <lastmod>2021-01-01T08:55:53+01:00</lastmod>
   </url>
   
@@ -29,10 +39,6 @@
   
   <url>
     <loc>https://www.jacopodonati.it/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.jacopodonati.it/in-lettura/</loc>
   </url>
   
   <url>
