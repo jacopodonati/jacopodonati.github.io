@@ -1,63 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://www.jacopodonati.it/chi-sono/</loc>
     <lastmod>2021-02-05T16:08:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.jacopodonati.it/contatti/</loc>
     <lastmod>2021-02-04T17:51:53+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.jacopodonati.it/</loc>
     <lastmod>2021-01-24T08:24:33+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.jacopodonati.it/micro/larmadio-a-muro/</loc>
     <lastmod>2021-01-24T08:24:33+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.jacopodonati.it/micro/</loc>
     <lastmod>2021-01-24T08:24:33+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.jacopodonati.it/in-lettura/</loc>
     <lastmod>2021-01-22T17:07:39+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.jacopodonati.it/in-lettura/adams-douglas-guida-galattica-per-autostoppisti/</loc>
     <lastmod>2021-01-22T17:07:39+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.jacopodonati.it/in-lettura/teller-janne-niente/</loc>
     <lastmod>2021-01-01T14:51:33+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.jacopodonati.it/credits/</loc>
     <lastmod>2021-02-03T16:15:08+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.jacopodonati.it/privacy/</loc>
     <lastmod>2020-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.jacopodonati.it/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.jacopodonati.it/tags/</loc>
   </url>
-  
 </urlset>
