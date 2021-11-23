@@ -2,11 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.jacopodonati.it/chi-sono/</loc>
+    <lastmod>2021-02-05T16:08:38+01:00</lastmod>
+  </url><url>
     <loc>https://www.jacopodonati.it/contatti/</loc>
     <lastmod>2021-11-22T19:20:12+01:00</lastmod>
   </url><url>
-    <loc>https://www.jacopodonati.it/chi-sono/</loc>
-    <lastmod>2021-02-05T16:08:38+01:00</lastmod>
+    <loc>https://www.jacopodonati.it/privacy/</loc>
+    <lastmod>2021-11-23T08:33:17+01:00</lastmod>
   </url><url>
     <loc>https://www.jacopodonati.it/</loc>
     <lastmod>2021-01-24T08:24:33+01:00</lastmod>
@@ -16,9 +19,6 @@
   </url><url>
     <loc>https://www.jacopodonati.it/micro/</loc>
     <lastmod>2021-01-24T08:24:33+01:00</lastmod>
-  </url><url>
-    <loc>https://www.jacopodonati.it/privacy/</loc>
-    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.jacopodonati.it/categories/</loc>
   </url><url>

@@ -9,17 +9,6 @@
     <copyright>© 2020-2021 Jacopo Donati</copyright>
     <lastBuildDate>Sun, 24 Jan 2021 08:24:33 +0100</lastBuildDate><atom:link href="https://www.jacopodonati.it/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Contatti</title>
-      <link>https://www.jacopodonati.it/contatti/</link>
-      <pubDate>Mon, 22 Nov 2021 19:20:12 +0100</pubDate>
-      
-      <guid>https://www.jacopodonati.it/contatti/</guid>
-      <description>Il modo più veloce per contattarmi è scrivermi a jacopo@ seguito dal dominio di questo sito1. Non inserisco l&amp;rsquo;indirizzo in chiaro perché altrimenti mi troverei sommerso di spam.
-  Ho Facebook, LinkedIn, Instagram, e Twitter. È piuttosto semplice trovarmi, ma li uso in maniera discontinua, quindi non vi garantisco una risposta celere.
-Se proprio avete così tanta voglia di mettermi in contatto con me, ma non riuscite, date un colpo di telefono a Bottega Finzioni.</description>
-    </item>
-    
-    <item>
       <title>Chi sono</title>
       <link>https://www.jacopodonati.it/chi-sono/</link>
       <pubDate>Fri, 05 Feb 2021 16:08:38 +0100</pubDate>
@@ -32,21 +21,32 @@ Ne ho tenuti in biblioteche, aziende, studentati; alcuni erano rivolti ad aspira
     </item>
     
     <item>
+      <title>Contatti</title>
+      <link>https://www.jacopodonati.it/contatti/</link>
+      <pubDate>Mon, 22 Nov 2021 19:20:12 +0100</pubDate>
+      
+      <guid>https://www.jacopodonati.it/contatti/</guid>
+      <description>Il modo più veloce per contattarmi è scrivermi a jacopo@ seguito dal dominio di questo sito1. Non inserisco l&amp;rsquo;indirizzo in chiaro perché altrimenti mi troverei sommerso di spam.
+  Ho Facebook, LinkedIn, Instagram, e Twitter. È piuttosto semplice trovarmi, ma li uso in maniera discontinua, quindi non vi garantisco una risposta celere.
+Se proprio avete così tanta voglia di mettermi in contatto con me, ma non riuscite, date un colpo di telefono a Bottega Finzioni.</description>
+    </item>
+    
+    <item>
+      <title>Privacy policy</title>
+      <link>https://www.jacopodonati.it/privacy/</link>
+      <pubDate>Tue, 23 Nov 2021 08:33:17 +0100</pubDate>
+      
+      <guid>https://www.jacopodonati.it/privacy/</guid>
+      <description>Questo sito non raccoglie alcun dato dei propri visitatori, né imposta cookie. Nessuno script viene eseguito, né vengono mostrate pubblicità. Non ho accesso neppure ai log del server.</description>
+    </item>
+    
+    <item>
       <title>L&#39;armadio a muro</title>
       <link>https://www.jacopodonati.it/micro/larmadio-a-muro/</link>
       <pubDate>Sun, 24 Jan 2021 08:24:33 +0100</pubDate>
       
       <guid>https://www.jacopodonati.it/micro/larmadio-a-muro/</guid>
       <description>Mi sono sentito ai suoi antipodi, e il desiderio di riuscire a sistemare il casino che era la mia vita il più delle volte era desiderio di recuperare un po&#39; di terreno con lei. L&amp;rsquo;incubo era che capisse quanto era migliore di me.  Terribile, no?</description>
-    </item>
-    
-    <item>
-      <title>Privacy policy</title>
-      <link>https://www.jacopodonati.it/privacy/</link>
-      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jacopodonati.it/privacy/</guid>
-      <description>Questo sito non raccoglie alcun dato dei propri visitatori, né imposta cookie. Nessuno script viene eseguito, né vengono mostrate pubblicità. Non ho accesso neppure ai log del server.</description>
     </item>
     
   </channel>
