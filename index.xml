@@ -6,17 +6,18 @@
     <description>Recent content on Jacopo Donati</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <copyright>© 2020-2021 Jacopo Donati</copyright><atom:link href="https://www.jacopodonati.it/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2020-2021 Jacopo Donati</copyright>
+    <lastBuildDate>Fri, 05 Feb 2021 16:08:38 +0100</lastBuildDate><atom:link href="https://www.jacopodonati.it/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chi sono</title>
       <link>https://www.jacopodonati.it/chi-sono/</link>
       <pubDate>Fri, 05 Feb 2021 16:08:38 +0100</pubDate>
       
       <guid>https://www.jacopodonati.it/chi-sono/</guid>
-      <description>Mi chiamo Jacopo Donati, classe 1985, e sono autore, editor e insegnante di scrittura creativa.
-Sono un libero professionista. Vivo a Bologna, ma lavoro in tutta Italia.
-Insegnamento Adoro insegnare, e sono sempre disponibile a prendere parte a nuovi corsi.
-Ne ho tenuti in biblioteche, aziende, studentati; alcuni erano rivolti ad aspiranti scrittori, altri a persone che volevano semplicemente fare un&amp;rsquo;esperienza nuova. Non importa né il contesto né il fine per il quale si sono iscritti gli allievi: mi piace moltissimo e sono sempre interessato.</description>
+      <description>Mi chiamo Jacopo Donati, classe 1985, e sono autore, consulente editoriale e insegnante di scrittura creativa.
+Sono freelance. Vivo a Bologna, ma viaggio volentieri in tutta Italia. Se vuoi contattarmi, qui trovi tutti i riferimenti.
+Servizi editoriali Collaboro con case editrici e agenzie letterarie offrendo servizi di editing, valutazione manoscritti, e ghost-writing.
+In passato ho lavorato anche con privati, ma è una cosa che non faccio più perché preferisco lavorare con chi ha già le idee chiare su come sfruttare l&amp;rsquo;opera.</description>
     </item>
     
     <item>
@@ -37,6 +38,18 @@ Se proprio avete così tanta voglia di mettermi in contatto con me, ma non riusc
       
       <guid>https://www.jacopodonati.it/privacy/</guid>
       <description>Questo sito non raccoglie alcun dato dei propri visitatori, né imposta cookie. Nessuno script viene eseguito, né vengono mostrate pubblicità. Non ho accesso neppure ai log del server.</description>
+    </item>
+    
+    <item>
+      <title>Consigli di scrittura</title>
+      <link>https://www.jacopodonati.it/roba/consigli-di-scrittura/</link>
+      <pubDate>Fri, 05 Feb 2021 16:08:38 +0100</pubDate>
+      
+      <guid>https://www.jacopodonati.it/roba/consigli-di-scrittura/</guid>
+      <description>🍕 lista in continuo aggiornamento 🍕
+1 Se avete un manoscritto che desiderate migliorare ma non sapete da che parte cominciare, cercate qualcuno che vi faccia una scheda di lettura. Chiedete a chi offre servizi editoriali a privati, o chiedetela a un&amp;rsquo;agenzia letteraria.
+La dovrete pagare e costerà più di quanto pensate, ma avrete una base di partenza su cui ragionare.
+2 Se pensate che vi manchino le basi, fate un corso di scrittura.</description>
     </item>
     
   </channel>
