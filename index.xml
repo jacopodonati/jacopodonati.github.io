@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>© 2020-2021 Jacopo Donati</copyright>
-    <lastBuildDate>Fri, 10 Dec 2021 13:39:16 +0100</lastBuildDate><atom:link href="https://www.jacopodonati.it/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Dec 2021 08:11:02 +0100</lastBuildDate><atom:link href="https://www.jacopodonati.it/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chi sono</title>
       <link>https://www.jacopodonati.it/chi-sono/</link>
@@ -37,15 +37,27 @@ Se proprio avete così tanta voglia di mettermi in contatto con me, ma non riusc
       <pubDate>Tue, 23 Nov 2021 08:33:17 +0100</pubDate>
       
       <guid>https://www.jacopodonati.it/privacy/</guid>
-      <description>Questo sito non raccoglie alcun dato dei propri visitatori, né imposta cookie. Nessuno script viene eseguito, né vengono mostrate pubblicità. Non ho accesso neppure ai log del server.</description>
+      <description>Questo sito non raccoglie alcun dato dei propri visitatori, né imposta cookie. Nessuno script viene eseguito1, né vengono mostrate pubblicità. Non ho accesso neppure ai log del server.
+  a eccezione del filtro in cima al Manuale per vivere&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+   </description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t fight them. Don&#39;t waste your time</title>
+      <link>https://www.jacopodonati.it/manuale-per-vivere/don-t-waste-your-time/</link>
+      <pubDate>Sat, 11 Dec 2021 08:11:02 +0100</pubDate>
+      
+      <guid>https://www.jacopodonati.it/manuale-per-vivere/don-t-waste-your-time/</guid>
+      <description>I: You have some wonderful stories of basically getting away with stuff at the studios.
+MB: I’d learned one very simple trick: say yes. Simply say yes. Like Joseph E. Levine, on The Producers, said, “The curly-haired guy—he’s funny looking. Fire him.” He wanted me to fire Gene Wilder. And I said, “Yes, he’s gone. I’m firing him.” I never did. But he forgot. After the screening of Blazing Saddles, the head of Warner Bros.</description>
     </item>
     
     <item>
       <title>the world is movement</title>
-      <link>https://www.jacopodonati.it/manuale-di-istruzioni/the-world-is-movement/</link>
+      <link>https://www.jacopodonati.it/manuale-per-vivere/the-world-is-movement/</link>
       <pubDate>Fri, 10 Dec 2021 11:00:47 +0100</pubDate>
       
-      <guid>https://www.jacopodonati.it/manuale-di-istruzioni/the-world-is-movement/</guid>
+      <guid>https://www.jacopodonati.it/manuale-per-vivere/the-world-is-movement/</guid>
       <description>For the world is movement, and you cannot be stationary in your attitude toward something that is moving.</description>
     </item>
     
@@ -80,10 +92,10 @@ Se non siete convinti dell&amp;rsquo;efficacia di un corso di scrittura, partite
     
     <item>
       <title>there you are, still yourself, with your particular way of loving</title>
-      <link>https://www.jacopodonati.it/manuale-di-istruzioni/with-your-particular-way-of-loving/</link>
+      <link>https://www.jacopodonati.it/manuale-per-vivere/with-your-particular-way-of-loving/</link>
       <pubDate>Wed, 20 Oct 2021 09:12:16 +0100</pubDate>
       
-      <guid>https://www.jacopodonati.it/manuale-di-istruzioni/with-your-particular-way-of-loving/</guid>
+      <guid>https://www.jacopodonati.it/manuale-per-vivere/with-your-particular-way-of-loving/</guid>
       <description>We want to believe that love is singular and exclusive, and it unnerves us to think that it might actually be renewable and somewhat repetitive in its habits. Would your current partner ever call his or her new partner by the same pet name he/she uses for you, once you are dead and buried? Well, why not? There are only so many pet names. Why should that bother you? Well, because you believe it is you, in particular, who is loved (that is why dear Ed calls you “honey-bunny”), but no: love just is, and you happened to be in the path of it.</description>
     </item>
     
