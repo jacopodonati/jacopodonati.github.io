@@ -34,7 +34,7 @@
     <meta name="application-name" content="Jacopo Donati">
     <meta name="msapplication-TileColor" content="#ff3333">
     <meta name="theme-color" content="#af0303">
-<link rel="stylesheet" href="/css/main.min.c438e20bc4a05a6966cdd7d2c9e7cd43df7d0864bdf222894ff89c240d9626cb.css" integrity="sha256-xDjiC8SgWmlmzdfSyefNQ999CGS98iKJT/icJA2WJss=">
+<link rel="stylesheet" href="/css/main.min.11b1d401ee9680587956aa84c231a2130fc0e4fa4d48e94b7a144b96aeb1a8ef.css" integrity="sha256-EbHUAe6WgFh5VqqEwjGiEw/A5PpNSOlLehRLlq6xqO8=">
 
     <body><div id="header">
     
@@ -76,6 +76,7 @@
 </div><div id="content">
     <div class="manuale">
         <div id="tag-selector">
+            <div id="feeling-lucky" class="tag-button">feelin' lucky</div>
          
         
             
@@ -341,19 +342,35 @@
     </div>
 </footer></body>
 <script>
+let button_switch = function(button) {
+    let buttons = document.querySelectorAll('.tag-button');
+    buttons.forEach(function(el) {
+        el.classList.remove('active-filter');
+    });
+    button.classList.add('active-filter');
+};
+
 document.addEventListener('click', (e) => {
     let element = e.target;
-    if (element.id == "tag-tutti") {
-        let all_elems = document.querySelectorAll('article');
-        all_elems.forEach(function(el) {
-            el.style.display = 'block';
+    if (element.id == 'feeling-lucky') {
+        let articles = document.getElementsByTagName('article');
+        let pick = Math.floor(Math.random() * articles.length);
+        let to_hide = document.querySelectorAll('article');
+        to_hide.forEach(function(el) {
+            el.style.display = 'none';
         });
+        articles[pick].style.display = 'block';
         let buttons = document.querySelectorAll('.tag-button');
         buttons.forEach(function(el) {
             el.classList.remove('active-filter');
         });
-        element.classList.add('active-filter');
-    } else if (element.className == "tag-button") {        
+    } else if (element.id == 'tag-tutti') {
+        let all_elems = document.querySelectorAll('article');
+        all_elems.forEach(function(el) {
+            el.style.display = 'block';
+        });
+        button_switch(element);
+    } else if (element.className == 'tag-button') {        
         let filter = element.id.substr(4);
         let to_hide = document.querySelectorAll('article');
         let to_show = document.querySelectorAll('.' + filter);
@@ -363,11 +380,7 @@ document.addEventListener('click', (e) => {
         to_show.forEach(function(el) {
             el.style.display = 'block';
         });
-        let buttons = document.querySelectorAll('.tag-button');
-        buttons.forEach(function(el) {
-            el.classList.remove('active-filter');
-        });
-        element.classList.add('active-filter');
+        button_switch(element);
     }
 });
 </script>
