@@ -128,7 +128,6 @@
         
         
         
-        
         <button class="tag-button active-filter" id="tag-tutti" data-filter="*">tutti</button>
         
         <button class="tag-button" id="tag-art" data-filter=".art">art</button>
@@ -614,5 +613,63 @@
 
         </div><footer>
     <p>© 2020-2022 Jacopo Donati</p>
-</footer></body>
+</footer>
+<script>
+    var elem = document.querySelector('#cork-board');
+    var iso = new Isotope(elem, {
+        itemSelector: '.quote',
+        transitionDuration: 0,
+        masonry: {
+            columnWidth: 290,
+            gutter: 16,
+            fitWidth: true
+        }
+    });
+
+    var filtersElem = document.querySelector('#tag-selector');
+    filtersElem.addEventListener('click', function (event) {
+        if (!matchesSelector(event.target, 'button')) {
+            return;
+        }
+        if (event.target.getAttribute('id') === 'feeling-lucky') {
+            let quotes = document.querySelectorAll('.quote');
+            let pick = Math.floor(Math.random() * quotes.length);
+            iso.hideItemElements(quotes);
+            iso.revealItemElements(quotes[pick]);
+            console.log(quotes)
+        } else {
+            var filterValue = event.target.getAttribute('data-filter');
+            iso.arrange({
+                filter: filterValue
+            });
+        }
+    });
+
+    var buttonGroups = document.querySelectorAll('#tag-selector');
+    for (var i = 0, len = buttonGroups.length; i < len; i++) {
+        var buttonGroup = buttonGroups[i];
+        radioButtonGroup(buttonGroup);
+    }
+
+    function radioButtonGroup(buttonGroup) {
+        buttonGroup.addEventListener('click', function (event) {
+            if (!matchesSelector(event.target, 'button')) {
+                return;
+            }
+            if (
+                (event.target.getAttribute('id') === 'feeling-lucky')
+                && buttonGroup.querySelector('.active-filter') !== null
+                ) {
+                buttonGroup.querySelector('.active-filter').classList.remove('active-filter');
+            } else {
+                if (buttonGroup.querySelector('.active-filter') !== null) {
+                    buttonGroup.querySelector('.active-filter').classList.remove('active-filter');
+                }
+                event.target.classList.add('active-filter');
+            }
+        });
+    }
+</script>
+
+    </body>
 </html>
