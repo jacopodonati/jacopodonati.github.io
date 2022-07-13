@@ -4,26 +4,26 @@
             <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 Page not found · Jacopo Donati</title>    
-    <meta name="title" content="404 Page not found · Jacopo Donati">
+    <title>Cose belle · Jacopo Donati</title>    
+    <meta name="title" content="Cose belle · Jacopo Donati">
     <meta name="description" content="🍕🍕">
     <meta name="author" content="Jacopo Donati">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.jacopodonati.it/404.html">    
-    <meta property="og:title" content="404 Page not found">
+    <link rel="canonical" href="https://www.jacopodonati.it/cose-belle/">    
+    <meta property="og:title" content="Cose belle">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://www.jacopodonati.it/404.html">
+    <meta property="og:url" content="https://www.jacopodonati.it/cose-belle/">
 
     <meta property="og:description" content="">
     <meta name="twitter:description" content="">
     <meta property="article:author" content="Jacopo Donati">
     <meta property="article:section" content="Blog">
-    <meta property="article:published_time" content="0001-01-01T00:00+0000">
+    <meta property="article:published_time" content="2022-02-04T14:29+0000">
 
     <meta name="twitter:site" content="@_jacopodonati">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:creator" content="@_jacopodonati">
-    <meta name="twitter:title" content="404 Page not found">    
+    <meta name="twitter:title" content="Cose belle">    
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -51,11 +51,58 @@
     <div id="photo">
         <img src="img/crapa.jpg" srcset="/img/crapa_hua361419d8f6a05dd4397cd9afaae28ad_342200_0x144_resize_q80_h2_box.webp 1x, /img/crapa_hua361419d8f6a05dd4397cd9afaae28ad_342200_0x216_resize_q80_h2_box.webp 2x, /img/crapa_hua361419d8f6a05dd4397cd9afaae28ad_342200_0x288_resize_q80_h2_box.webp 3x, /img/crapa_hua361419d8f6a05dd4397cd9afaae28ad_342200_0x360_resize_q80_h2_box.webp 4x" alt="Jacopo Donati" width="72" height="72">
     </div>
-</header><div id="content" class=" 404">
-404
+</header><div id="content" class="cose-belle section">
+<p id="cose-belle" class="boxed">
+
+   <span class="frase">Le lenzuola pulite.</span>
+
+   <span class="frase">I fiori dimenticati tra le pagine dei libri.</span>
+
+   <span class="frase">I muscoli indolenziti alla fine di una lunga giornata.</span>
+
+   <span class="frase">Il profumo del calicanto a gennaio.</span>
+
+   <span class="frase">Appoggiare una mano fredda contro una tazza di tè caldo.</span>
+
+   <span class="frase">Gli abbracci stretti.</span>
+
+   <span class="frase">L&rsquo;odore di legna bruciata.</span>
+
+</p>
 
         </div><footer>
     <p>© 2020-2022 Jacopo Donati</p>
 </footer>
+<script>
+   var id = null;
+   var old_pick = null;
+
+   function pickANumber(max) {
+      let pick = Math.floor(Math.random() * max);
+      if (pick === old_pick) {
+         return pickANumber(max);
+      } else {
+         old_pick = pick;
+         return pick;
+      }
+   }
+
+   function bubbleUp() {
+      let frasi = document.querySelectorAll('.frase');
+      let pick = pickANumber(frasi.length - 1);
+      let old_focus = document.querySelector('.focus');
+      if (old_focus !== null) {
+         old_focus.classList.remove('focus');
+      }
+      frasi[pick].classList.add('focus');
+   }
+
+   window.addEventListener('load', function () {
+      bubbleUp();
+      id = setInterval(bubbleUp, 5000);
+   }, false);
+   
+</script>
+
     </body>
 </html>
