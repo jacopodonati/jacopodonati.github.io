@@ -50,7 +50,6 @@ function changeLine(lineValue) {
         response = response + lineValue;
         
         if (lineIndex == 6) {
-            console.log('asdf')
             pullHex(response);
         }
         
