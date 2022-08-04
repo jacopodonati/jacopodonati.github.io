@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>© 2020-2022 Jacopo Donati</copyright>
-    <lastBuildDate>Tue, 02 Aug 2022 12:09:07 +0200</lastBuildDate><atom:link href="https://www.jacopodonati.it/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Aug 2022 06:42:39 +0200</lastBuildDate><atom:link href="https://www.jacopodonati.it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tendenze</title>
+      <link>https://www.jacopodonati.it/i-ching/stats/</link>
+      <pubDate>Thu, 04 Aug 2022 06:42:39 +0200</pubDate>
+      
+      <guid>https://www.jacopodonati.it/i-ching/stats/</guid>
+      <description>Un piccolo esperimento statistico.</description>
+    </item>
+    
     <item>
       <title>FAQ</title>
       <link>https://www.jacopodonati.it/i-ching/faq/</link>

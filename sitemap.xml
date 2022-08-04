@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.jacopodonati.it/i-ching/faq/</loc>
-    <lastmod>2022-08-02T12:09:07+02:00</lastmod>
-  </url><url>
     <loc>https://www.jacopodonati.it/</loc>
+    <lastmod>2022-08-04T06:42:39+02:00</lastmod>
+  </url><url>
+    <loc>https://www.jacopodonati.it/i-ching/stats/</loc>
+    <lastmod>2022-08-04T06:42:39+02:00</lastmod>
+  </url><url>
+    <loc>https://www.jacopodonati.it/i-ching/faq/</loc>
     <lastmod>2022-08-02T12:09:07+02:00</lastmod>
   </url><url>
     <loc>https://www.jacopodonati.it/i-ching/</loc>
