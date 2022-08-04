@@ -69,7 +69,6 @@
         </footer>
 <script type="module">
     import { daily_throws } from './daily.js';
-    var DateTime = luxon.DateTime;
 
     function compileThrows(throws) {
         let data = {
@@ -78,19 +77,29 @@
         }
 
         throws.forEach(day => {
-            const dateObj = new Date(day.date);
-            
             const timestamp = day.date;
             day.throws.forEach(single_throw => {
-                data.primaries.push({
-                    x: timestamp,
-                    y: single_throw[0]
-                });
-                if (single_throw.length > 1) {
-                    data.relatives.push({
+                if (data.primaries.some(e => e.y === single_throw[0])) {
+                    let old = data.primaries.find(th => th.y === single_throw[0]);
+                    old.r += 1;
+                } else {
+                    data.primaries.push({
                         x: timestamp,
-                        y: single_throw[1]
+                        y: single_throw[0],
+                        r: 1
                     });
+                }
+                if (single_throw.length > 1) {
+                    if (data.relatives.some(e => e.y === single_throw[1])) {
+                        let old = data.relatives.find(th => th.y === single_throw[1]);
+                        old.r += 1;
+                    } else {
+                        data.relatives.push({
+                            x: timestamp,
+                            y: single_throw[1],
+                            r: 1
+                        });
+                    }
                 }
             });
         });
@@ -101,7 +110,7 @@
 
     const dtc = document.getElementById('daily-throws').getContext('2d');
     const dailyThrows = new Chart(dtc, {
-    type: 'scatter',
+    type: 'bubble',
     data: {
         datasets: [
             {
