@@ -106,48 +106,93 @@
         return data;
     }
 
+    function getMean(throws) {
+        let data = {
+            labels: [],
+            primaries: [],
+            relatives: []
+        };
+
+        throws.forEach(th => {
+            let primary = {
+                count: 0,
+                value: 0
+            };
+            let relative = {
+                count: 0,
+                value: 0
+            };
+
+            th.throws.forEach(t => {
+                primary.value += t[0];
+                primary.count += 1;
+
+                if (t.length > 1) {
+                    relative.value += t[0];
+                    relative.count += 1;
+                }
+            });
+            data.labels.push(th.date);
+            data.primaries.push(primary.value / primary.count);
+            data.relatives.push(relative.value / relative.count);
+        });
+        return data;
+    }
+
     let daily_data = compileThrows(daily_throws);
+    let daily_mean = getMean(daily_throws);
+    console.log(daily_mean)
 
     const dtc = document.getElementById('daily-throws').getContext('2d');
     const dailyThrows = new Chart(dtc, {
-    type: 'bubble',
-    data: {
-        datasets: [
-            {
-                label: 'Primari',
-                data: daily_data.primaries,
-                backgroundColor: 'rgb(101, 156, 219)'
-            },
-            {
-                label: 'Relativi',
-                data: daily_data.relatives,
-                backgroundColor: 'rgb(227, 185, 86)'
-            },
-
-        ]
-    },
-    options: {
-        locale: 'it',
-        scales: {
-            x: {
-                type: 'time',
-                time: {
-                    unit: 'day',
-                    displayFormats: {
-                        day: 'd MMMM'
-                    }
+        type: 'bubble',
+        data: {
+            datasets: [
+                {
+                    label: 'Primari',
+                    data: daily_data.primaries,
+                    backgroundColor: 'rgb(101, 156, 219)'
+                },
+                {
+                    label: 'Relativi',
+                    data: daily_data.relatives,
+                    backgroundColor: 'rgb(227, 185, 86)'
+                },
+                {
+                    type: 'line',
+                    label: 'Media primari',
+                    data: daily_mean.primaries,
+                },
+                {
+                    type: 'line',
+                    label: 'Media relativi',
+                    data: daily_mean.relatives,
                 }
-            },
-            y: {
-                min: 1,
-                max: 64,
-                ticks: {
-                    stepSize: 8
+            ],
+            labels: daily_mean.labels
+        },
+        options: {
+            locale: 'it',
+            scales: {
+                x: {
+                    type: 'time',
+                    time: {
+                        unit: 'day',
+                        displayFormats: {
+                            day: 'd MMMM'
+                        }
+                    }
+                },
+                y: {
+                    min: 1,
+                    max: 64,
+                    ticks: {
+                        stepSize: 8
+                    }
                 }
             }
         }
-    }
-});
+    });
 </script>
 
     </body>
