@@ -33,7 +33,7 @@
     <meta name="theme-color" content="#f9f7f6" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#23201f" media="(prefers-color-scheme: dark)">
 
-    <link rel="stylesheet" href="/scss/main.min.4c48a8473f52e6a523865d2fa6263f06ea17c1a70d610a709ce80813e482482d.css" integrity="sha256-TEioRz9S5qUjhl0vpiY/BuoXwacNYQpwnOgIE&#43;SCSC0=">
+    <link rel="stylesheet" href="/scss/main.min.4c1d64e53629a07417fcaa5f0b7eef7f44228a5052e49674a4e765799ab7b4c1.css" integrity="sha256-TB1k5TYpoHQX/KpfC37vf0QiilBS5JZ0pOdleZq3tME=">
     <link rel="stylesheet" href="/scss/print.min.c12cd6c3738edc9bc35f04921032f12c71d6220f85c6f2c91b248e50c28b4cbb.css" integrity="sha256-wSzWw3OO3JvDXwSSEDLxLHHWIg&#43;FxvLJGySOUMKLTLs=" media="print">
 
 <script src="/js/isotope.pkgd.min.js"></script>
@@ -44,7 +44,7 @@
             <div class="nome">
                 <a href="/">Jacopo Donati</a>
             </div>
-            <div id="location">📍 Bologna</div>
+            <div id="location">📍 <span id="current_location"></span><span id="freccia" class="nascosto">→</span><span id="next_location"></span></div>
         </div>
         <div id="photo">
             <img src="img/crapa.jpg" srcset="/img/crapa_hua361419d8f6a05dd4397cd9afaae28ad_342200_0x144_resize_q80_h2_box.webp 1x, /img/crapa_hua361419d8f6a05dd4397cd9afaae28ad_342200_0x216_resize_q80_h2_box.webp 2x, /img/crapa_hua361419d8f6a05dd4397cd9afaae28ad_342200_0x288_resize_q80_h2_box.webp 3x, /img/crapa_hua361419d8f6a05dd4397cd9afaae28ad_342200_0x360_resize_q80_h2_box.webp 4x" alt="Jacopo Donati" width="72" height="72">
@@ -714,5 +714,32 @@
     }
 </script>
 
+        <script>
+            var locations_list = JSON.parse('[{\u0022coordinates\u0022:\u002244.4991182,11.3316855\u0022,\u0022date\u0022:\u00222022-01-01\u0022,\u0022label\u0022:\u0022Bologna\u0022},{\u0022coordinates\u0022:\u002238.1405227,13.2870768\u0022,\u0022date\u0022:\u00222022-04-07\u0022,\u0022label\u0022:\u0022Palermo\u0022},{\u0022coordinates\u0022:\u002244.4991182,11.3316855\u0022,\u0022date\u0022:\u00222022-04-11\u0022,\u0022label\u0022:\u0022Bologna\u0022}]');
+            var current_date = new Date();
+            var current_location;
+            var next_location;
+            
+            var i = 0;
+            do {
+                let location = locations_list[i];
+                let location_date = new Date(location.date);
+                if (current_date < location_date) {
+                    next_location = location;
+                    break;
+                } else {
+                    current_location = location;
+                    i++;
+                }
+                if (i == locations_list.length) { break; }
+            } while (next_location == null);
+
+            document.querySelector('#current_location').textContent = current_location.label;
+
+            if (next_location != null) {
+                document.querySelector('#freccia').classList.remove('nascosto');
+                document.querySelector('#next_location').textContent = next_location.label;
+            }
+        </script>
     </body>
 </html>
