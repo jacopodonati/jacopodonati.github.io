@@ -6,8 +6,26 @@
     <description>Recent content on Jacopo Donati</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <copyright>© 2020-2022 Jacopo Donati</copyright>
-    <lastBuildDate>Tue, 09 Aug 2022 12:50:07 +0200</lastBuildDate><atom:link href="https://www.jacopodonati.it/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2020-2023 Jacopo Donati</copyright>
+    <lastBuildDate>Tue, 03 Jan 2023 16:31:53 +0100</lastBuildDate><atom:link href="https://www.jacopodonati.it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test</title>
+      <link>https://www.jacopodonati.it/blog/2023-01-03-test/</link>
+      <pubDate>Tue, 03 Jan 2023 16:31:53 +0100</pubDate>
+      
+      <guid>https://www.jacopodonati.it/blog/2023-01-03-test/</guid>
+      <description>SUMMARY</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.jacopodonati.it/blog/2023-01-03-test-copy/</link>
+      <pubDate>Tue, 03 Jan 2023 14:14:31 +0100</pubDate>
+      
+      <guid>https://www.jacopodonati.it/blog/2023-01-03-test-copy/</guid>
+      <description>SUMMARY</description>
+    </item>
+    
     <item>
       <title>The next note</title>
       <link>https://www.jacopodonati.it/manuale-per-vivere/next-note/</link>
@@ -15,6 +33,25 @@
       
       <guid>https://www.jacopodonati.it/manuale-per-vivere/next-note/</guid>
       <description>When you hit a wrong note, it&amp;rsquo;s the next note that makes it good or bad.</description>
+    </item>
+    
+    <item>
+      <title>Tendenze</title>
+      <link>https://www.jacopodonati.it/i-ching/stats/</link>
+      <pubDate>Thu, 04 Aug 2022 06:42:39 +0200</pubDate>
+      
+      <guid>https://www.jacopodonati.it/i-ching/stats/</guid>
+      <description>Un piccolo esperimento statistico.</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://www.jacopodonati.it/i-ching/faq/</link>
+      <pubDate>Tue, 02 Aug 2022 12:09:07 +0200</pubDate>
+      
+      <guid>https://www.jacopodonati.it/i-ching/faq/</guid>
+      <description>Come si consulta l&amp;rsquo;I Ching? Fondamentalmente esistono solo due modalità di consultazione: il lancio delle monete e la conta degli steli di millefoglie. Quest&amp;rsquo;ultima è la modalità più tradizionale, mentre la prima è relativamente più moderna. Dato che una vale l&amp;rsquo;altra1, parlerò solo delle monete ché sono più facili da reperire.
+Si prendono tre monete il più possibile simili tra loro, e si assegna un valore di 2 a una faccia e 3 all&amp;rsquo;altra.</description>
     </item>
     
     <item>
@@ -153,6 +190,24 @@ MB: I’d learned one very simple trick: say yes. Simply say yes. Like Joseph E.
       
       <guid>https://www.jacopodonati.it/manuale-per-vivere/with-your-particular-way-of-loving/</guid>
       <description>We want to believe that love is singular and exclusive, and it unnerves us to think that it might actually be renewable and somewhat repetitive in its habits. Would your current partner ever call his or her new partner by the same pet name he/she uses for you, once you are dead and buried? Well, why not? There are only so many pet names. Why should that bother you? Well, because you believe it is you, in particular, who is loved (that is why dear Ed calls you “honey-bunny”), but no: love just is, and you happened to be in the path of it.</description>
+    </item>
+    
+    <item>
+      <title>House of Leaves</title>
+      <link>https://www.jacopodonati.it/in-lettura/danielewski-house-of-leaves/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacopodonati.it/in-lettura/danielewski-house-of-leaves/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L&#39;anno del pensiero magico</title>
+      <link>https://www.jacopodonati.it/in-lettura/didion-lanno-del-pensiero-magico/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacopodonati.it/in-lettura/didion-lanno-del-pensiero-magico/</guid>
+      <description></description>
     </item>
     
   </channel>

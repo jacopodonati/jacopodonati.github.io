@@ -2,10 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.jacopodonati.it/tags/attitude/</loc>
-    <lastmod>2022-08-09T12:50:07+02:00</lastmod>
+    <loc>https://www.jacopodonati.it/blog/</loc>
+    <lastmod>2023-01-03T16:31:53+01:00</lastmod>
   </url><url>
     <loc>https://www.jacopodonati.it/</loc>
+    <lastmod>2023-01-03T16:31:53+01:00</lastmod>
+  </url><url>
+    <loc>https://www.jacopodonati.it/blog/2023-01-03-test/</loc>
+    <lastmod>2023-01-03T16:31:53+01:00</lastmod>
+  </url><url>
+    <loc>https://www.jacopodonati.it/blog/2023-01-03-test-copy/</loc>
+    <lastmod>2023-01-03T14:14:31+01:00</lastmod>
+  </url><url>
+    <loc>https://www.jacopodonati.it/tags/attitude/</loc>
     <lastmod>2022-08-09T12:50:07+02:00</lastmod>
   </url><url>
     <loc>https://www.jacopodonati.it/tags/</loc>
@@ -17,11 +26,23 @@
     <loc>https://www.jacopodonati.it/tags/work/</loc>
     <lastmod>2022-08-09T12:50:07+02:00</lastmod>
   </url><url>
+    <loc>https://www.jacopodonati.it/i-ching/stats/</loc>
+    <lastmod>2022-08-04T06:42:39+02:00</lastmod>
+  </url><url>
+    <loc>https://www.jacopodonati.it/i-ching/faq/</loc>
+    <lastmod>2022-08-02T12:09:07+02:00</lastmod>
+  </url><url>
+    <loc>https://www.jacopodonati.it/i-ching/</loc>
+    <lastmod>2022-07-26T07:46:21+02:00</lastmod>
+  </url><url>
     <loc>https://www.jacopodonati.it/manuale-per-vivere/vita-transcurrit/</loc>
     <lastmod>2022-02-28T07:39:51+01:00</lastmod>
   </url><url>
     <loc>https://www.jacopodonati.it/manuale-per-vivere/be-a-good-one/</loc>
     <lastmod>2022-02-23T08:50:48+01:00</lastmod>
+  </url><url>
+    <loc>https://www.jacopodonati.it/cose-belle/</loc>
+    <lastmod>2022-02-04T15:29:28+01:00</lastmod>
   </url><url>
     <loc>https://www.jacopodonati.it/manuale-per-vivere/part-of-the-dance/</loc>
     <lastmod>2022-01-28T08:45:02+01:00</lastmod>
@@ -82,5 +103,11 @@
   </url><url>
     <loc>https://www.jacopodonati.it/dieta/</loc>
     <lastmod>2019-01-01T13:25:43+01:00</lastmod>
+  </url><url>
+    <loc>https://www.jacopodonati.it/in-lettura/danielewski-house-of-leaves/</loc>
+  </url><url>
+    <loc>https://www.jacopodonati.it/in-lettura/</loc>
+  </url><url>
+    <loc>https://www.jacopodonati.it/in-lettura/didion-lanno-del-pensiero-magico/</loc>
   </url>
 </urlset>
