@@ -1,0 +1,67 @@
+title: Curriculum Vitae
+date: 2022-07-22T10:58:30+02:00
+
+esperienze:
+- lavoro:
+  ruolo: Consulente editoriale
+  datore:
+    nome: freelance
+    url: ""
+  data:
+    dal: 2013
+    al: oggi
+  descrizione: Offro servizi editoriali a case editrici e privati. Da quando ho iniziato mi sono occupato di ghostwriting, ricerca, editing e correzione bozze. Ho lavorato principalmente su testi di narrativa, ma anche saggistica e articoli per quotidiani.
+- lavoro:
+  ruolo: Docente di scrittura creativa
+  datore:
+    nome: Bottega Finzioni
+    url: https://bottegafinzioni.it
+  data:
+    dal: 2015
+    al: oggi
+  descrizione: Tengo e organizzo corsi di scrittura creativa per aziende, scuole e biblioteche. Dal 2019 sono uno dei docenti di Bottega Finzioni, dove insegno editing agli allievi dell’area Letteratura.
+- lavoro:
+  ruolo: Coordinatore di redazione
+  datore:
+    nome: "Relazioni:"
+    url: https://relazioni.eu
+  data:
+    dal: 2020
+    al: 2021
+  descrizione: Ho svolto le mansioni di coordinatore di redazione per la rivista “Relazioni:”, edita da Luca Sossella Editore, curando soprattutto i contatti con autori, grafici, e redattori.
+- lavoro:
+  ruolo: Sceneggiatore
+  datore:
+    nome: Bottega Finzioni
+    url: https://bottegafinzioni.it
+  data:
+    dal: 2016
+    al: 2019
+  descrizione: Ho preso parte alla scrittura di diverse puntate di “Le muse inquietanti” e “Inseparabili”, due format condotti da Carlo Lucarelli e andati in onda su SkyArte.
+- lavoro:
+  ruolo: Tutor
+  datore:
+    nome: Bottega Finzioni
+    url: https://bottegafinzioni.it
+  data:
+    dal: 2012
+    al: 2018
+  descrizione: Sono stato tutor di Bottega Finzioni. Organizzavo il materiale degli allievi, tenevo aggiornato il Coordinatore d’Area e i committenti dei progetti proposti esternamente alla scuola.
+- lavoro:
+  ruolo: Servizio clienti
+  datore:
+    nome: Automattic Inc.
+    url: https://automattic.com
+  data:
+    dal: 2012
+  descrizione: Ho fatto parte del team di Automattic nel ruolo di Happiness Engineer. La maggior parte delle richieste riguardavano clienti statunitensi.
+- lavoro:
+  ruolo: Direttore editoriale
+  datore:
+    nome: Finzioni Magazine
+    url: https://finzionimagazine.it
+  data:
+    dal: 2009
+    al: 2013
+  descrizione: Nella redazione di Finzioni Magazine ho ricoperto vari ruoli fino a diventare direttore editoriale. Ho gestito una redazione di 50+ volontari sparsi in tutta Italia e curato il piano editoriale.
+

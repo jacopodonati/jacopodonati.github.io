@@ -1,0 +1,67 @@
+year: 2020
+type: 'books'
+type_label: 'libri'
+last_update: '2022-01-05T10:28:11+01:00'
+length_label: 'pag'
+
+sources:
+- title: L'alchimista antico
+  author: Matteo Martelli
+  length: 184
+- title: The Secrets of Alchemy
+  author: Lawrence M. Principe
+  length: 281
+- title: Atti osceni in luogo privato
+  author: Marco Missiroli
+  length: 254
+- title: La straniera
+  author: Claudia Durastanti
+  length: 285
+- title: Le otto montagne
+  author: Paolo Cognetti
+  length: 200
+- title: Resto qui
+  author: Marco Balzano
+  length: 192
+- title: Le assaggiatrici
+  author: Rosella Postorino
+  length: 285
+- title: La piu' amata
+  author: Teresa Ciabatti
+  length: 229
+- title: Range
+  author: David Epstein
+  length: 352
+- title: Uccidi il padre
+  author: Sandrone Dazieri
+  length: 552
+- title: Novecento
+  author: Alessandro Baricco
+  length: 64
+- title: La lama sottile
+  author: Philip Pullman
+  length: 292
+- title: 4 3 2 1
+  author: Paul Auster
+  length: 939
+- title: Clean
+  author: James Hamblin
+  length: 288
+- title: La lotteria
+  author: Shirley Jackson
+  length: 82
+- title: L'incredibile viaggio delle piante
+  author: Stefano Mancuso
+  length: 144
+- title: Il terzo gemello
+  author: Ken Follett
+  length: 518
+- title: Guccini e Macchiavelli
+  author: Che cosa sa Minosse
+  length: 224
+- title: Orgoglio e pregiudizio
+  author: Jane Austen
+  length: 390
+- title: Il vecchio che leggeva romanzi d'amore
+  author: Luis Sepulveda
+  length: 160

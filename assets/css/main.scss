@@ -1,0 +1,37 @@
+---
+---
+$sans_fonts: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+$serif_fonts: "Crimson Pro", -apple-system-ui-serif, ui-serif, serif;
+$emoji_fonts: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$mono_fonts: "Courier Prime Sans", monospace;
+$base_fonts: $sans_fonts, $emoji_fonts;
+
+$max_width: 38rem;
+$font_size: 11pt;
+
+@import "theme_chimero";
+// @import "theme_nyc";
+// @import "theme_tropical";
+
+@import "fonts";
+
+@import "base";
+@import "base_dark";
+@import "header";
+@import "header_dark";
+@import "footer";
+@import "sections";
+@import "cv";
+
+@import "single";
+@import "single_dark";
+
+@import "saggi";
+@import "in_lettura";
+@import "manuale";
+@import "manuale_dark";
+@import "scontrino";
+@import "scontrino_dark";
+@import "cose_belle";
+@import "i-ching";
+@import "i-ching_dark";

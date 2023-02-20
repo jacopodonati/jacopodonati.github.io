@@ -1,0 +1,35 @@
+article {
+    background-color: $content_color;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin: 0 auto;
+    padding: 2rem 4rem;
+    max-width: $max_width;
+
+    h1 {
+        text-align: center;
+        color: adjust-color($color: $text_color, $lightness: 60%);
+        font-weight: 600;
+        letter-spacing: .14rem;
+        font-size: .8rem;
+        margin-bottom: 3rem;
+        
+        &::before, &::after {
+            content: " — ";
+        }
+    }
+
+    p {
+        hyphens: none;
+    }
+
+    .footnotes {
+        margin-top: 3rem;
+        font-size: .8rem;
+        color: adjust-color($color: $text_color, $lightness: 40%);
+    }
+
+    #meta {
+        font-size: .7rem;
+        margin-top: 2rem;
+    }
+}

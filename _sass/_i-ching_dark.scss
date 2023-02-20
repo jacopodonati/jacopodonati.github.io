@@ -1,0 +1,27 @@
+@media (prefers-color-scheme: dark) {
+    .i-ching {
+        #hex-text, article {
+            background-color: $dark_content_color;
+        }
+
+        .linea {
+            fill: $dark_text_color;
+        }
+
+        .selector {
+            button {
+                color: $dark_text_color;
+                background-color: $dark_background_color;
+                border: 1px solid $dark_text_color;
+
+                &:active {
+                    box-shadow: none;
+                }
+
+                svg {
+                    fill: $dark_background_color;
+                }
+            }
+        }
+    }
+}

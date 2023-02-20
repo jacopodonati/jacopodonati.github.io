@@ -1,0 +1,18 @@
+year: '2023'
+type: 'shows'
+type_label: 'serie'
+count_label: 'stag.'
+last_update: '2023-02-10T08:11:14+01:00'
+length_label: 'min'
+
+sources:
+- title: His Dark Materials
+  seasons:
+  - title: Stagione 3
+    length: 456
+- title: The White Lotus
+  seasons:
+  - title: Stagione 1
+    length: 339
+  - title: Stagione 2
+    length: 423

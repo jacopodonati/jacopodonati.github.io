@@ -1,0 +1,121 @@
+year: '2021'
+type: 'shows'
+type_label: 'serie'
+count_label: 'stag.'
+last_update: '2022-01-07T08:09:33+01:00'
+length_label: 'min'
+note: 'E'' stato un anno complesso, e non ho tenuto lontanamente traccia di ogni cosa vista e letta. Che gli storici del futuro possano perdonare questa mia grave mancanza.'
+
+sources:
+- title: The Boys
+  seasons:
+    - title: Stagione 1
+      length: 480
+    - title: Stagione 2
+      length: 502
+- title: Brooklyn Nine-Nine
+  seasons:
+    - title: Stagione 5
+      length: 464
+- title: Family Guy
+  seasons:
+    - title: Stagione 1
+      length: 140
+    - title: Stagione 2
+      length: 420
+    - title: Stagione 3
+      length: 440
+    - title: Stagione 4
+      length: 600
+    - title: Stagione 5
+      length: 360
+    - title: Stagione 6
+      length: 268
+    - title: Stagione 7
+      length: 320
+    - title: Stagione 8
+      length: 454
+- title: Good Omens
+  seasons:
+    - title: Stagione 1
+      length: 350
+- title: The Good Place
+  seasons:
+    - title: Stagione 4
+      length: 345
+- title: His Dark Materials
+  seasons:
+    - title: Stagione 2
+      length: 380
+- title: Loki
+  seasons:
+    - title: Stagione 1
+      length: 293
+- title: Scrubs
+  seasons:
+    - title: Stagione 1
+      length: 600
+    - title: Stagione 2
+      length: 550
+    - title: Stagione 3
+      length: 550
+    - title: Stagione 4
+      length: 625
+    - title: Stagione 5
+      length: 600
+    - title: Stagione 6
+      length: 550
+    - title: Stagione 7
+      length: 275
+    - title: Stagione 8
+      length: 470
+    - title: Stagione 9
+      length: 325
+- title: The Servant
+  seasons:
+    - title: Stagione 2
+      length: 167
+- title: The Simpsons
+  seasons:
+    - title: Stagione 1
+      length: 312
+    - title: Stagione 2
+      length: 550
+    - title: Stagione 3
+      length: 600
+    - title: Stagione 4
+      length: 550
+- title: Somebody feed Phil
+  seasons:
+  - title: Stagione 3
+    length: 275
+- title: Ted Lasso
+  seasons:
+    - title: Stagione 1
+      length: 309
+- title: The Undoing
+  seasons:
+    - title: Stagione unica
+      length: 336
+- title: Will & Grace
+  seasons:
+    - title: Stagione 1
+      length: 550
+    - title: Stagione 2
+      length: 600
+    - title: Stagione 3
+      length: 625
+    - title: Stagione 4
+      length: 675
+    - title: Stagione 5
+      length: 600
+    - title: Stagione 6
+      length: 600
+    - title: Stagione 7
+      length: 600
+    - title: Stagione 8
+      length: 600
+- title: X-Files
+  seasons:
+    - title: Stagione 1
+      length: 1080

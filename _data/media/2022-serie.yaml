@@ -1,0 +1,270 @@
+year: '2022'
+type: 'shows'
+type_label: 'serie'
+count_label: 'stag.'
+last_update: '2022-12-31T13:10:59+01:00'
+length_label: 'min'
+
+sources:
+- title: The Americans
+  seasons:
+  - title: Stagione 5
+    length: 607
+  - title: Stagione 6
+    length: 522
+- title: The Bear
+  seasons:
+  - title: Stagione 1
+    length: 242
+- title: Better Call Saul
+  seasons:
+  - title: Stagione 1
+    length: 469
+  - title: Stagione 2
+    length: 458
+  - title: Stagione 3
+    length: 498
+  - title: Stagione 4
+    length: 489
+  - title: Stagione 5
+    length: 521
+  - title: Stagione 6
+    length: 701
+- title: Boris
+  seasons:
+  - title: Stagione 4
+    length: 271
+- title: The Boys
+  seasons:
+  - title: Stagione 3
+    length: 490
+- title: Brooklyn Nine-Nine
+  seasons:
+  - title: Stagione 7
+    length: 271
+- title: Euphoria
+  seasons:
+  - title: Stagione 1
+    length: 453
+  - title: Stagione 2
+    length: 481
+- title: Family Guy
+  seasons:
+  - title: Stagione 18
+    length: 400
+- title: Father Ted
+  seasons:
+  - title: Stagione 1
+    length: 150
+- title: Futurama
+  seasons:
+  - title: Stagione 1
+    length: 207
+  - title: Stagione 2
+    length: 460
+  - title: Stagione 3
+    length: 345
+  - title: Stagione 4
+    length: 276
+  - title: Stagione 5
+    length: 368
+- title: Gravity Falls
+  seasons:
+  - title: Stagione 1
+    length: 500
+  - title: Corti
+    length: 51
+  - title: Stagione 2
+    length: 520
+- title: Homeland
+  seasons:
+  - title: Stagione 5
+    length: 630
+  - title: Stagione 6
+    length: 610
+  - title: Stagione 7
+    length: 650
+  - title: Stagione 8
+    length: 715
+- title: House of the Dragon
+  seasons:
+  - title: Stagione 1
+    length: 615
+- title: How to change your mind
+  seasons:
+  - title: Stagione unica
+    length: 212
+- title: 'The Lord of the Rings: The Rings of Power'
+  seasons:
+  - title: Stagione 1
+    length: 558
+- title: The Marvelous Mrs. Maisel
+  seasons:
+  - title: Stagione 1
+    length: 484
+  - title: Stagione 2
+    length: 522
+  - title: Stagione 3
+    length: 457
+  - title: Stagione 4
+    length: 458
+- title: Miracle Workers
+  seasons:
+  - title: Stagione 1
+    length: 160
+  - title: Stagione 2
+    length: 212
+- title: Modern Family
+  seasons:
+  - title: Stagione 8
+    length: 484
+  - title: Stagione 9
+    length: 462
+  - title: Stagione 10
+    length: 462
+  - title: Stagione 11
+    length: 379
+- title: Moon Knight
+  seasons:
+  - title: Stagione 1
+    length: 301
+- title: Obi-Wan
+  seasons:
+  - title: Stagione unica
+    length: 279
+- title: Only Murders in the Building
+  seasons:
+  - title: Stagione 1
+    length: 324
+  - title: Stagione 2
+    length: 335
+- title: Parks and Recreation
+  seasons:
+  - title: Stagione 1
+    length: 150
+  - title: Stagione 2
+    length: 600
+  - title: Stagione 3
+    length: 400
+  - title: Stagione 4
+    length: 550
+  - title: Stagione 5
+    length: 550
+  - title: Stagione 6
+    length: 550
+  - title: Stagione 7
+    length: 325
+- title: The Sandman
+  seasons:
+  - title: Stagione 1
+    length: 484
+- title: Severance
+  seasons:
+  - title: Stagione 1
+    length: 430
+- title: The Simpsons
+  seasons:
+  - title: Stagione 7
+    length: 625
+  - title: Stagione 8
+    length: 625
+  - title: Stagione 9
+    length: 625
+  - title: Stagione 10
+    length: 575
+  - title: Stagione 11
+    length: 550
+  - title: Stagione 12
+    length: 525
+  - title: Stagione 13
+    length: 550
+  - title: Stagione 14
+    length: 550
+  - title: Stagione 15
+    length: 550
+  - title: Stagione 16
+    length: 525
+  - title: Stagione 17
+    length: 550
+  - title: Stagione 18
+    length: 550
+  - title: Stagione 19
+    length: 500
+  - title: Stagione 20
+    length: 525
+  - title: Stagione 21
+    length: 575
+  - title: Stagione 22
+    length: 550
+  - title: Stagione 23
+    length: 550
+  - title: Stagione 24
+    length: 550
+  - title: Stagione 25
+    length: 550
+  - title: Stagione 26
+    length: 550
+  - title: Stagione 27
+    length: 550
+  - title: Stagione 28
+    length: 550
+  - title: Stagione 29
+    length: 525
+  - title: Stagione 30
+    length: 575
+  - title: Stagione 31
+    length: 550
+  - title: Stagione 31
+    length: 525
+- title: Stranger Things
+  seasons:
+  - title: Stagione 4
+    length: 782
+- title: Superstore
+  seasons:
+  - title: Stagione 1
+    length: 240
+  - title: Stagione 2
+    length: 448
+  - title: Stagione 3
+    length: 472
+  - title: Stagione 4
+    length: 473
+  - title: Stagione 5
+    length: 462
+  - title: Stagione 6
+    length: 327
+- title: Ted Lasso
+  seasons:
+  - title: Stagione 1
+    length: 309
+  - title: Stagione 2
+    length: 466
+- title: What we do in the shadows
+  seasons:
+  - title: Stagione 1
+    length: 225
+  - title: Stagione 2
+    length: 230
+  - title: Stagione 3
+    length: 240
+- title: The X-Files
+  seasons:
+  - title: Stagione 2
+    length: 1125
+  - title: Stagione 3
+    length: 1080
+  - title: Stagione 4
+    length: 1080
+  - title: Stagione 5
+    length: 900
+  - title: Stagione 6
+    length: 990
+  - title: Stagione 7
+    length: 990
+  - title: Stagione 8
+    length: 945
+- title: Yellowjackets
+  seasons:
+  - title: Stagione 1
+    length: 577

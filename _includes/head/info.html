@@ -1,0 +1,11 @@
+{%- if page.url == "/" %}
+    <title>{{ site.title }}</title>
+    <meta name="title" content="{{ site.title }}">
+{%- else %}
+    <title>{{ page.title }} · {{ site.title }}</title>
+    <meta name="title" content="{{ page.title }} · {{ site.title }}">
+{%- endif %}
+    <meta name="description" content="{{ .Site.Params.Description }}">
+    <meta name="author" content="Jacopo Donati">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="{{ site.url }}">

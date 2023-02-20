@@ -1,0 +1,209 @@
+year: '2022'
+type: 'films'
+type_label: 'film'
+count_label: 'film'
+last_update: '2023-01-02T07:54:33+01:00'
+length_label: 'min'
+
+sources:
+- title: 8 e 1/2
+  year: 1963
+  length: 138
+- title: Alphaville
+  year: 1965
+  length: 99
+- title: Avatar
+  year: 2009
+  length: 162
+- title: Bananas
+  year: 1971
+  length: 82
+- title: Casablanca
+  year: 1942
+  length: 102
+- title: Casino Royale
+  year: 2006
+  length: 144
+- title: Chicken Run
+  year: 2000
+  length: 84
+- title: Coco
+  year: 2017
+  length: 105
+- title: Il conformista
+  year: 1970
+  length: 111
+- title: Crimes of the Future
+  year: 2022
+  length: 107
+- title: Das Leben der Anderen
+  year: 2006
+  length: 137
+- title: Death on the Nile
+  year: 2022
+  length: 127
+- title: Dune
+  year: 2021
+  length: 155
+- title: Encanto
+  year: 2021
+  length: 102
+- title: Everything Everywhere All At Once
+  year: 2022
+  length: 139
+- title: Une femme mariée
+  year: 1964
+  length: 98
+- title: Frozen
+  year: 2013
+  length: 102
+- title: Glass Onion
+  year: 2022
+  length: 140
+- title: GoldenEye
+  year: 1995
+  length: 130
+- title: The Good Dinosaur
+  year: 2015
+  length: 94
+- title: Harry Potter and the sorcerer's stone
+  year: 2001
+  length: 152
+- title: "The Hobbit: An Unexpected Journey"
+  year: 2012
+  length: 169
+- title: "The Hobbit: The Battle of the Five Armies"
+  year: 2014
+  length: 144
+- title: "The Hobbit: The Desolation of Smaug"
+  year: 2013
+  length: 161
+- title: L'inferno
+  year: 1911
+  length: 68
+- title: Inside Out
+  year: 2015
+  length: 95
+- title: Les invasions barbares
+  year: 2003
+  length: 99
+- title: Jezabel
+  year: 2022
+  length: 108
+- title: The King's Man
+  year: 2021
+  length: 131
+- title: Knives Out
+  year: 2019
+  length: 130
+- title: Lilo & Stitch
+  year: 2002
+  length: 88
+- title: The Little Mermaid
+  year: 1989
+  length: 82
+- title: "The Lord of the Rings: The Fellowship of the Ring"
+  year: 2001
+  length: 178
+- title: "The Lord of the Rings: The Return of the King"
+  year: 2003
+  length: 201
+- title: "The Lord of the Rings: The Two Towers"
+  year: 2002
+  length: 179
+- title: Madres paralelas
+  year: 2021
+  length: 123
+- title: Moana
+  year: 2016
+  length: 103
+- title: A most wanted man
+  year: 2014
+  length: 122
+- title: No Time to Die
+  year: 2021
+  length: 163
+- title: The Party
+  year: 1968
+  length: 99
+- title: La piel que habito
+  year: 2011
+  length: 120
+- title: The pink panther
+  year: 1963
+  length: 113
+- title: "Pirates of the Caribbean: The Curse of the Black Pearl"
+  year: 2003
+  length: 143
+- title: "Pirates of the Caribbean: Dead Men Tell No Tales"
+  year: 2017
+  length: 129
+- title: "Pirates of the Caribbean: Dead Man's Chest"
+  year: 2006
+  length: 150
+- title: "Pirates of the Caribbean: On Stranger Tides"
+  year: 2011
+  length: 137
+- title: "Pirates of the Caribbean: At World's End"
+  year: 2007
+  length: 169
+- title: Quantum of Solace
+  year: 2008
+  length: 106
+- title: Raya
+  year: 2021
+  length: 107
+- title: See How They Run
+  year: 2022
+  length: 98
+- title: Shang-Chi and the Legend of the Ten Rings
+  year: 2021
+  length: 132
+- title: Shrek
+  year: 2001
+  length: 90
+- title: Shrek 2
+  year: 2004
+  length: 93
+- title: Skyfall
+  year: 2012
+  length: 143
+- title: Spectre
+  year: 2015
+  length: 148
+- title: "Spider-man: No Way Home"
+  year: 2021
+  length: 148
+- title: "Star Wars: Episode I - The Phantom Menace"
+  year: 1999
+  length: 136
+- title: "Star Wars: Episode II - Attack of the Clones"
+  year: 2002
+  length: 142
+- title: "Star Wars: Episode III - Revenge of the Sith"
+  year: 2005
+  length: 140
+- title: Taken
+  year: 2008
+  length: 90
+- title: "Thor: Love and Thunder"
+  year: 2022
+  length: 118
+- title: Tomorrow Never Dies
+  year: 1997
+  length: 119
+- title: Venom
+  year: 2018
+  length: 112
+- title: Turning Red
+  year: 2022
+  length: 100
+- title: Verdens verste menneske
+  year: 2021
+  length: 128
+- title: The World is not Enough
+  year: 1999
+  length: 128
+- title: Written on the Wind
+  year: 1956
+  length: 99

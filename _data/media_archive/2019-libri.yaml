@@ -1,0 +1,94 @@
+year: 2019
+type: 'books'
+type_label: 'libri'
+last_update: '2022-01-05T13:17:30+01:00'
+length_label: 'pag'
+
+sources:
+- title: Harry Potter e la pietra filosofale
+  author: J.K. Rowling
+  length: 304
+- title: Sulla lettura
+  author: Marcel Proust
+  length: 133
+- title: La grande Russia portatile
+  author: Paolo Nori
+  length: 152
+- title: Come il lupo
+  author: Eraldo Baldini
+  length: 235
+- title: La vita intellettuale
+  author: Antonin Sertillanges
+  length: 229
+- title: Elogio della bicicletta
+  author: Ivan Illich
+  length: 95
+- title: Ikigai
+  author: H. Garcia, F. Miralles
+  length: 135
+- title: Un'anima divisa in due
+  author: David Ritz
+  length: 400
+- title: Il segno dei quattro
+  author: Arthur Conan Doyle
+  length: 129
+- title: Di cosa parliamo quando parliamo d'amore
+  author: Raymond Carver
+  length: 151
+- title: Le sette morti e di Evelyn Hardcastle
+  author: Stuart Turton
+  length: 526
+- title: Buddha's Brain
+  author: Rick Hanson
+  length: 251
+- title: Nel paese dei ciechi
+  author: H.G. Wells
+  length: 61
+- title: Ciao Vita
+  author: Giampiero Rigosi
+  length: 512
+- title: Diario di un dolore
+  author: C.S. Lewis
+  length: 85
+- title: La collina dei conigli
+  author: Richard Adams
+  length: 429
+- title: Come viaggiare con un salmone
+  author: Umberto Eco
+  length: 206
+- title: 12 Rules for Life
+  author: Jordan Peterson
+  length: 409
+- title: The Checklist Manifesto
+  author: Atul Gawande
+  length: 240
+- title: Le notti di Salem
+  author: Stephen King
+  length: 656
+- title: Lincoln nel Bardo
+  author: George Saunders
+  length: 347
+- title: La fine della fine della terra
+  author: Jonathan Franzen
+  length: 216
+- title: La bussola d'oro
+  author: Philip Pullman
+  length: 361
+- title: Dal Big Bang ai buchi neri
+  author: Stephen Hawking
+  length: 236
+- title: La bambina che amava Tom Gordon
+  author: Stephen King
+  length: 320
+- title: Sono un ottimista globale
+  author: Gates e Franco
+  length: 88
+- title: '2001: Odissea nello spazio'
+  author: Arthur C. Clarke
+  length: 192
+- title: Coraline
+  author: Neil Gaiman
+  length: 182
+- title: Grandi ustionati
+  author: Paolo Nori
+  length: 190

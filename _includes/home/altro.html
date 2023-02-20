@@ -1,0 +1,9 @@
+<aside id="altro">
+    <ul>
+    {%- for strange_page in site.pages %}
+    {% if strange_page.menu == "footer" %}
+        <li><a href="{{ strange_page.permalink }}">{{ strange_page.title }}</a></li>
+    {% endif %}
+    {%- endfor %}
+    </ul>
+</aside>

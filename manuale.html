@@ -1,0 +1,51 @@
+---
+title: Manuale per vivere
+layout: default
+class: manuale
+head_inject: isotope.pkgd.min.js
+foot_inject: manuale.js
+menu: footer
+permalink: /manuale/
+---
+
+{%- assign tags = "" | split: "," -%}
+{%- assign citazioni = site.posts | where: "category", "manuale" -%}
+{%- for citazione in citazioni -%}
+{%- assign tags = tags | concat: citazione.tags -%}
+{%- endfor -%}
+{%- assign tags = tags | uniq | sort -%}
+<div id="tag-selector">
+{%- for tag in tags %}
+    <button class="tag-button" id="tag-{{ tag }}" data-filter=".{{ tag }}">{{ tag }}</button>
+{%- endfor %}
+</div>
+<div id="cork-board">
+{% for citazione in citazioni %}
+    <div class="quote boxed {{ citazione.tags | join: " " }}">
+        {{ citazione.content }}
+        <div class="link">
+            <a href="{{ citazione.url }}">link</a>
+        </div>
+{% if citazione.who and citazione.who != "" and citazione.who != nil %}
+        <div class="who">
+            &mdash; {{ citazione.who }}
+        </div>
+{% endif %}
+        <footer>
+            <div class="source">
+                via <a href="{{ citazione.source_url }}">{{ citazione.source_title }}</a>
+{% if citazione.archive_url and citazione.archive_url != "" and citazione.archive_url != nil %}
+                (<a href="{{ citazione.archive_url }}">arch.</a>)
+{% endif %}
+            </div>
+{% if citazione.tags and citazione.tags != "" and citazione.tags != nil %}
+            <div class="tags">[
+{% for tag in tags %}    
+    <span class="tag">{{ tag }}</span>
+{% endfor %}
+            </div>
+{% endif %}
+        </footer>
+    </div>
+{% endfor %}
+</div>

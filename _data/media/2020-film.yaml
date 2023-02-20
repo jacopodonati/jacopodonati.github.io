@@ -1,0 +1,215 @@
+year: '2020'
+type: 'films'
+type_label: 'film'
+count_label: 'film'
+last_update: '2022-01-03T12:05:39+01:00'
+length_label: 'min'
+
+sources:
+- title: California Typewriter
+  year: 2017
+  length: 103
+- title: A Quiet Place
+  year: 2018
+  length: 90
+- title: Joker
+  year: 2019
+  length: 122
+- title: Sherlock jr.
+  year: 1924
+  length: 45
+- title: The Irishman
+  year: 2019
+  length: 229
+- title: What did Jack do?
+  year: 2020
+  length: 17
+- title: Il verdetto
+  year: 1982
+  length: 129
+- title: C'era una volta... a Hollywood
+  year: 2019
+  length: 161
+- title: 1917
+  year: 2019
+  length: 119
+- title: I due papi
+  year: 2019
+  length: 125
+- title: Pets 2
+  year: 2019
+  length: 86
+- title: Uncut Gems
+  year: 2019
+  length: 135
+- title: Minimalism
+  year: 2015
+  length: 78
+- title: The Guernsey literary and potato peel society
+  year: 2018
+  length: 124
+- title: Il buco
+  year: 2019
+  length: 94
+- title: Fantozzi contro tutti
+  year: 1980
+  length: 97
+- title: Fantozzi subisce ancora
+  year: 1983
+  length: 85
+- title: Porco Rosso
+  year: 1992
+  length: 94
+- title: Il mio vicino Totoro
+  year: 1988
+  length: 86
+- title: Il castello errante di Howl
+  year: 2004
+  length: 119
+- title: Eli
+  year: 2019
+  length: 98
+- title: The Host
+  year: 2006
+  length: 120
+- title: 10 Cloverfield Lane
+  year: 2016
+  length: 103
+- title: Secret Window
+  year: 2004
+  length: 96
+- title: The Breakfast Club
+  year: 1985
+  length: 97
+- title: Le Iene
+  year: 1992
+  length: 99
+- title: Principessa Mononoke
+  year: 1997
+  length: 134
+- title: Fantastic Fungi
+  year: 2019
+  length: 81
+- title: Nell'erba alta
+  year: 2019
+  length: 101
+- title: Favolacce
+  year: 2020
+  length: 98
+- title: Jukai
+  year: 2016
+  length: 99
+- title: Vivarium
+  year: 2020
+  length: 97
+- title: Shawn the Sheep - Farmageddon
+  year: 2019
+  length: 86
+- title: Nausicaa della valle del vento
+  year: 1984
+  length: 117
+- title: The King
+  year: 2019
+  length: 140
+- title: Hunger Games
+  year: 2012
+  length: 142
+- title: 'Hunger Games 2: Catching Fire'
+  year: 2013
+  length: 146
+- title: Noi
+  year: 2019
+  length: 116
+- title: Errementari
+  year: 2017
+  length: 98
+- title: Relic
+  year: 2020
+  length: 89
+- title: Suspiria
+  year: 1976
+  length: 99
+- title: Amore e Guerra
+  year: 1975
+  length: 85
+- title: Il Prof. Dott. Guido Tersilli primario della Clinica Villa Celeste convenzionata con le mutue
+  year: 1969
+  length: 103
+- title: Dream House
+  year: 2011
+  length: 92
+- title: Manhattan
+  year: 1979
+  length: 96
+- title: Prendi i soldi e scappa
+  year: 1969
+  length: 85
+- title: La fine del mondo
+  year: 2013
+  length: 109
+- title: Hot Fuzz
+  year: 2007
+  length: 121
+- title: The Social Dilemma
+  year: 2020
+  length: 94
+- title: Enola Holmes
+  year: 2020
+  length: 123
+- title: My Octopus Teacher
+  year: 2020
+  length: 85
+- title: Now You See Me
+  year: 2013
+  length: 115
+- title: Mr & Mrs Smith
+  year: 2005
+  length: 120
+- title: Borat Subsequent Movie
+  year: 2020
+  length: 95
+- title: Kadaver
+  year: 2020
+  length: 96
+- title: Time Trap
+  year: 2017
+  length: 87
+- title: Radiofreccia
+  year: 1998
+  length: 112
+- title: Galaxy Quest
+  year: 1999
+  length: 102
+- title: The Gentleman
+  year: 2020
+  length: 113
+- title: Why Beauty Matters
+  year: 2009
+  length: 59
+- title: The Lodgers
+  year: 2017
+  length: 92
+- title: Blade Runner
+  year: 1987
+  length: 117
+- title: Blade Runner 2049
+  year: 2017
+  length: 164
+- title: Fight Club
+  year: 1999
+  length: 139
+- title: John Wick
+  year: 2014
+  length: 101
+- title: John Wick 2
+  year: 2017
+  length: 122
+- title: Spider-man - Into the spider-verse
+  year: 2018
+  length: 117
+- title: John Wick 3
+  year: 2019
+  length: 130
+- title: Festa in casa Muppet
+  year: 1992
+  length: 85

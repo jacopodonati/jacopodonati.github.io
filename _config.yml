@@ -1,0 +1,31 @@
+title: Jacopo Donati
+email: jacopo@jacopodonati.it
+description: 🍕🍕
+baseurl: ""
+url: "https://jacopodonati.it"
+github_username:  jacopodonati
+twitter_username:  _jacopodonati
+mastodon_username:  'https://mastodon.online/@jacopodonati'
+copyright: "© 2020-2023 Jacopo Donati"
+
+collections:
+  pubblicazioni:
+    output: true
+    permalink: /:collection/:name
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+colors:
+  light_chrome: '#f9f7f6'
+  dark_chrome: '#23201f'
+
+avatar:
+  path: /assets/img/
+  size_full: profile.jpg
+  size_1x: profile@1x.jpg
+  size_2x: profile@2x.jpg
+  size_3x: profile@3x.jpg
+  size_4x: profile@4x.jpg
+  size_5x: profile@5x.jpg
