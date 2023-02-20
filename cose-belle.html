@@ -1,0 +1,14 @@
+---
+title: Cose belle
+layout: default
+class: cose-belle
+foot_inject: cose-belle.js
+menu: footer
+permalink: /cose-belle/
+---
+
+<div id="cose-belle">
+{% for cosa in site.data.cose_belle.cose_belle %}
+    {{ cosa | append: "." | markdownify }}
+{% endfor %}
+</div>
