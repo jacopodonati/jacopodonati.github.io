@@ -3,14 +3,14 @@
 <head>
 {% include head.html %}
 {%- if page.head_inject and page.head_inject != "" and page.head_inject != nil %}
-<script src="/assets/js/{{ page.head_inject }}"></script>
+    <script src="/assets/js/{{ page.head_inject }}"></script>
 {%- endif %}
 </head>
 <body>
 {% include header.html %}
-        <main id="content" class="{{ page.layout }} {{ page.class }}">
-        {{ content }}
-        </main>
+    <main id="content" class="{{ page.layout }} {{ page.class }}">
+{{- content }}
+    </main>
 {% include footer.html %}
 {%- if page.foot_inject and page.foot_inject != "" and page.foot_inject != nil %}
     <script src="/assets/js/{{ page.foot_inject }}"></script>
