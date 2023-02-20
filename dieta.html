@@ -8,118 +8,119 @@ menu: footer
 permalink: /dieta/
 ---
 
-{%- assign scontrini = site.data.media -%}
-<div id="tag-selector">
+{%- assign scontrini = "" | split: "," %}
+{%- for scontrino in site.data.media %}
+    {% assign scontrini = scontrini | push: scontrino[1] %}
+{%- endfor %}
+{%- assign scontrini = scontrini | sort: "year" %}
+        <div id="tag-selector">
 {%- assign anni = "" | split: ',' -%}
 {%- for scontrino in scontrini -%}
-    {%- assign anni = anni | push: scontrino[1].year -%}
+    {%- assign anni = anni | push: scontrino.year -%}
 {%- endfor -%}
-{%- assign anni = anni | uniq -%}
-{%- for anno in anni -%}
-        <button
-            class="tag-button"
-            id="tag-{{ anno }}"
-            data-filter=".year-{{ anno }}">{{ anno }}</button>
-{%- endfor -%}
-</div>
-<div id="cork-board">
+{%- assign anni = anni | uniq | sort -%}
+{% for anno in anni %}
+            <button class="tag-button" id="tag-{{ anno }}" data-filter=".year-{{ anno }}">{{ anno }}</button>
+{%- endfor %}
+        </div>
+        <div id="cork-board">
 {%- for scontrino in scontrini reversed -%}
-    <div class="scontrino boxed year-{{ scontrino[1].year }} media-{{ scontrino[1].type_label }}">
-        <div class="head">
-            <div class="year">
-                {{ scontrino[1].year }}
+            <div class="scontrino boxed year-{{ scontrino.year }} media-{{ scontrino.type_label }}">
+            <div class="head">
+                <div class="year">
+                    {{ scontrino.year }}
+                </div>
+                <div class="media">
+                    {{ scontrino.type_label }}
+                </div>
             </div>
-            <div class="media">
-                {{ scontrino[1].type_label }}
+{%- if scontrino.note and scontrino.note != "" and scontrino.note != nil %}
+            <div class="note">
+                <div class="separator">******************************</div>
+                {{ scontrino.note }}
+                <div class="separator">******************************</div>
             </div>
-        </div>
-{% if scontrino[1].note and scontrino[1].note != "" and scontrino[1].note != nil %}
-        <div class="note">
-            <div class="separator">******************************</div>
-            {{ scontrino[1].note }}
-            <div class="separator">******************************</div>
-        </div>
-{% endif %}
-        <div class="sources">
-            <div class="header">
-                <span class="source-type">TITOLO</span>
-                <span class="length">{{ scontrino[1].length_label }}</span>
-                <div class="separator">------------------------------</div>
-            </div>
-{% assign count = 0 %}
-{% assign length = 0 %}
-{% for source in scontrino[1].sources %}
-{% if scontrino[1].type == "books" %}
-{% assign count = count | plus: 1 %}
-{% assign length = length | plus: source.length %}
-            <table class="source books">
-                <tr>
-                    <td class="author">{{ source.author }}</td>
-                    <td class="length">{{ source.length }}</td>
-                </tr>
-                <tr>
-                    <td class="title">{{ source.title }}</td>
-                    <td></td>
-                </tr>
-            </table>
-{% elsif scontrino[1].type == "shows" %}
-            <table class="source shows">
-                <tr>
-                    <td class="title">{{ source.title }}</td>
-                    <td></td>
-                </tr>
-{% for season in source.seasons %}
-{% assign count = count | plus: 1 %}
-{% assign length = length | plus: season.length %}
-                <tr>
-                    <td class="season">{{ season.title }}</td>
-                    <td class="length">{{ season.length }}</td>
-                </tr>
-{% endfor %}
-            </table>
-{% elsif scontrino[1].type == "films" %}
-{% assign count = count | plus: 1 %}
-{% assign length = length | plus: source.length %}
-            <table class="source films">
-                <tr>
-                    <td class="title">{{ source.title }} ({{ source.year }})</td>
-                    <td class="length">{{ source.length }}</td>
-                </tr>
-            </table>
-{% endif %}
-{% endfor %}
-            <div class="footer">
-                <div class="separator">------------------------------</div>
-                <div class="total">
-                    <div class="titles">
-                        <span class="total_label">TOT. </span>{{ count }} {{ scontrino[1].type_label }}
-                    </div>
-                    <div class="length">
-                        {{ length }} {{ scontrino[1].length_label }}
+{%- endif %}
+            <div class="sources">
+                <div class="header">
+                    <span class="source-type">TITOLO</span>
+                    <span class="length">{{ scontrino.length_label }}</span>
+                    <div class="separator">------------------------------</div>
+                </div>
+{%- assign count = 0 %}
+{%- assign length = 0 %}
+{%- for source in scontrino.sources %}
+{%- if scontrino.type == "books" %}
+{%- assign count = count | plus: 1 %}
+{%- assign length = length | plus: source.length %}
+                <table class="source books">
+                    <tr>
+                        <td class="author">{{ source.author }}</td>
+                        <td class="length">{{ source.length }}</td>
+                    </tr>
+                    <tr>
+                        <td class="title">{{ source.title }}</td>
+                        <td></td>
+                    </tr>
+                </table>
+{%- elsif scontrino.type == "shows" %}
+                <table class="source shows">
+                    <tr>
+                        <td class="title">{{ source.title }}</td>
+                        <td></td>
+                    </tr>
+{%- for season in source.seasons -%}
+{%- assign count = count | plus: 1 -%}
+{%- assign length = length | plus: season.length %}
+                    <tr>
+                        <td class="season">{{ season.title }}</td>
+                        <td class="length">{{ season.length }}</td>
+                    </tr>
+{%- endfor %}
+                </table>
+{%- elsif scontrino.type == "films" %}
+{%- assign count = count | plus: 1 %}
+{%- assign length = length | plus: source.length %}
+                <table class="source films">
+                    <tr>
+                        <td class="title">{{ source.title }} ({{ source.year }})</td>
+                        <td class="length">{{ source.length }}</td>
+                    </tr>
+                </table>
+{%- endif %}
+{%- endfor %}
+                <div class="footer">
+                    <div class="separator">------------------------------</div>
+                    <div class="total">
+                        <div class="titles">
+                            <span class="total_label">TOT. </span>{{ count }} {{ scontrino.type_label }}
+                        </div>
+                        <div class="length">
+                            {{ length }} {{ scontrino.length_label }}
+                        </div>
                     </div>
                 </div>
             </div>
+{%- assign operatore = 0 %}
+{%- assign number1 = scontrino.last_update | date: "%-d" %}
+{%- assign number2 = scontrino.last_update | date: "%-m" %}
+{%- assign number3 = scontrino.last_update | date: "%-H" %}
+{%- assign number4 = scontrino.last_update | date: "%-M" %}
+{%- assign operatore = operatore | plus: number1 | plus: number2 | plus: number3 | plus: number4 %}
+            <div class="foot">
+                <table>
+                    <tr>
+                        <td>Oper.</td>
+                        <td>Data</td>
+                        <td>Ora</td>
+                    </tr>
+                    <tr>
+                        <td>{{ operatore }}</td>
+                        <td>{{ scontrino.last_update | date: "%d/%m/%Y" }}</td>
+                        <td>{{ scontrino.last_update | date: "%H:%M" }}</td>
+                    </tr>
+                </table>
+            </div>
         </div>
-{% assign operatore = 0 %}
-{% assign number1 = scontrino[1].last_update | date: "%-d" %}
-{% assign number2 = scontrino[1].last_update | date: "%-m" %}
-{% assign number3 = scontrino[1].last_update | date: "%-H" %}
-{% assign number4 = scontrino[1].last_update | date: "%-M" %}
-{% assign operatore = operatore | plus: number1 | plus: number2 | plus: number3 | plus: number4 %}
-        <div class="foot">
-            <table>
-                <tr>
-                    <td>Oper.</td>
-                    <td>Data</td>
-                    <td>Ora</td>
-                </tr>
-                <tr>
-                    <td>{{ operatore }}</td>
-                    <td>{{ scontrino[1].last_update | date: "%d/%m/%Y" }}</td>
-                    <td>{{ scontrino[1].last_update | date: "%H:%M" }}</td>
-                </tr>
-            </table>
-        </div>
-    </div>
 {%- endfor -%}
-</div>
+    </div>
