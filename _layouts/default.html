@@ -8,7 +8,7 @@
 </head>
 <body>
 {% include header.html %}
-    <main id="content" class="{{ page.layout }} {{ page.class }}">
+    <main id="content" class="{{ page.layout }} {{ page.class }} {{ page.category }}">
 {{- content }}
     </main>
 {% include footer.html %}
