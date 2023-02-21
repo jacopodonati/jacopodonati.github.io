@@ -7,6 +7,7 @@ github_username:  jacopodonati
 twitter_username:  _jacopodonati
 mastodon_username:  'https://mastodon.online/@jacopodonati'
 copyright: "© 2020-2023 Jacopo Donati"
+author: Jacopo Donati
 
 collections:
   pubblicazioni:
@@ -29,3 +30,8 @@ avatar:
   size_3x: profile@3x.jpg
   size_4x: profile@4x.jpg
   size_5x: profile@5x.jpg
+
+feed:
+  posts_limit: 666
+  categories:
+    - manuale
