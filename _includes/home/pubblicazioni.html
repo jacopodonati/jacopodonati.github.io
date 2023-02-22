@@ -1,31 +1,17 @@
-<section id="pubblicazioni">
-    {{ site.collections }}
-</section>
-{% comment %}
-    
-{{ with .Site.GetPage "/pubblicazioni" }}
-{{ $books := where .Pages "Params.show" true }}
-{{ if gt (len $books) 0 }}
-<h2>Pubblicazioni</h2>
-<div id="book-shelf">
-    {{ range $books }}
-    <div class="book">
-        {{- $cover := .Resources.GetMatch "cover.jpg" -}}
-        {{- if $cover -}}
-        {{- $base_width := (int .Params.width) -}}
-        {{- $base_height := (div (mul $cover.Height $base_width) $cover.Width) -}}
-        {{- $x1 := $cover.Resize (printf "x%s q80 webp" (string (mul $base_width 2))) -}}
-        {{- $x2 := $cover.Resize (printf "x%s q80 webp" (string (mul $base_width 3))) -}}
-        {{- $x3 := $cover.Resize (printf "x%s q80 webp" (string (mul $base_width 4))) -}}
-        {{- $x4 := $cover.Resize (printf "x%s q80 webp" (string (mul $base_width 5))) }}
-        <a href="{{ .Params.book_url }}" target="_blank">
-            <img src="{{ $cover.RelPermalink }}" srcset="{{$x1.RelPermalink}} 1x, {{$x2.RelPermalink}} 2x, {{$x3.RelPermalink}} 3x, {{$x4.RelPermalink}} 4x" alt="{{ .Title }} di {{ .Params.book_author }}" class="book-cover" style="width:{{ div $base_width 2 }}px;height:{{ div $base_height 2 }}px">
-            </a>
-            {{- end }}
+        <section id="pubblicazioni">
+        {% assign pubblicazioni = site["pubblicazioni"] | sort: "published" | reverse %}
+        {%- if pubblicazioni.size > 0 %}
+            <h2>Pubblicazioni selezionate</h2>
+            <div id="book-shelf">
+            {%- for libro in pubblicazioni %}
+            {%- if libro.show %}
+                <div class="book">
+                    <a href="{{ libro.url }}">
+                        <img src="/assets/img/books/{{ libro.isbn }}.jpg" alt="{{ libro.title }}" class="book-cover" style="width:{{ libro.width | divided_by: 1  }}px">
+                    </a>
+                </div>
+            {%- endif %}
+            {%- endfor %}
             </div>
-            {{ end }}
-            </div>
-            {{ end }}
-            {{ end }}
-            </section>
-{% endcomment %}
+        {%- endif %}
+        </section>

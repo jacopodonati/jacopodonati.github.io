@@ -1,0 +1,25 @@
+.pubblicazione {
+    .book {
+        margin-bottom: 4rem;
+        text-align: center;
+        
+        img {
+            width: 14rem;
+        }
+
+        .description {
+            font-family: $serif_fonts;
+            font-size: 1.2rem;
+            
+            * {
+                text-align: center;
+                margin: 0;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+                font-weight: 460;
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="book">
+    <img src="/assets/img/books/{{ page.isbn }}.jpg" alt="{{ page.title }}" class="book-cover">
+    <div class="description">
+        <h1 class="title">{{ page.title }}</h1>
+        <p class="publisher">{{ page.publisher }}, {{ page.published | date: "%Y" }}</p>
+    </div>
+</div>
+<article>
+    {{ content }}
+</article>
