@@ -1,14 +1,14 @@
-<section id="contatti">
-    {% assign contatti = site.data.contatti.contacts | where: "show", true %}
-    {% if contatti.size > 0 %}
-    <h2>Contatti</h2>
-    {% for contatto in contatti %}
-        <div class="split">
-            <div class="label">{{ contatto.title }}</div>
-            <div class="content">
-                <a href="{{ contatto.link | url_param_escape }}" target="_blank">{{ contatto.label |url_param_escape }}</a>
+        <section id="contatti">
+        {%- assign contatti = site.data.contatti.contacts | where: "show", true %}
+        {%- if contatti.size > 0 %}
+            <h2>Contatti</h2>
+            {%- for contatto in contatti %}
+            <div class="split">
+                <div class="label">{{ contatto.title }}</div>
+                <div class="content">
+                    <a href="{{ contatto.link | url_param_escape }}" target="_blank">{{ contatto.label |url_param_escape }}</a>
+                </div>
             </div>
-        </div>
-    {% endfor %}
-    {% endif %}
-</section>
+            {%- endfor %}
+        {%- endif %}
+        </section>
