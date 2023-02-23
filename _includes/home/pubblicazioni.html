@@ -7,7 +7,7 @@
             {%- if libro.show %}
                 <div class="book">
                     <a href="{{ libro.url }}">
-                        <img src="/assets/img/books/{{ libro.isbn }}.jpg" alt="{{ libro.title }}" class="book-cover" style="width:{{ libro.width | divided_by: 1  }}px">
+                        <img src="/img/books/{{ libro.isbn }}.jpg" alt="{{ libro.title }}" class="book-cover" style="width:{{ libro.width | divided_by: 1  }}px">
                     </a>
                 </div>
             {%- endif %}

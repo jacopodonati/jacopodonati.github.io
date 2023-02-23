@@ -3,7 +3,7 @@
 <head>
 {% include head.html %}
 {%- if page.head_inject and page.head_inject != "" and page.head_inject != nil %}
-    <script src="/assets/js/{{ page.head_inject }}"></script>
+    <script src="/js/{{ page.head_inject }}"></script>
 {%- endif %}
 </head>
 <body>
@@ -12,9 +12,9 @@
 {{- content }}
     </main>
 {% include footer.html %}
-    <script src="/assets/js/whereami.js"></script>
+    <script src="/js/whereami.js"></script>
 {%- if page.foot_inject and page.foot_inject != "" and page.foot_inject != nil %}
-    <script src="/assets/js/{{ page.foot_inject }}"></script>
+    <script src="/js/{{ page.foot_inject }}"></script>
 {%- endif %}
     </body>
 </html>
