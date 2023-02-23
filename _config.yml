@@ -10,9 +10,21 @@ copyright: "© Jacopo Donati"
 author: Jacopo Donati
 
 collections:
+  manuale:
+    output: true
+    permalink: /:collection/:name
   pubblicazioni:
     output: true
     permalink: /:collection/:name
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "manuale"
+    values:
+      layout: "scheda"
+      category: "Manuale per vivere"
 
 theme: minima
 plugins:
@@ -33,5 +45,5 @@ avatar:
 
 feed:
   posts_limit: 666
-  categories:
+  collections:
     - manuale

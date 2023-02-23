@@ -9,7 +9,7 @@ permalink: /manuale/
 ---
 
 {%- assign tags = "" | split: "," -%}
-{%- assign citazioni = site.posts | where: "category", "manuale" -%}
+{%- assign citazioni = site["manuale"] -%}
 {%- for citazione in citazioni -%}
 {%- assign tags = tags | concat: citazione.tags -%}
 {%- endfor -%}
@@ -26,9 +26,9 @@ permalink: /manuale/
         <div class="link">
             <a href="{{ citazione.url }}">link</a>
         </div>
-{% if citazione.who and citazione.who != "" and citazione.who != nil %}
+{% if citazione.author and citazione.author != "" and citazione.author != nil %}
         <div class="who">
-            &mdash; {{ citazione.who }}
+            &mdash; {{ citazione.author }}
         </div>
 {% endif %}
         <footer>

@@ -1,10 +1,8 @@
 ---
-layout: scheda
-category: manuale
 title: "A built language"
 date: 2022-01-23T09:26:39+01:00
 tags: [love, relationships]
-who: Céline Sciamma
+author: Céline Sciamma
 source_title: The Indipendent
 source_url: https://www.independent.co.uk/arts-entertainment/films/features/celine-sciamma-interview-portrait-of-a-lady-on-fire-adele-haenel-tomboy-girlhood-a9365411.html
 ---

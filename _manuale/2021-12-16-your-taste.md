@@ -1,10 +1,8 @@
 ---
-layout: scheda
-category: manuale
 title: "Your taste"
 date: 2021-12-16T11:18:26+01:00
 tags: [work, art]
-who: Ira Glass
+author: Ira Glass
 source_title: Swiss Miss
 source_url: https://www.swiss-miss.com/2021/12/dear-beginner.html
 ---

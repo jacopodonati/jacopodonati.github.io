@@ -1,10 +1,8 @@
 ---
-layout: scheda
-category: manuale
 title: "Don't fight them. Don't waste your time"
 date: 2021-12-11T08:11:02+01:00
 tags: [work]
-who: Mel Brooks
+author: Mel Brooks
 source_title: kottke
 source_url: https://kottke.org/21/12/mel-brooks-at-95
 ---
