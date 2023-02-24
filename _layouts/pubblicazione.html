@@ -6,9 +6,14 @@ layout: default
     <img src="/img/books/{{ page.isbn }}.jpg" alt="{{ page.title }}" class="book-cover">
     <div class="description">
         <h1 class="title">{{ page.title }}</h1>
-        <p class="publisher">{{ page.publisher }}, {{ page.published | date: "%Y" }}</p>
+        <ul class="stores">
+        {%- for store in page.stores %}
+            <li><a href="{{ store.url }}" target="_blank">{% include buttons/{{ store.class }}.svg  %}</a></li>
+        {%- endfor %}
+        </ul>
     </div>
 </div>
 <article>
     {{ content }}
+    <p class="metadata">Il volume è uscito per {{ page.publisher }} nel {{ page.published | date: "%Y" }}. ISBN: {{ page.isbn }}</p>
 </article>
