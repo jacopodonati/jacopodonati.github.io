@@ -17,18 +17,14 @@ $font_size: 11pt;
 @import "base";
 @import "base_dark";
 @import "header";
-@import "header_dark";
 @import "footer";
 @import "sections";
-@import "cv";
 
 @import "single";
-@import "single_dark";
 
-@import "saggi";
-@import "manuale";
-@import "manuale_dark";
-@import "dieta";
-@import "dieta_dark";
 @import "cose_belle";
+@import "cv";
+@import "dieta";
+@import "manuale";
 @import "pubblicazione";
+@import "saggi";
