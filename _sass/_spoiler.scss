@@ -1,0 +1,14 @@
+#spoiler {
+    ul {
+        padding: 0;
+
+        li {
+            list-style-type: none;
+
+            .date {
+                font-family: $mono_fonts;
+                margin-right: 2rem;
+            }
+        }
+    }
+}

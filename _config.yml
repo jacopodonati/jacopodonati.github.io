@@ -16,6 +16,9 @@ collections:
   pubblicazioni:
     output: true
     permalink: /:collection/:name
+  spoiler:
+    output: true
+    permalink: /:collection/:name
 
 defaults:
   -
@@ -25,6 +28,13 @@ defaults:
     values:
       layout: "scheda"
       category: "Manuale per vivere"
+  -
+    scope:
+      path: ""
+      type: "spoiler"
+    values:
+      layout: "spoiler"
+      category: "Spoiler"
 
 theme: minima
 plugins:
@@ -41,9 +51,9 @@ avatar:
   size_2x: profile@2x.jpg
   size_3x: profile@3x.jpg
   size_4x: profile@4x.jpg
-  size_5x: profile@5x.jpg
 
 feed:
   posts_limit: 666
   collections:
     - manuale
+    - spoiler

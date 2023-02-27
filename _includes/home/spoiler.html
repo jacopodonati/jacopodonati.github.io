@@ -1,0 +1,11 @@
+        <section id="spoiler">
+        {% assign recensioni = site["spoiler"] | where: "show", true | sort: "published" | reverse %}
+        {%- if recensioni.size > 0 %}
+            <h2>Spoiler</h2>
+            <ul>
+            {%- for recensione in recensioni %}
+                <li><span class="date">{{ recensione.date | date: "%-d/%m/%Y" }}</span><a href="{{ recensione.url }}"><span class="title">{{ recensione.title }}</a> ({{ recensione.year }})</span></li>
+            {%- endfor %}
+            </ul>
+        {%- endif %}
+        </section>
