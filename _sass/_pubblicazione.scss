@@ -47,6 +47,10 @@
         .metadata {
             margin-top: 4rem;
             font-size: .8rem;
+
+            .isbn {
+                font-family: $mono_fonts;
+            }
         }
     }
 }

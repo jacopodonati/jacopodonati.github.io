@@ -15,5 +15,5 @@ layout: default
 </div>
 <article>
     {{ content }}
-    <p class="metadata">Il volume è uscito per {{ page.publisher }} nel {{ page.published | date: "%Y" }}. ISBN: {{ page.isbn }}</p>
+    <p class="metadata">Il volume è uscito per {{ page.publisher }} nel {{ page.published | date: "%Y" }}. ISBN: <span class="isbn">{{ page.isbn }}</span></p>
 </article>
