@@ -4,7 +4,10 @@ layout: default
 
 <article>
     <header>
-        <h1>{{ page.title }}</h1>
+        <div class="img-wrapper">
+            <img class="poster" src="/img/movies/{{ page.imdb }}.jpg" alt="Poster di {{ page.title }} ({{ page.year }})">
+        </div>
+        <h1><span class="title">{{ page.title }} </span> ({{ page.year }})</h1>
     </header>
     {{ content }}
     <footer>

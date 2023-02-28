@@ -46,7 +46,21 @@ h1 {
 
 sup {
     line-height: 0;
+    font-size: .6rem;
     position: relative;
+    margin-left: .1rem;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+blockquote {
+    margin-right: 0;
+    
+    p {
+        font-size: .8rem;
+    }
 }
 
 .nascosto {

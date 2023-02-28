@@ -1,13 +1,74 @@
 #spoiler {
     ul {
+        display: flex;
+        justify-content: space-between;
         padding: 0;
 
         li {
+            text-align: center;
             list-style-type: none;
 
-            .date {
-                font-family: $mono_fonts;
-                margin-right: 2rem;
+            a {
+                text-decoration: none;
+
+                .poster {
+                    width: 8rem;
+                    border-radius: 2px;
+                    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+                }
+
+                .legend {
+                    padding: .4rem;
+                    text-align: center;
+                    font-size: .8rem;
+
+                    .title {
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.spoiler {
+    article {
+        margin-top: 12rem;
+
+        header {
+            h1 {
+                margin-top: 0;
+            }
+
+            .title {
+                font-style: italic;
+            }
+
+            .img-wrapper {
+                max-width: 16rem;
+                margin: -12rem 0 2rem 2rem;
+                float: right;
+
+                .poster {
+                    width: 100%;
+                    border-radius: 2px;
+                    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .spoiler {
+        article {    
+            header {
+                text-align: center;
+
+                .img-wrapper {
+                    float: none;
+                    margin: -10rem auto 0 auto;
+                }
             }
         }
     }
