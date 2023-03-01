@@ -11,6 +11,10 @@ layout: default
     </header>
     {{ content }}
     <footer>
-        {{ page.date | date: "%d/%m/%Y" }}
+        Recensione pubblicata il {{ page.date | date: "%d/%m/%Y" }}
     </footer>
 </article>
+
+<nav class="back">
+    <a href="/spoiler">&larr; torna all'elenco degli spoiler</a>
+</nav>
