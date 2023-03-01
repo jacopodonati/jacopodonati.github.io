@@ -1,7 +1,7 @@
         <section id="spoiler">
         {% assign recensioni = site["spoiler"] | where: "show", true | sort: "published" | reverse %}
         {%- if recensioni.size > 0 %}
-            <h2>Gli ultimi spoiler</h2>
+            <h2>Spoiler</h2>
             <ul>
             {%- for recensione in recensioni limit: 4%}
                 <li>
@@ -12,7 +12,7 @@
                             <span class="year">({{ recensione.year }})</span>
                         </div>
                     </a>
-                    </li>
+                </li>
             {%- endfor %}
             </ul>
             {% if recensioni.size > 4 %}
