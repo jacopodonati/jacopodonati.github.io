@@ -59,6 +59,43 @@
     }
 }
 
+.spoiler.index {
+    #cork-board {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin: 0 auto;
+
+        .film {
+            margin-bottom: 1rem;
+            text-decoration: none;
+            
+            .img-wrapper {
+                width: 10rem;
+                
+                img {
+                    border-radius: 2px;
+                    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+                    width: 100%;
+                }
+            }
+
+            .legend {
+                padding: .4rem;
+                text-align: center;
+                font-size: .8rem;
+
+                .title {
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}
+
+
 @media only screen and (max-width: 600px) {
     .spoiler {
         article {    
