@@ -42,12 +42,26 @@
             justify-content: center;
 
             button {
+                margin: 0;
+                width: 6rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
                 &:disabled {
                     background-color: palegoldenrod;
                 }
 
                 svg {
                     width: 4rem;
+
+                    .yin, .yang {
+                        fill: $button_text;
+                    }
+
+                    .modificatore {
+                        fill: mix($button_text, $button_background, $weight: 50%) 
+                    }
                 }
             }
         }

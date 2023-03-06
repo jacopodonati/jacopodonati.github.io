@@ -10,16 +10,14 @@
 
         .selector {
             button {
-                color: $dark_text_color;
-                background-color: $dark_background_color;
-                border: 1px solid $dark_text_color;
-
-                &:active {
-                    box-shadow: none;
-                }
-
                 svg {
-                    fill: $dark_background_color;
+                    .yin, .yang {
+                        fill: $dark_button_text;
+                    }
+
+                    .modificatore {
+                        fill: mix($dark_button_text, $dark_button_background, $weight: 50%) 
+                    }
                 }
             }
         }

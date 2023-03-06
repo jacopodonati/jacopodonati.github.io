@@ -1,0 +1,49 @@
+---
+title: "周易"
+date: 2022-07-26T07:46:21+02:00
+class: i-ching
+layout: default
+foot_inject:
+    - i-ching/i-ching.js
+    - i-ching/selettore.js
+menu: footer
+permalink: /i-ching/
+---
+
+<div class="hex-wrapper">
+    <div class="hex-design">
+    {%- assign linee = "6, 5, 4, 3, 2, 1" | split: ", " %}
+    {%- for linea in linee %}
+        <div class="linea" id="linea-{{ linea }}">
+            {% include i-ching/linea.svg %}
+        </div>
+    {%- endfor %}
+    {{ end }}
+    </div>
+    <div class="selector">
+        <button id="linea-6">{% include i-ching/6.svg %}</button>
+        <button id="linea-7">{% include i-ching/7.svg %}</button>
+        <button id="linea-8">{% include i-ching/8.svg %}</button>
+        <button id="linea-9">{% include i-ching/9.svg %}</button>
+        <button id="linea-cancella">cancella</button>
+    </div>
+</div>
+<div id="hex-text">
+    <header id="hex-header">
+        <div id="primary-hex">
+            <div class="symbol"></div>
+            <div class="number"></div>
+            <div class="name"></div>
+        </div>
+        <div id="relative-hex">
+            <div class="symbol"></div>
+            <div class="number relative-hex"></div>
+            <div class="name"></div>
+        </div>
+    </header>
+</div>
+<aside id="altro">
+    <ul>
+        <li><a href="/i-ching/faq.html">FAQ</a></li>
+    </ul>
+</aside>

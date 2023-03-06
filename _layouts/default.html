@@ -14,7 +14,9 @@
 {% include footer.html %}
     <script src="/js/whereami.js"></script>
 {%- if page.foot_inject and page.foot_inject != "" and page.foot_inject != nil %}
-    <script src="/js/{{ page.foot_inject }}"></script>
+{%- for script in page.foot_inject %}
+    <script src="/js/{{ script }}" type="module"></script>
+{% endfor %}
 {%- endif %}
     </body>
 </html>
