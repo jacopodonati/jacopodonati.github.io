@@ -6,3 +6,5 @@ group :jekyll_plugins do
 end
 
 gem "webrick", "~> 1.7"
+
+gem 'chimero', github: 'jacopodonati/jekyll-theme-chimero', branch: 'main'

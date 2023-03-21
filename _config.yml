@@ -10,6 +10,9 @@ copyright: "© Jacopo Donati"
 author: Jacopo Donati
 
 collections:
+  corsi:
+    output: true
+    permalink: /:collection/:name
   manuale:
     output: true
     permalink: /:collection/:name
@@ -36,7 +39,8 @@ defaults:
       layout: "spoiler"
       category: "Spoiler"
 
-theme: minima
+theme: chimero
+remote_theme: jacopodonati/jekyll-theme-chimero
 plugins:
   - jekyll-feed
 
