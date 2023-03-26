@@ -146,6 +146,8 @@ function pullHex(response) {
                 hexLines.appendChild(newLine);
             }
         }
+    } else {
+        hexHeader.classList.add('one-column');
     }
 }
 
