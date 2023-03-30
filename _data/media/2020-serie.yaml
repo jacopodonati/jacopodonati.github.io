@@ -22,10 +22,6 @@ sources:
   seasons:
   - title: Stagione 2
     length: 333
-- title: The Servant
-  seasons:
-  - title: Stagione 1
-    length: 187
 - title: Boris
   seasons:
   - title: Stagione 1
@@ -100,30 +96,34 @@ sources:
   seasons:
   - title: Stagione unica
     length: 553
-- title: Rick and Morty
-  seasons:
-  - title: Stagione 4
-    length: 217
-- title: Storm of the century
-  seasons:
-  - title: Stagione unica
-    length: 255
-- title: Succession
-  seasons:
-  - title: Stagione 1
-    length: 590
-  - title: Stagione 2
-    length: 606
 - title: Queen's Gambit
   seasons:
   - title: Stagione unica
     length: 400
+- title: Rick and Morty
+  seasons:
+  - title: Stagione 4
+    length: 217
 - title: Sex Education
   seasons:
   - title: Stagione 1
     length: 398
   - title: Stagione 2
     length: 415
+- title: Storm of the century
+  seasons:
+  - title: Stagione unica
+    length: 255
+- title: The Servant
+  seasons:
+  - title: Stagione 1
+    length: 187
+- title: Succession
+  seasons:
+  - title: Stagione 1
+    length: 590
+  - title: Stagione 2
+    length: 606
 - title: Tiger King
   seasons:
   - title: Stagione 1
