@@ -8,9 +8,9 @@
     <url>
         <loc>{{site.url}}{{ post.url | remove: 'index.html' }}</loc>
         {%- if post.update != nil %}
-        <lastmod>{{ post.update | date: '%FT%T%z' }}</lastmod>
+        <lastmod>{{ post.update | date: '%F' }}</lastmod>
         {%- elsif post.date != nil %}
-        <lastmod>{{ post.date | date: '%FT%T%z' }}</lastmod>
+        <lastmod>{{ post.date | date: '%F' }}</lastmod>
         {%- endif %}
     </url>
     {%- endfor %}
@@ -19,6 +19,11 @@
     {%- if page.layout != nil and page.layout != 'feed' %}
     <url>
         <loc>{{site.url}}{{ page.url | remove: 'index.html' }}</loc>
+        {%- if page.update != nil %}
+        <lastmod>{{ page.update | date: '%F' }}</lastmod>
+        {%- elsif page.date != nil %}
+        <lastmod>{{ page.date | date: '%F' }}</lastmod>
+        {%- endif %}
     </url>
     {%- endif %}
 {%- endfor %}
