@@ -1,13 +1,13 @@
-title: Jacopo Donati
-email: jacopo@jacopodonati.it
-description: 🍕🍕
-baseurl: ""
-url: "https://jacopodonati.it"
-github_username:  jacopodonati
-twitter_username:  _jacopodonati
+title: 'Jacopo Donati'
+email: 'jacopo@jacopodonati.it'
+description: 'Da più di dieci anni racconto storie e insegno a raccontarle con corsi per adulti e ragazzi, che siano appassionati o che vogliano farne una professione.'
+baseurl: ''
+url: 'https://jacopodonati.it'
+github_username:  'jacopodonati'
+twitter_username:  '_jacopodonati'
 mastodon_username:  'https://mastodon.online/@jacopodonati'
-copyright: "© Jacopo Donati"
-author: Jacopo Donati
+copyright: '© Jacopo Donati'
+author: 'Jacopo Donati'
 
 collections:
   corsi:
@@ -26,18 +26,18 @@ collections:
 defaults:
   -
     scope:
-      path: ""
-      type: "manuale"
+      path: ''
+      type: 'manuale'
     values:
-      layout: "scheda"
-      category: "Manuale per vivere"
+      layout: 'scheda'
+      category: 'Manuale per vivere'
   -
     scope:
-      path: ""
-      type: "spoiler"
+      path: ''
+      type: 'spoiler'
     values:
-      layout: "spoiler"
-      category: "Spoiler"
+      layout: 'spoiler'
+      category: 'Spoiler'
 
 remote_theme: jacopodonati/jekyll-theme-chimero
 plugins:
