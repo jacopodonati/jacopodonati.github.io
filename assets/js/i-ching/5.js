@@ -1,5 +1,5 @@
 export const hex5 = {
-    last_update: '2023-03-27T13:29:56+02:00',
+    last_modified_at: '2023-03-27T13:29:56+02:00',
     symbol: '䷄',
     number: 5,
     name: 'L’attesa',

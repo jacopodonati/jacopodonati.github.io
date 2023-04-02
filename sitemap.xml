@@ -7,8 +7,8 @@
     {%- for post in site[category] %}
     <url>
         <loc>{{site.url}}{{ post.url | remove: 'index.html' }}</loc>
-        {%- if post.update != nil %}
-        <lastmod>{{ post.update | date: '%F' }}</lastmod>
+        {%- if post.last_modified_at != nil %}
+        <lastmod>{{ post.last_modified_at | date: '%F' }}</lastmod>
         {%- elsif post.date != nil %}
         <lastmod>{{ post.date | date: '%F' }}</lastmod>
         {%- endif %}
@@ -19,8 +19,8 @@
     {%- if page.layout != nil and page.layout != 'feed' %}
     <url>
         <loc>{{site.url}}{{ page.url | remove: 'index.html' }}</loc>
-        {%- if page.update != nil %}
-        <lastmod>{{ page.update | date: '%F' }}</lastmod>
+        {%- if page.last_modified_at != nil %}
+        <lastmod>{{ page.last_modified_at | date: '%F' }}</lastmod>
         {%- elsif page.date != nil %}
         <lastmod>{{ page.date | date: '%F' }}</lastmod>
         {%- endif %}

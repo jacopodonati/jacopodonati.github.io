@@ -1,5 +1,5 @@
 export const hex4 = {
-    last_update: '2023-03-26T14:35:00+02:00',
+    last_modified_at: '2023-03-26T14:35:00+02:00',
     symbol: '䷃',
     number: 4,
     name: 'L’ignoranza',

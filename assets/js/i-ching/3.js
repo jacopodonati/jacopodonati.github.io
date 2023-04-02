@@ -1,5 +1,5 @@
 export const hex3 = {
-    last_update: '2023-03-26T14:26:11+02:00',
+    last_modified_at: '2023-03-26T14:26:11+02:00',
     symbol: '䷂',
     number: 3,
     name: 'Il germogliare',

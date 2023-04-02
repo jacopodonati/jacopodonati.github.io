@@ -1,6 +1,6 @@
 ---
 title: "the world is movement"
-update: 2023-04-01T12:38:16+02:00
+last_modified_at: 2023-04-01T12:38:16+02:00
 date: 2021-12-10T11:00:47+01:00
 description: Una citazione di Cartier-Bresson sulla necessità di non restare mai fermo.
 tags: [attitude, work]

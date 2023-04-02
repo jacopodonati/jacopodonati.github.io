@@ -1,7 +1,7 @@
 ---
 title: "A built language"
 date: 2022-01-23T09:26:39+01:00
-update: 2023-04-01T12:38:16+02:00
+last_modified_at: 2023-04-01T12:38:16+02:00
 tags: [love, relationships]
 description: Una bellissima citazione di Céline Sciamma sulla fine di un amore.
 author: Céline Sciamma

@@ -1,5 +1,5 @@
 export const hex2 = {
-    last_update: '2023-03-23T08:38:34+01:00',
+    last_modified_at: '2023-03-23T08:38:34+01:00',
     symbol: '䷁',
     number: 2,
     name: 'La ricezione',

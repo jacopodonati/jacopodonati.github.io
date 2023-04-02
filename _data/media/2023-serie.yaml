@@ -2,10 +2,14 @@ year: '2023'
 type: 'shows'
 type_label: 'serie'
 count_label: 'stag.'
-last_update: '2023-03-16T08:30:40+01:00'
+last_modified_at: '2023-03-16T08:30:40+01:00'
 length_label: 'min'
 
 sources:
+- title: Guillermo del Toro's Cabinet of Curiosities
+  seasons:
+  - title: Stagione 1
+    length: 453
 - title: His Dark Materials
   seasons:
   - title: Stagione 3
