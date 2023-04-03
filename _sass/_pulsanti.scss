@@ -1,0 +1,33 @@
+.amazon {
+    .scritta {
+        fill: #221f1f;
+    }
+    
+    .sorriso {
+        fill: #ff9900;
+    }
+}
+
+.lafeltrinelli {
+    fill: #e20917;
+}
+
+.ibsit {
+    .ibs {
+        fill: #00627d;
+    }
+
+    .it {
+        fill: #fcc231;
+    }
+}
+
+.pendragon {
+    fill: #000000;
+}
+
+@media (prefers-color-scheme: dark) {    
+    .amazon .scritta, .ibsit .ibs, .lafeltrinelli, .pendragon {
+        fill: var(--text-color);
+    }
+}

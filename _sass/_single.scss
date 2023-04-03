@@ -1,0 +1,39 @@
+article {
+    background-color: var(--content-color);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin: 0 auto;
+    padding: 2rem 4rem;
+    max-width: var(--max-width);
+    
+    header {
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+
+        h1 {
+            font-family: var(--serif-fonts);
+            font-size: 2rem;
+            font-weight: 400;
+        }
+    }
+
+    p {
+        text-align: justify;
+    }
+    
+    .footnotes {
+        margin-top: 4rem;
+        font-size: .8rem;
+        color: #888888;
+    }
+    
+    #meta {
+        font-size: .7rem;
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    article {
+        padding: 1rem 2rem;
+    }
+}

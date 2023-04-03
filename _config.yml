@@ -39,7 +39,9 @@ defaults:
       layout: 'spoiler'
       category: 'Spoiler'
 
-remote_theme: jacopodonati/jekyll-theme-chimero
+# remote_theme: jacopodonati/jekyll-theme-chimero
+# theme: chimero
+
 plugins:
   - jekyll-feed
 

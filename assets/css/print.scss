@@ -1,0 +1,53 @@
+---
+---
+@page {
+    margin: 5cm;
+}
+
+body {
+    background: white;
+    font-size: 12pt;
+
+    #home-header {
+        display: none;
+    }
+}
+
+nav {
+    display: none;
+}
+
+#home-footer {
+    display: none;
+}
+
+.tag-selector {
+    display: none;
+}
+
+.for-print {
+    display: initial;
+}
+
+.back {
+    display: none;
+}
+
+.quote {
+    page-break-inside: avoid;
+}
+
+.spoiler {
+    article {
+        max-width: 32rem;
+        margin: 0 auto;
+        box-shadow: none;
+        padding: 0;
+        
+        header {
+            .img-wrapper {
+                margin: 0 0 2rem 2rem;
+            }
+        }
+    }
+}

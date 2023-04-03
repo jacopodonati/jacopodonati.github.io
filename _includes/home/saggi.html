@@ -1,0 +1,21 @@
+<section id="saggi">
+    {{ $posts := (where .Site.RegularPages "Section" "==" "saggi") }}
+    {{ if gt (len $posts) 0 }}
+    {{- range where .Pages "Section" "saggi" }}
+    {{- $number_of_posts := 5 -}}
+    {{ range first $number_of_posts .Pages  -}}
+    <div class="list">
+        <div class="project">
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <div class="description">
+                {{ .Summary }}
+            </div>
+        </div>
+    </div>
+    {{- end }}
+    {{ if gt (len $posts) $number_of_posts }}
+        <div class="mostra-tutti">tutti i post &rarr;</div>
+    {{ end }}
+    {{- end }}
+    {{- end }}
+</section>

@@ -1,0 +1,33 @@
+---
+---
+:root {
+    --emoji-fonts: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --sans-fonts: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, var(--emoji-fonts);
+    --serif-fonts: "Crimson Pro", -apple-system-ui-serif, ui-serif, serif, var(--emoji-fonts);
+    --mono-fonts: "Courier Prime Sans", monospace, var(--emoji-fonts);
+    --base-fonts: var(--sans-fonts);
+    --font-size: 11pt;
+
+    --max-width: 38rem;
+}
+
+@import "theme_chimero";
+
+@import "fonts";
+@import "pulsanti";
+
+@import "base";
+@import "header";
+@import "footer";
+@import "sections";
+
+@import "single";
+
+@import "cose_belle";
+@import "cv";
+@import "dieta";
+@import "i-ching";
+@import "manuale";
+@import "pubblicazione";
+@import "saggi";
+@import "spoiler";
