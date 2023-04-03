@@ -48,15 +48,16 @@ colors:
   dark_chrome: '#23201f'
 
 avatar:
-  path: /assets/img/profile/
-  size_full: profile.jpg
-  size_1x: profile@1x.jpg
-  size_2x: profile@2x.jpg
-  size_3x: profile@3x.jpg
-  size_4x: profile@4x.jpg
+  path: profile/
+  filename: profile.jpg
 
 feed:
   posts_limit: 666
   collections:
     - manuale
     - spoiler
+
+picture:
+  source: "assets/img/_fullsize"
+  output: "assets/img/_generated"
+  suppress_warnings: true

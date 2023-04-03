@@ -15,7 +15,7 @@ foot_inject: spoiler.js
 {%- for recensione in recensioni %}
     <a class="film" href="{{ recensione.url }}">
         <div class="img-wrapper">
-            <img src="/assets/img/movies/{{ recensione.imdb }}.jpg" alt="Poster di {{ recensione.title }} ({{ recensione.year }})" class="poster">
+            {% picture movie_poster_thumb movies/{{ recensione.imdb }}.jpg --alt Poster di {{ recensione.title }} ({{ recensione.year }}) %}
         </div>
         <div class="legend">
             <span class="title">{{ recensione.title }}</span>
