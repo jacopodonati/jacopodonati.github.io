@@ -31,7 +31,7 @@ jobs:
             echo $GIT_STATUS
             git config user.name github-actions[bot]
             git config user.email github-actions[bot]@users.noreply.github.com
-            git add data.json
+            git add _data/words.json
             if [ "$GIT_STATUS" != "" ]; then git commit -m "Today's words"; fi
             if [ "$GIT_STATUS" != "" ]; then git push; fi
     
