@@ -14,8 +14,6 @@ jobs:
         steps:
         - name: Checkout the code
           uses: actions/checkout@v3
-          with:
-            persist-credentials: false
         - name: Install jq
           run: sudo apt-get update && sudo apt-get install jq
         - name: Show file
@@ -35,5 +33,6 @@ jobs:
             git config user.email github-actions[bot]@users.noreply.github.com
             git add _data/words.json
             if [ "$GIT_STATUS" != "" ]; then git commit -m "Today's words"; fi
+            if [ "$GIT_STATUS" != "" ]; then git pull; fi
             if [ "$GIT_STATUS" != "" ]; then git push; fi
     
