@@ -54,7 +54,6 @@ avatar:
   filename: profile.jpg
 
 feed:
-  posts_limit: 666
   collections:
     - manuale
     - spoiler

@@ -21,7 +21,7 @@ jobs:
         - name: Add the data
           run: |
             DATE=`date -Iseconds`
-            jq --arg DATE "$DATE" '.data += [{ "number_of_words" : "${{ inputs.number_of_words }}", "date" : $DATE }]' _data/words.json > _data/_tmp_words.json
+            jq --arg DATE "$DATE" '. += [{ "number_of_words" : "${{ inputs.number_of_words }}", "date" : $DATE }]' _data/words.json > _data/_tmp_words.json
             mv _data/_tmp_words.json _data/words.json
         - name: Show file again
           run: jq . _data/words.json
