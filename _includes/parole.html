@@ -1,0 +1,20 @@
+<aside id="word-chart">
+{%- assign days = site.data.words %}
+{% unless days == empty %}
+    {%- assign width = 6 %}
+    {%- assign x_pos = 0 %}
+    {%- assign gap = 3 %}
+    {%- assign goal = 1000 %}
+    {%- assign scaler = 20 %}
+    <svg class="chart" role="img">
+    <g transform="scale(1,-1) translate(0, -100)">
+        <line class="goal" x1="0" x2="100%" y1="{{ goal | divided_by: scaler }}" y2="{{ goal | divided_by: scaler }}"></line>
+        {%- for day in days reversed %}
+            {%- assign words = day.number_of_words %}
+            <rect class="record" width="{{ width }}" height="{{ words | divided_by: scaler }}" x="{{ x_pos }}" y="0" title="{{ words }}"></rect>
+            {%- assign x_pos = x_pos | plus: width | plus: gap %}
+        {%- endfor %}
+        </g>
+    </svg>
+    {% endunless %}
+</aside>

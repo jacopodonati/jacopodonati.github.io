@@ -118,6 +118,31 @@ blockquote {
     }
 }
 
+#word-chart {
+    position: relative;
+
+    svg {
+        bottom: 0;
+        position: absolute;
+        height: 100px;
+        // height: 10000px;
+        width: 100%;
+        opacity: .4;
+        
+        .goal {
+            stroke: #a51515;
+        }
+
+        .record {
+            fill: var(--button-background);
+            
+            &:hover {
+                fill: var(--button-background-active)
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 800px) {
     html {
         padding: 1.5rem;
