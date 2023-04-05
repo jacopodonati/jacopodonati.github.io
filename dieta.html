@@ -105,10 +105,10 @@ permalink: /dieta/
                 </div>
             </div>
 {%- assign operatore = 0 %}
-{%- assign number1 = scontrino.last_update | date: "%-d" %}
-{%- assign number2 = scontrino.last_update | date: "%-m" %}
-{%- assign number3 = scontrino.last_update | date: "%-H" %}
-{%- assign number4 = scontrino.last_update | date: "%-M" %}
+{%- assign number1 = scontrino.last_modified_at | date: "%-d" %}
+{%- assign number2 = scontrino.last_modified_at | date: "%-m" %}
+{%- assign number3 = scontrino.last_modified_at | date: "%-H" %}
+{%- assign number4 = scontrino.last_modified_at | date: "%-M" %}
 {%- assign operatore = operatore | plus: number1 | plus: number2 | plus: number3 | plus: number4 %}
             <div class="foot">
                 <table>
@@ -119,8 +119,8 @@ permalink: /dieta/
                     </tr>
                     <tr>
                         <td>{{ operatore }}</td>
-                        <td>{{ scontrino.last_update | date: "%d/%m/%Y" }}</td>
-                        <td>{{ scontrino.last_update | date: "%H:%M" }}</td>
+                        <td>{{ scontrino.last_modified_at | date: "%d/%m/%Y" }}</td>
+                        <td>{{ scontrino.last_modified_at | date: "%H:%M" }}</td>
                     </tr>
                 </table>
             </div>
