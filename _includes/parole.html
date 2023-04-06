@@ -8,13 +8,17 @@
     {%- assign scaler = 20 %}
     <svg class="chart" role="img">
     <g transform="scale(1,-1) translate(0, -100)">
-        <line class="goal" x1="0" x2="100%" y1="{{ goal | divided_by: scaler }}" y2="{{ goal | divided_by: scaler }}"></line>
         {%- for day in days reversed %}
             {%- assign words = day.number_of_words %}
+            {%- if words >= goal %}
+            <rect class="record success" width="{{ width }}" height="{{ words | divided_by: scaler }}" x="{{ x_pos }}" y="0" title="{{ words }}"></rect>
+            {%- else %}
             <rect class="record" width="{{ width }}" height="{{ words | divided_by: scaler }}" x="{{ x_pos }}" y="0" title="{{ words }}"></rect>
+            {%- endif %}
             {%- assign x_pos = x_pos | plus: width | plus: gap %}
         {%- endfor %}
-        </g>
+        <line class="goal" x1="0" x2="100%" y1="{{ goal | divided_by: scaler }}" y2="{{ goal | divided_by: scaler }}"></line>
+    </g>
     </svg>
     {% endunless %}
 </aside>

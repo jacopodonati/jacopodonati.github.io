@@ -127,18 +127,25 @@ blockquote {
         height: 100px;
         // height: 10000px;
         width: 100%;
-        opacity: .4;
         
         .goal {
+            opacity: .4;
             stroke: #a51515;
         }
 
         .record {
             fill: var(--button-background);
+            opacity: .4;
+            transition: .2s;
             
             &:hover {
-                fill: var(--button-background-active)
+                opacity: 1;
+                transition: .2s;
             }
+        }
+
+        .record.success {
+            fill: var(--success);
         }
     }
 }
