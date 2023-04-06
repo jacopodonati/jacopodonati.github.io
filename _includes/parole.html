@@ -1,24 +1,39 @@
 <aside id="word-chart">
-{%- assign days = site.data.words %}
-{% unless days == empty %}
+    {%- assign data = site.data.words | sort: "date" %}
+    {% assign days = '' | split: '' %}
+    {% assign current_date = '' %}
+    {% assign current_count = 0 %}
+    {% for record in data %}
+    {% assign date = record.date | date: '%Y-%m-%d' %}
+    {% if record.date == current_date %}
+    {% assign current_count = current_count | plus: record.number_of_words %}
+    {% else %}
+    {% assign days = days | push: current_count %}
+    {% assign current_count = record.number_of_words | plus: 0 %}
+    {% assign current_date = record.date %}
+    {% endif %}
+    {% endfor %}
+    {% assign days = days | push: current_count | shift %}
+    {% unless days == empty %}
     {%- assign width = 6 %}
     {%- assign x_pos = 0 %}
     {%- assign gap = 3 %}
     {%- assign goal = 1000 %}
     {%- assign scaler = 20 %}
     <svg class="chart" role="img">
-    <g transform="scale(1,-1) translate(0, -100)">
         {%- for day in days reversed %}
-            {%- assign words = day.number_of_words | plus: 0 %}
-            {%- if words >= goal %}
-            <rect class="record success" width="{{ width }}" height="{{ words | divided_by: scaler }}" x="{{ x_pos }}" y="0" title="{{ words }}"></rect>
-            {%- else %}
-            <rect class="record" width="{{ width }}" height="{{ words | divided_by: scaler }}" x="{{ x_pos }}" y="0" title="{{ words }}"></rect>
-            {%- endif %}
-            {%- assign x_pos = x_pos | plus: width | plus: gap %}
+        {%- assign words = day %}
+        {%- if words >= goal %}
+        <rect class="record success" width="{{ width }}" height="{{ words | divided_by: scaler }}" x="{{ x_pos }}" y="0"
+            title="{{ words }}"></rect>
+        {%- else %}
+        <rect class="record" width="{{ width }}" height="{{ words | divided_by: scaler }}" x="{{ x_pos }}" y="0"
+            title="{{ words }}"></rect>
+        {%- endif %}
+        {%- assign x_pos = x_pos | plus: width | plus: gap %}
         {%- endfor %}
-        <line class="goal" x1="0" x2="100%" y1="{{ goal | divided_by: scaler }}" y2="{{ goal | divided_by: scaler }}"></line>
-    </g>
+        <line class="goal" x1="0" x2="100%" y1="{{ goal | divided_by: scaler }}" y2="{{ goal | divided_by: scaler }}">
+        </line>
     </svg>
     {% endunless %}
 </aside>
