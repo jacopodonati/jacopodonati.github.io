@@ -2,7 +2,7 @@ year: '2023'
 type: 'shows'
 type_label: 'serie'
 count_label: 'stag.'
-last_modified_at: '2023-03-16T08:30:40+01:00'
+last_modified_at: '2023-04-06T14:22:38+02:00'
 length_label: 'min'
 
 sources:
@@ -14,6 +14,10 @@ sources:
   seasons:
   - title: Stagione 3
     length: 456
+- title: Lost
+  seasons:
+  - title: Stagione 1
+    length: 1091
 - title: The Last of Us
   seasons:
   - title: Stagione 1
