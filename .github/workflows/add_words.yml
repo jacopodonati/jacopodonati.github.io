@@ -6,7 +6,7 @@ on:
         number_of_words:
           description: 'Number of written words'
           required: true
-          type: string
+          type: number
 
 jobs:
     store_number_of_words:
