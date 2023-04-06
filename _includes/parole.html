@@ -9,7 +9,7 @@
     <svg class="chart" role="img">
     <g transform="scale(1,-1) translate(0, -100)">
         {%- for day in days reversed %}
-            {%- assign words = day.number_of_words %}
+            {%- assign words = day.number_of_words | plus: 0 %}
             {%- if words >= goal %}
             <rect class="record success" width="{{ width }}" height="{{ words | divided_by: scaler }}" x="{{ x_pos }}" y="0" title="{{ words }}"></rect>
             {%- else %}
