@@ -31,11 +31,14 @@ window.addEventListener('load', function () {
         let days = Math.round(Math.abs(currentDate - nextLocationDate) / dayLength);
         document.querySelector('#freccia').classList.remove('nascosto');
         document.querySelector('#next_location').textContent = nextLocation.label;
-        if (days != 1) {
-            document.querySelector('#when_next_location').textContent = `(tra ${days} giorni)`;
+        let label = '';
+        if (days < 1) {
+            label = '(oggi)';
+        } else if (days === 1) {
+            label = '(tra 1 giorno)';
         } else {
-            document.querySelector('#when_next_location').textContent = `(tra ${days} giorno)`;
+            label = `(tra ${days} giorni)`;
         }
-        document.querySelector('#when_next_location').textContent = `(tra ${Math.round(Math.abs(currentDate - nextLocationDate) / dayLength)} giorni)`;
+        document.querySelector('#when_next_location').textContent = label;
     }
 }, false);
