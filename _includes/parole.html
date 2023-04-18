@@ -33,13 +33,11 @@
         {%- for day in days reversed %}
             {%- assign words = day %}
             {%- if words > 0 %}
+                {%- assign classes = "record" %}
                 {%- if words >= goal %}
-            <rect class="record success" width="{{ width }}" height="{{ words | divided_by: scaler }}" x="{{ x_pos }}" y="0"
-                title="{{ words }}"></rect>
-                {%- else %}
-            <rect class="record" width="{{ width }}" height="{{ words | divided_by: scaler }}" x="{{ x_pos }}" y="0"
-                title="{{ words }}"></rect>
+                    {%- assign classes = classes | append: " success" %}
                 {%- endif %}
+                <rect class="{{ classes }}" width="{{ width }}" height="{{ words | divided_by: scaler }}" x="{{ x_pos }}" y="0"><title>{{ words }}</title></rect>
             {%- endif %}
             {%- assign x_pos = x_pos | plus: width | plus: gap %}
         {%- endfor %}
