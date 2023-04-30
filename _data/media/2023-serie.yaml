@@ -2,7 +2,7 @@ year: '2023'
 type: 'shows'
 type_label: 'serie'
 count_label: 'stag.'
-last_modified_at: '2023-04-25T18:03:37+02:00'
+last_modified_at: '2023-04-30T10:32:31+02:00'
 length_label: 'min'
 
 sources:
@@ -24,6 +24,10 @@ sources:
     length: 1010
   - title: Stagione 4
     length: 616
+  - title: Stagione 5
+    length: 751
+  - title: Stagione 6
+    length: 799
 - title: The Last of Us
   seasons:
   - title: Stagione 1
