@@ -1,8 +1,9 @@
+
 year: '2023'
 type: 'films'
 type_label: 'film'
 count_label: 'film'
-last_modified_at: '2023-05-02T14:32:25+02:00'
+last_modified_at: '2023-05-07T12:28:03+02:00'
 length_label: 'min'
 
 sources:
@@ -60,6 +61,9 @@ sources:
 - title: My Cousin Vinny
   year: 1992
   length: 119
+- title: Parasite
+  year: 2019
+  length: 132
 - title: "Puss in Boots: The Last Wish"
   year: 2022
   length: 102
