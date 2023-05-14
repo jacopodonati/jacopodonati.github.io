@@ -3,7 +3,7 @@ year: '2023'
 type: 'films'
 type_label: 'film'
 count_label: 'film'
-last_modified_at: '2023-05-09T10:04:26+02:00'
+last_modified_at: '2023-05-14T13:51:27+02:00'
 length_label: 'min'
 
 sources:
@@ -76,6 +76,9 @@ sources:
 - title: The Sea Beast
   year: 2022
   length: 119
+- title: Soul
+  year: 2020
+  length: 100
 - title: Strange World
   year: 2022
   length: 102
