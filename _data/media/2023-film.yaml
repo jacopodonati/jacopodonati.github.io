@@ -3,7 +3,7 @@ year: '2023'
 type: 'films'
 type_label: 'film'
 count_label: 'film'
-last_modified_at: '2023-05-14T13:51:27+02:00'
+last_modified_at: '2023-05-15T12:13:23+02:00'
 length_label: 'min'
 
 sources:
@@ -25,9 +25,21 @@ sources:
 - title: The Fabelmans
   year: 2022
   length: 151
+- title: Hereditary
+  year: 2018
+  length: 127
 - title: Im Westen nichts Neues
   year: 2022
   length: 148
+- title: Kung Fu Panda
+  year: 2008
+  length: 95
+- title: Kung Fu Panda 2
+  year: 2011
+  length: 91
+- title: Kung Fu Panda 3
+  year: 2016
+  length: 95
 - title: Luca
   year: 2021
   length: 95
