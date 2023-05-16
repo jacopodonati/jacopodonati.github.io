@@ -2,7 +2,7 @@ year: '2023'
 type: 'shows'
 type_label: 'serie'
 count_label: 'stag.'
-last_modified_at: '2023-04-30T10:32:31+02:00'
+last_modified_at: '2023-05-16T13:35:43+02:00'
 length_label: 'min'
 
 sources:
@@ -32,6 +32,10 @@ sources:
   seasons:
   - title: Stagione 1
     length: 525
+- title: The Simpsons
+  seasons:
+  - title: Stagione 33
+    length: 500
 - title: The White Lotus
   seasons:
   - title: Stagione 1
