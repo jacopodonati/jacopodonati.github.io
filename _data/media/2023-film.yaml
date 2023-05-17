@@ -3,7 +3,7 @@ year: '2023'
 type: 'films'
 type_label: 'film'
 count_label: 'film'
-last_modified_at: '2023-05-15T12:13:23+02:00'
+last_modified_at: '2023-05-17T21:13:29+02:00'
 length_label: 'min'
 
 sources:
@@ -91,6 +91,15 @@ sources:
 - title: Soul
   year: 2020
   length: 100
+- title: "Star Wars: The Force Awakens"
+  year: 2015
+  length: 138
+- title: "Star Wars: The Last Jedi"
+  year: 2017
+  length: 152
+- title: "Star Wars: The Rise of Skywalker"
+  year: 2019
+  length: 142
 - title: Strange World
   year: 2022
   length: 102
