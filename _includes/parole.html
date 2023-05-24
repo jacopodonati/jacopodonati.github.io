@@ -23,6 +23,12 @@
         {%- endif %}
     {%- endfor %}
     {%- assign days = days | push: current_count %}
+    {%- assign today = "now" | date: '%s' %}
+    {%- assign current_date_s = current_date | date: "%s" %} {{ dd }}
+    {%- assign diff_dates = today | minus: current_date_s | divided_by: 3600 | divided_by: 24 | round | minus: 1 %}
+    {%- for i in (1..diff_dates) %}
+        {%- assign days = days | push: 0 %}
+    {%- endfor %}
     {%- unless days == empty %}
         {%- assign width = 6 %}
         {%- assign x_pos = 0 %}
