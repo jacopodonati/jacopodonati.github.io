@@ -3,7 +3,7 @@ year: '2023'
 type: 'films'
 type_label: 'film'
 count_label: 'film'
-last_modified_at: '2023-05-17T21:13:29+02:00'
+last_modified_at: '2023-05-24T09:55:29+02:00'
 length_label: 'min'
 
 sources:
@@ -70,6 +70,9 @@ sources:
 - title: Marcel the Shell
   year: 2021
   length: 90
+- title: Midsommar
+  year: 2019
+  length: 148
 - title: My Cousin Vinny
   year: 1992
   length: 119
