@@ -2,7 +2,7 @@ year: '2023'
 type: 'shows'
 type_label: 'serie'
 count_label: 'stag.'
-last_modified_at: '2023-05-16T13:35:43+02:00'
+last_modified_at: '2023-05-29T13:55:38+02:00'
 length_label: 'min'
 
 sources:
@@ -36,6 +36,10 @@ sources:
   seasons:
   - title: Stagione 33
     length: 500
+- title: Succession
+  seasons:
+  - title: Stagione 4
+    length: 648
 - title: The White Lotus
   seasons:
   - title: Stagione 1
