@@ -25,24 +25,26 @@ window.addEventListener('load', function () {
     limitDate.setDate(limitDate.getDate() + 14);
 
     const currentLocation = locationsList[0];
-    document.querySelector('#current_location').textContent = currentLocation.label;
-    
-    if (locationsList.length) {
-        const nextLocation = locationsList[1];
-        const nextLocationDate = new Date(nextLocation.date);
-        if (nextLocationDate <= limitDate) {
-            let days = Math.round(Math.abs(currentDate - nextLocationDate) / dayLength);
-            document.querySelector('#freccia').classList.remove('nascosto');
-            document.querySelector('#next_location').textContent = nextLocation.label;
-            let label = '';
-            if (days < 1) {
-                label = '(oggi)';
-            } else if (days === 1) {
-                label = '(tra 1 giorno)';
-            } else {
-                label = `(tra ${days} giorni)`;
+    if (typeof currentLocation !== "undefined") {
+        document.querySelector('#current_location').textContent = currentLocation.label;
+        
+        if (locationsList.length) {
+            const nextLocation = locationsList[1];
+            const nextLocationDate = new Date(nextLocation.date);
+            if (nextLocationDate <= limitDate) {
+                let days = Math.round(Math.abs(currentDate - nextLocationDate) / dayLength);
+                document.querySelector('#freccia').classList.remove('nascosto');
+                document.querySelector('#next_location').textContent = nextLocation.label;
+                let label = '';
+                if (days < 1) {
+                    label = '(oggi)';
+                } else if (days === 1) {
+                    label = '(tra 1 giorno)';
+                } else {
+                    label = `(tra ${days} giorni)`;
+                }
+                document.querySelector('#when_next_location').textContent = label;
             }
-            document.querySelector('#when_next_location').textContent = label;
         }
     }
 }, false);
