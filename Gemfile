@@ -8,6 +8,8 @@ group :jekyll_plugins do
   gem 'jekyll_picture_tag'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
+  gem 'jekyll-redirect-from'
+  gem 'jekyll-scholar'
 end
 
 gem 'chimero', github: 'jacopodonati/jekyll-theme-chimero', branch: 'main'
