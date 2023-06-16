@@ -1,6 +1,5 @@
 .DS_Store
 .bundle
-.vscode
 .nova
 .jekyll-cache
 _site
