@@ -2,10 +2,20 @@ year: '2023'
 type: 'shows'
 type_label: 'serie'
 count_label: 'stag.'
-last_modified_at: '2023-05-29T13:55:38+02:00'
+last_modified_at: '2023-06-20T08:07:57+02:00'
 length_label: 'min'
 
 sources:
+- title: The Good Place
+  seasons:
+  - title: Stagione 1
+    length: 286
+  - title: Stagione 2
+    length: 320
+  - title: Stagione 3
+    length: 320
+  - title: Stagione 4
+    length: 345
 - title: Guillermo del Toro's Cabinet of Curiosities
   seasons:
   - title: Stagione 1
