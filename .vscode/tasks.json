@@ -5,6 +5,11 @@
             "label": "Aggiorna bundle",
             "type": "shell",
             "command": "bundle install"
+        },
+        {
+            "label": "Avvia server",
+            "type": "shell",
+            "command": "bundle exec jekyll serve"
         }
     ]
 }
