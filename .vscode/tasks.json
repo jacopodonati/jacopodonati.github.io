@@ -9,7 +9,7 @@
         {
             "label": "Avvia server",
             "type": "shell",
-            "command": "bundle exec jekyll serve"
+            "command": "bundle exec jekyll serve --livereload",
         }
     ]
 }
