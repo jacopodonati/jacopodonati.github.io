@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<article>
+    <header>
+        <div class="img-wrapper">
+            {% picture movie_poster movies/{{ page.imdb }}.jpg --alt Poster di {{ page.title }} ({{ page.year }}) %}
+        </div>
+        <h1><span class="title">{{ page.title }} </span> ({{ page.year }})</h1>
+    </header>
+    {{ content }}
+    <footer>
+        Recensione pubblicata il {{ page.date | date: "%d/%m/%Y" }}
+    </footer>
+</article>
+
+<nav class="back">
+    <a href="/spoiler">&larr; torna all’elenco degli spoiler</a>
+</nav>

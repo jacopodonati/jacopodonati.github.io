@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="book">
+    {% picture book_cover books/{{ page.isbn }}.jpg --alt {{ page.title }} %}
+    <div class="description">
+        <h1 class="title">{{ page.title }}</h1>
+        <ul class="stores">
+        {%- for store in page.stores %}
+            <li><a href="{{ store.url }}" target="_blank">{% include buttons/{{ store.class }}.svg  %}</a></li>
+        {%- endfor %}
+        </ul>
+    </div>
+</div>
+<article>
+    {{ content }}
+    <p class="metadata">Il volume è uscito per {{ page.publisher }} nel {{ page.published | date: "%Y" }}. ISBN: <span class="isbn">{{ page.isbn }}</span></p>
+</article>
