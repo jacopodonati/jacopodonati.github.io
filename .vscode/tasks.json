@@ -4,12 +4,12 @@
         {
             "label": "Aggiorna bundle",
             "type": "shell",
-            "command": "bundle install"
+            "command": "chruby ruby-3.2.1; bundle install"
         },
         {
             "label": "Avvia server",
             "type": "shell",
-            "command": "bundle exec jekyll serve --livereload",
+            "command": "chruby ruby-3.2.1; bundle exec jekyll serve --livereload",
         }
     ]
 }
