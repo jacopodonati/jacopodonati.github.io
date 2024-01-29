@@ -1,0 +1,6 @@
+baseURL = 'https://jacopodonati.it/'
+languageCode = 'it-it'
+title = 'Jacopo Donati'
+theme = 'chimero'
+
+copyright = "© jacopo donati"
