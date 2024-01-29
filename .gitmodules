@@ -1,0 +1,3 @@
+[submodule "themes/chimero"]
+	path = themes/chimero
+	url = https://github.com/jacopodonati/hugo-theme-chimero.git
