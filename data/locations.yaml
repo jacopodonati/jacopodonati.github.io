@@ -1,0 +1,15 @@
+- date: "2022-01-01T00:00:00+01:00"
+  label: Bologna
+  coordinates: 44.4991182,11.3316855
+- date: "2022-04-07T21:05:00+01:00"
+  label: Palermo
+  coordinates: 38.1405227,13.2870768
+- date: "2022-04-11T07:55:00+01:00"
+  label: Bologna
+  coordinates: 44.4991182,11.3316855
+- date: "2023-04-13T07:35:00+01:00"
+  label: Tolosa
+  coordinates: 43.6,11.4333333
+- date: "2023-04-16T13:05:00+01:00"
+  label: Bologna
+  coordinates: 44.4991182,11.3316855

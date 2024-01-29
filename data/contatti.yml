@@ -1,0 +1,19 @@
+title: contatti
+
+contacts:
+- title: Email
+  label: "&#106;&#97;&#99;&#111;&#112;&#111;&#64;&#106;&#97;&#99;&#111;&#112;&#111;&#100;&#111;&#110;&#97;&#116;&#105;&#46;&#105;&#116;"
+  link: "mailto:&#106;&#97;&#99;&#111;&#112;&#111;&#64;&#106;&#97;&#99;&#111;&#112;&#111;&#100;&#111;&#110;&#97;&#116;&#105;&#46;&#105;&#116;"
+  show: true
+- title: LinkedIn
+  label: "@jacopodonati"
+  link: "https://www.linkedin.com/in/jacopodonati/"
+  show: true
+- title: Github
+  label: "@jacopodonati"
+  link: "https://github.com/jacopodonati/"
+  show: false
+- title: Instagram
+  label: "@_jacopodonati"
+  link: "https://instagram.com/_jacopodonati/"
+  show: false
