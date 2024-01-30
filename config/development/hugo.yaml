@@ -1,5 +1,2 @@
 minify:
   disableCSS: true
-
-module:
-  replacements: "github.com/jacopodonati/hugo-theme-chimero -> ./chimero"
