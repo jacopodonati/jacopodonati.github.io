@@ -1,2 +1,4 @@
 minify:
   disableCSS: true
+
+theme: chimero
