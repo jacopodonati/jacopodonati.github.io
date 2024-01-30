@@ -5,3 +5,7 @@ defaultContentLanguage: it
 theme: chimero
 
 copyright: "© jacopo donati"
+
+module:
+  imports:
+  - path: "github.com/jacopodonati/hugo-theme-chimero"

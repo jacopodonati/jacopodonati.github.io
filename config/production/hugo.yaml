@@ -1,3 +1,6 @@
 services:
   googleAnalytics:
     ID: G-CSVJ045BPS
+
+module:
+  replacements: "github.com/jacopodonati/hugo-theme-chimero -> ./chimero"

@@ -3,5 +3,3 @@ minify:
 
 module:
   replacements: "github.com/jacopodonati/hugo-theme-chimero -> ./chimero"
-  imports:
-  - path: "github.com/jacopodonati/hugo-theme-chimero"
