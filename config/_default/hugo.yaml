@@ -2,7 +2,8 @@ baseURL: https://jacopodonati.it/
 title: Jacopo Donati
 defaultContentLanguage: it
 
-theme: chimero
+theme:
+  - chimero
 
 copyright: "© jacopo donati"
 
