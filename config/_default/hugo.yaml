@@ -7,3 +7,7 @@ copyright: "© Jacopo Donati"
 params:
   light_chrome: "#f9f7f6"
   dark_chrome: "#23201f"
+
+  profile:
+    logline: "Scrittore, editor, e docente"
+    location: "Bologna"
