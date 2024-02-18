@@ -12,7 +12,7 @@ contacts:
 - title: Github
   label: "@jacopodonati"
   link: "https://github.com/jacopodonati/"
-  show: false
+  show: true
 - title: Instagram
   label: "@_jacopodonati"
   link: "https://instagram.com/_jacopodonati/"
