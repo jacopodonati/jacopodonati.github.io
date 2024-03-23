@@ -11,7 +11,8 @@
         {
             "label": "Avvia il server",
             "type": "shell",
-            "command": "hugo server"
+            "command": "hugo server",
+            "problemMatcher": []
         }
     ]
 }
