@@ -7,5 +7,5 @@ book_url: https://www.librisumisura.com/products/misteri-e-manicaretti-a-bologna
 width: 140
 thickness: 12
 layout: pubblicazione
-show: false
+homepage: false
 ---

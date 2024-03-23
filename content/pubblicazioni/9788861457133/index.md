@@ -21,7 +21,7 @@ stores:
 width: 122
 thickness: 15
 layout: pubblicazione
-show: true
+homepage: false
 ---
 
 Nei primi anni di Bottega Finzioni abbiamo raccolto un certo numero di racconti che ruotavano attorno a tre temi: la prima volta, il sapore, la nostalgia. Sono temi all'apparenza semplici che possono però essere declinati in una miriade di modi differenti. Io ed Eva Brugnettini abbiamo selezionato trenta racconti che potessero mostrare bene questa varietà.

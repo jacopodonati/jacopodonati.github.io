@@ -25,7 +25,7 @@ stores:
 width: 120
 thickness: 10
 layout: pubblicazione
-show: true
+homepage: true
 ---
 
 Questa raccolta nasce da sette testi scritti da Roberto Roversi perché Lucio Dalla ne traesse canzoni. Gli Zois li hanno musicati nell'album [Etilene per tutti](https://open.spotify.com/album/1QybcF90CeMdhmNUgLuNDM), mentre noi (io, Silvia Brizio, Silvia Cadonici, Eugenio Fallarino, Nicola Longhi, Silvana Miano, Valentina Misgur, Luca Palladino) li abbiamo usati come ispirazione per ricavarne altrettanti racconti.
