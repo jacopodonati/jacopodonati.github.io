@@ -5,7 +5,7 @@ defaultContentLanguage: it
 copyright: "© Jacopo Donati"
 
 params:
-  light_chrome: "#f9f7f6"
+  light_chrome: "#fafaf9"
   dark_chrome: "#23201f"
 
   profile:
