@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "VCR";
+    src: url(/font/vcr.woff2);
+}
+
+body {
+    margin: 0;
+    font-family: "VCR";
+    background-color: #000000;
+}
+
+.sezione {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    background-color: #000000;
+    text-transform: uppercase;
+    box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+main {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
