@@ -31,11 +31,16 @@ nav {
     text-align: center;
 }
 
+#io img {
+    max-width: 100%;
+}
+
 .menu {
     list-style: none;
     display: flex;
     padding: 0;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .menu li p {
