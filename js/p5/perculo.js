@@ -13,7 +13,7 @@ function setup() {
         [parole[indice], parole[indiceAleatorio]] = [
             parole[indiceAleatorio], parole[indice]];
     }
-    perculoCanvas.touchStarted(beginAfreshAfreshAfresh);
+    perculoCanvas.touchEnded(beginAfreshAfreshAfresh);
     perculoCanvas.mouseClicked(beginAfreshAfreshAfresh);
 }
 
