@@ -41,6 +41,7 @@ function draw() {
 
     fill(255);
     noStroke();
+    textAlign(CENTER);
 
     drawCornerSymbols();
 
