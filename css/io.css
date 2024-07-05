@@ -19,6 +19,12 @@ nav {
     text-align: center;
 }
 
+a {
+    color: rgb(0, 0, 238);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 #alla-home {
     float: left;
 }
@@ -55,4 +61,11 @@ nav {
 
 #perculo {
     height: 14rem;
+    width: 100%;
+    position: relative;
+}
+
+.parola {
+    position: absolute;
+    display: block;
 }
