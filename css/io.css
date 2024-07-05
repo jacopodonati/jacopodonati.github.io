@@ -1,0 +1,53 @@
+
+
+body {
+    background: #ffda81;
+    background: linear-gradient(180deg, #ffda81 18%, #c1d194 51%, #a3d9bb 75%, #8edfd6 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.5;
+}
+
+main, nav {
+    max-width: 38rem;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
+}
+
+#alla-home {
+    float: left;
+}
+
+#al-portfolio {
+    float: right;
+}
+
+#io {
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 1rem;
+}
+
+.menu li p {
+    font-size: .8rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.menu img {
+    width: 64px;
+}
+
+#perculo {
+    height: 14rem;
+}
