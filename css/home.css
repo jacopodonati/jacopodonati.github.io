@@ -6,20 +6,26 @@
 body {
     margin: 0;
     font-family: "VCR";
-    background-color: #000000;
 }
 
-.sezione {
+#menu {
+    list-style: none;
+    padding: 0;
+}
+
+.pulsante {
     color: #ffffff;
     text-decoration: none;
     padding: 1rem 2rem;
     background-color: #000000;
     text-transform: uppercase;
     box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.4);
+    position: absolute;
 }
 
-main {
+canvas {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -1;
 }
