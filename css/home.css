@@ -1,6 +1,7 @@
 @font-face {
     font-family: "VCR";
     src: url(/font/vcr.woff2) format('woff2');
+    font-display: swap;
 }
 
 body {
