@@ -39,6 +39,7 @@ a {
 
 #io img {
     max-width: 100%;
+    image-rendering: pixelated;
 }
 
 .menu {
@@ -57,6 +58,7 @@ a {
 
 .menu img {
     width: 64px;
+    image-rendering: pixelated;
 }
 
 #perculo {
