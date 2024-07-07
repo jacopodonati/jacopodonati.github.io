@@ -69,3 +69,11 @@ a {
     position: absolute;
     display: block;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #1f2b71;
+        background: linear-gradient(180deg, #1f2b71 0%, #6f2c9c 23%, #cd1919 76%, #fd6731 100%);
+        color: #ffffff;
+    }
+}
