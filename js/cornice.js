@@ -60,6 +60,10 @@ function smarmella() {
         pulsante.style.backgroundColor = pick.background;
         pulsante.style.color = pick.foreground;
     });
+
+    // tema finestra
+
+    document.querySelector('meta[name=theme-color').setAttribute('content', pick.background);
     
     // // angolini
     
