@@ -1,0 +1,28 @@
+:root {
+    --background: #ffffff;
+    --foreground: #000000;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: sans-serif;
+    max-width: 30rem;
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+footer {
+    font-size: .9rem;
+    font-style: italic;
+    margin-top: 2rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #000000;
+        --foreground: #ffffff;
+    }
+}
