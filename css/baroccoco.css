@@ -3,22 +3,67 @@
     --foreground: #000000;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     background-color: var(--background);
     color: var(--foreground);
-    font-family: sans-serif;
+    /* font: -apple-system-body; */
+    font-family: system-ui, sans-serif;
+    line-height: 1.5rem;
     max-width: 30rem;
+}
+
+nav {
+    font-weight: 500;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 0.4rem
 }
 
 h1 {
     font-size: 1rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
 footer {
-    font-size: .9rem;
+    font-size: 0.8rem;
     font-style: italic;
     margin-top: 2rem;
 }
+
+footer p {
+    margin: 0;
+}
+
+article .nota {
+    font-size: 0.7rem;
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4rem;
+}
+
+article footer {
+    font-style: normal;
+    line-height: 1rem;
+}
+
 
 @media (prefers-color-scheme: dark) {
     :root {
