@@ -73,6 +73,10 @@ header#blog p {
     font-size: 0.9rem;
 }
 
+.centrato {
+    text-align: center;
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
         --background: #3c5485;
