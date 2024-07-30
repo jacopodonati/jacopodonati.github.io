@@ -67,7 +67,17 @@ article footer {
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: #000000;
+        --background: #3c5485;
         --foreground: #ffffff;
+        --anchors: #ffce00;
+        --anchors-visited: #e4900a;
+    }
+
+    a {
+        color: var(--anchors);
+    }
+
+    a:visited {
+        color: var(--anchors-visited);
     }
 }
