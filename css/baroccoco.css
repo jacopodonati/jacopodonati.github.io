@@ -79,7 +79,7 @@ header.sezione p {
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: #3c5485;
+        --background: #2e3f60;
         --foreground: #ffffff;
         --anchors: #ffce00;
         --anchors-visited: #e4900a;
