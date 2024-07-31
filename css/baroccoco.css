@@ -64,12 +64,12 @@ article footer {
     line-height: 1rem;
 }
 
-header#blog {
+header.sezione {
     border-bottom: 1px solid var(--foreground);
     margin-bottom: 2rem;
 }
 
-header#blog p {
+header.sezione p {
     font-size: 0.9rem;
 }
 
