@@ -2,8 +2,17 @@ name: Scribacchino alla ribalta
 
 on:
   push:
-    branches:
-      - master
+    branches: ["master"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build:
