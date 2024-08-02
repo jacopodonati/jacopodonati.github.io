@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog / Jacopo Donati</title>
-    <meta name="title" content="Blog / Jacopo Donati" />
-    <meta name="description" content="un zuglèn in forma di blog" />
+    <title>Jacopo Donati</title>
+    <meta name="title" content="Jacopo Donati" />
+    <meta name="description" content="un zuglèn" />
     <meta name="author" content="Jacopo Donati" />
     <meta name="robots" content="index, follow" />
     <!-- icone -->
@@ -16,14 +16,27 @@
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="apple-mobile-web-app-title" content="Jacopo Donati" />
     <meta name="application-name" content="Jacopo Donati" />
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#3c5485" media="(prefers-color-scheme: dark)" />
     <!-- stile -->
     <link rel="stylesheet" href="/css/baroccoco.css" />
+    <link rel="stylesheet" href="/css/havana.css" id="tema-css"/>
+    <script src="/js/cambio-tema.js"></script>
 </head>
 
 <body>
-    <article>
+        <!-- inizio barra di navigazione -->
+    <nav>
+        <div id="logo">
+            Jacopo Donati
+        </div>
+        <ul>
+            <li>
+                <a href="/blog/">blog</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- fine barra di navigazione -->
+
+        <article>
         <h1>Opera e artista</h1>
 
         <p>L'altro giorno un'amica mi ha inviato un articolo sugli abusi subiti da Andrea Skinner, figlia di Alice Munro, per mano del padrino e marito di Munro, e subito si è riaperta una discussione che va avanti da anni e che riguarda il ruolo che ha la vita privata dell'artista nella valutazione della sua opera. In un altro post che mi ha girato si concludeva dicendo che non c'è una distinzione tra vita e opera d'arte perché la vita dell'artista è l'opera.</p>
@@ -51,7 +64,8 @@
     </article>
 
     <footer>
-        <p>Pubblicato il 15 luglio 2024 15:52 da Jacopo Donati</p>
+        <p>Ultimo aggiornamento:  ultimoAggiornamento </p>
+        <p><a href="#" class="selettore-tema" data-name="vaporwave">vaporwave</a> - <a href="#" class="selettore-tema" data-name="havana">havana</a> - <a href="#" class="selettore-tema" data-name="maui">maui</a> - <a href="#" class="selettore-tema" data-name="pino">pino</a></p>
     </footer>
 </body>
 

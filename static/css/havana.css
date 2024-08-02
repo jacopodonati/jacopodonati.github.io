@@ -1,0 +1,17 @@
+:root {
+    --background: #fff1d2;
+    --foreground: #2f2a1c;
+    --font-size: 18px;
+    --font-stack: "Times New Roman", Times, serif;
+    --anchors: #d32d17;
+    --anchors-visited: #a64d20;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #2f2a1c;
+        --foreground: #fff1d2;
+        --anchors: #ffbf00;
+        --anchors-visited: #eda33b;
+    }
+}

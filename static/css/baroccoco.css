@@ -1,0 +1,99 @@
+:root {
+    --background: #ffffff;
+    --foreground: #000000;
+    --font-size: 16px;
+    --font-stack: system-ui, sans-serif;
+    --anchors: #1100ff;
+    --anchors-visited: #700ae4;
+}
+
+html {
+    font-size: var(--font-size);
+}
+
+body {
+    background-color: var(--background);
+    color: var(--foreground);
+    /* font: -apple-system-body; */
+    font-family: var(--font-stack);
+    line-height: 1.5rem;
+    max-width: 30rem;
+}
+
+a {
+    color: var(--anchors);
+}
+
+a:visited {
+    color: var(--anchors-visited);
+}
+
+nav {
+    font-weight: 500;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 0.4rem
+}
+
+h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+footer {
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+article .nota {
+    font-size: 0.7rem;
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4rem;
+}
+
+article footer {
+    font-style: normal;
+    line-height: 1rem;
+}
+
+header.sezione {
+    border-bottom: 1px solid var(--foreground);
+    margin-bottom: 2rem;
+}
+
+header.sezione p {
+    font-size: 0.9rem;
+}
+
+.centrato {
+    text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #2e3f60;
+        --foreground: #ffffff;
+        --anchors: #ffce00;
+        --anchors-visited: #e4900a;
+    }
+}
