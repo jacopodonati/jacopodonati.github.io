@@ -22,17 +22,20 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Setup Pages
-      uses: actions/configure-pages@v5
-
     - name: Run build script
       run: |
         bash scribacchino.sh
 
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: './public'
+    - name: Create gh-pages branch
+      run: |
+        git checkout --orphan gh-pages
+        git rm -rf .
+
+    - name: Move public folder to gh-pages branch
+      run: |
+        mv public/* .
+        git add .
+        git commit -m "Update gh-pages"
 
   deploy:
     environment:
@@ -44,3 +47,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
