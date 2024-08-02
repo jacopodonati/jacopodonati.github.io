@@ -17,7 +17,7 @@ body {
     /* font: -apple-system-body; */
     font-family: var(--font-stack);
     line-height: 1.5rem;
-    max-width: 30rem;
+    max-width: 40rem;
 }
 
 a {
