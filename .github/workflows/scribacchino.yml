@@ -22,12 +22,9 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Set up Zsh
-      run: sudo apt-get install -y zsh
-
     - name: Run build script
       run: |
-        zsh scribacchino.sh
+        bash scribacchino.sh
 
     - name: Setup Pages
       uses: actions/configure-pages@v5

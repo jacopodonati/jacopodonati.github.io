@@ -6,6 +6,8 @@ SRC_DIR="./src"
 HTML_DIR="./public"
 PARTIAL_DIR="$TEMPLATE_DIR/parziali"
 STATIC_DIR="./static"
+DOMAIN="https://www.jacopodonati.it"
+SITEMAP_FILE="$HTML_DIR/sitemap.xml"
 
 # Funzione per pulire la cartella HTML
 clean_html_dir() {
@@ -88,6 +90,33 @@ process_partials() {
     echo "$result"
 }
 
+# Funzione per ottenere la data di ultimo aggiornamento
+get_last_modified_date() {
+    local src_file="$1"
+    sed -n 's/.*<!-- ultimoAggiornamento: \(.*\) -->.*/\1/p' "$src_file"
+}
+
+# Funzione per generare la sitemap
+generate_sitemap() {
+    echo '<?xml version="1.0" encoding="UTF-8"?>' > "$SITEMAP_FILE"
+    echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> "$SITEMAP_FILE"
+
+    while IFS= read -r -d '' src_file; do
+        local rel_path=${src_file#$SRC_DIR/}
+        local url_path=${rel_path%.md}
+        local full_url="$DOMAIN/$url_path"
+        local last_mod=$(get_last_modified_date "$src_file")
+
+        echo "  <url>" >> "$SITEMAP_FILE"
+        echo "    <loc>$full_url</loc>" >> "$SITEMAP_FILE"
+        echo "    <lastmod>$last_mod</lastmod>" >> "$SITEMAP_FILE"
+        echo "  </url>" >> "$SITEMAP_FILE"
+    done < <(find "$SRC_DIR" -type f -print0)
+
+    echo '</urlset>' >> "$SITEMAP_FILE"
+    echo "Sitemap generata: $SITEMAP_FILE"
+}
+
 # Funzione per processare un singolo file
 process_file() {
     local src_file="$1"
@@ -97,7 +126,7 @@ process_file() {
     local output_file="$HTML_DIR/${rel_path%.*}.html"
     
     if [[ ! -f "$template_file" ]]; then
-        echo "Template $template_file non trovato per $src_file. Saltando..."
+        echo "Template $template_file non trovato per $src_file. Passo oltre..."
         return
     fi
 
@@ -111,7 +140,7 @@ process_file() {
     local vars=$(get_variables "$src_file")
     local result=$(replace_variables "$template" "$vars")
     
-    local marker=$'\xC2\xA0contenuto\xC2\xA0'
+    local marker=$(printf '\xC2\xA0contenuto\xC2\xA0')
     result=${result//$marker/$content}
 
     echo "$result" > "$output_file"
@@ -125,8 +154,11 @@ clean_html_dir
 copy_static_files
 
 # Processa tutti i file nella cartella src e nelle sottocartelle
-find "$SRC_DIR" -type f | while read src_file; do
+while IFS= read -r -d '' src_file; do
     process_file "$src_file"
-done
+done < <(find "$SRC_DIR" -type f -print0)
+
+# Genera la sitemap
+generate_sitemap
 
 echo "Generazione completata."
