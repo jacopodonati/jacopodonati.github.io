@@ -1,5 +1,6 @@
 ---
 title: Manuale per vivere
 menu: true
-draft: true
+layout: manuale
+weight: 4
 ---

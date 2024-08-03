@@ -2,7 +2,7 @@
 title: Cose belle
 date: 2024-08-02T19:48:45Z
 menu: true
-draft: true
+weight: 1
 ---
 
 - Le lenzuola pulite
