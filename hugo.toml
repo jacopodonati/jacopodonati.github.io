@@ -1,0 +1,10 @@
+baseURL = 'https://www.jacopodonati.it/'
+defaultContentLanguage = 'it'
+title = 'Jacopo Donati'
+
+theme = 'no-frills'
+
+[author]
+given_name = "Jacopo"
+family_name = "Donati"
+display_name = "Jacopo Donati"

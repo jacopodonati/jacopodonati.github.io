@@ -1,0 +1,3 @@
+[submodule "themes/no-frills"]
+	path = themes/no-frills
+	url = https://github.com/jacopodonati/hugo-theme-no-frills.git

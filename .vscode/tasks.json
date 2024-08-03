@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Avvia server (con bozze)",
+            "type": "shell",
+            "command": "hugo server -D"
+        },
+        {
+            "label": "Avvia server",
+            "type": "shell",
+            "command": "hugo server"
+        },
+        {
+            "label": "Compila",
+            "type": "shell",
+            "command": "hugo"
+        }
+    ]
+}
