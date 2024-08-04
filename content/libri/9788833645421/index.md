@@ -24,7 +24,7 @@ stores:
         url: https://www.amazon.it/rifare-racconti-canzoni-Roberto-Roversi/dp/8833645428
 width: 120
 thickness: 10
-layout: pubblicazione
+layout: libro
 homepage: true
 ---
 

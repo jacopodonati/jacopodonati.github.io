@@ -20,7 +20,7 @@ stores:
         url: https://www.amazon.it/gp/product/8866568317/
 width: 128
 thickness: 10
-layout: pubblicazione
+layout: libro
 homepage: true
 ---
 

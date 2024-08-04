@@ -20,7 +20,7 @@ stores:
         url: https://www.amazon.it/Esercizi-riscaldamento-definizione-Carlo-Lucarelli-ebook/dp/B00L7839U2/
 width: 122
 thickness: 15
-layout: pubblicazione
+layout: libro
 homepage: false
 ---
 
