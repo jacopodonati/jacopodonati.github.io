@@ -3,27 +3,32 @@ label = "GitHub"
 link = "https://www.github.com/jacopodonati"
 weight = 2
 icon = "CONTR001"
+alt_label = "Un computer degli anni ’90"
 
 [linkedin]
 label = "LinkedIn"
 link = "https://www.linkedin.com/in/jacopodonati"
 weight = 4
 icon = "PROGM032"
+alt_label = "Una valigetta"
 
 [instagram]
 label = "Instagram"
 link = "https://www.github.com/jacopodonati"
 icon = "PROGM013"
 weight = 3
+alt_label = "Una macchina fotografica"
 
 [email]
 label = "email"
 link = "mailto:&#106;&#097;&#099;&#111;&#112;&#111;&#064;&#106;&#097;&#099;&#111;&#112;&#111;&#100;&#111;&#110;&#097;&#116;&#105;&#046;&#105;&#116;"
 icon = "PROGM023"
 weight = 1
+alt_label = "Alcune buste affrancate"
 
 [cv]
 label = "CV"
 link = "/cv.pdf"
 icon = "PROGM018"
 weight = 5
+alt_label = "Alcuni fogli spillati"
