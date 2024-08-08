@@ -6,6 +6,7 @@ slug: for-those-who-cant-speak-italian
 menu_title: if you can't read Italian
 menu: true
 weight: 0
+draft: true
 ---
         
 Anglophones can't really understand what online- and computer-life is like for those who didn't grow up in an English speaking country.  Learning a new language is great, but it never fully solves the problem.

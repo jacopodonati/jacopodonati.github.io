@@ -1,6 +1,7 @@
 ---
 title: Opera e artista
 date: 2024-07-15
+draft: true
 ---
 
 # Opera e artista
@@ -13,7 +14,6 @@ Nella questione ci sono due fronti:
 
 1. ciò che proviamo quando leggiamo/osserviamo/ascoltiamo l'opera di un*artista che sappiamo aver commesso un atto immorale;
 2. ciò che proviamo quando scopriamo che l'artista di un'opera che amiamo ha commesso un atto immorale.
-
 
 Il primo fronte è il più semplice: il disgusto che proviamo al ricordo di ciò che è stato fatto ci impedisce di godere dell'opera. Questa pagina era fantastica? Sì, certo, ma l'autore quando era giovane simpatizzava per l'estrema destra. Quadro magnifico? Senza dubbio, ma l'artista è stata una pessima madre[^1]. Ogni volta che godiamo, qualcosa ci dice che non dovremmo.
 

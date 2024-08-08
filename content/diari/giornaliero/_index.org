@@ -1,0 +1,4 @@
+#+TITLE: Giornaliero
+#+DATE: 2024-08-08T07:42:31Z
+#+SUMMARY: Un diario, niente di più.
+#+WEIGHT: 1

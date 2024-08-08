@@ -2,9 +2,14 @@ baseURL = 'https://www.jacopodonati.it/'
 defaultContentLanguage = 'it'
 title = 'Jacopo Donati'
 
+ignoreFiles = ['#\.']
+
+sectionPagesMenu = 'main'
+# uglyURLs = true
+
 theme = 'no-frills'
 
 [author]
-given_name = "Jacopo"
-family_name = "Donati"
-display_name = "Jacopo Donati"
+given_name = 'Jacopo'
+family_name = 'Donati'
+display_name = 'Jacopo Donati'
