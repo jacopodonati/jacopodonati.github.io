@@ -1,7 +1,6 @@
 ---
 title: Homepage
 date: 2024-08-06T09:29:06+02:00
-draft: true
 ---
 > In most books, the _I_, or first person, is omitted; in this it will be retained.
 >
