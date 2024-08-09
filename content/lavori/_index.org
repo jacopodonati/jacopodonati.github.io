@@ -1,5 +1,6 @@
 #+TITLE: Lavori
 #+DATE: 2024-08-08T13:46:50Z
+#+WEIGHT: 3
 
 #+ATTR_HTML: :alt In montagna, con i piedi sulla sedia e il computer sulle gambe
 #+ATTR_HTML: :sizes (max-width: 329px) 200px, ((min-width: 330px) and (max-width: 430px)) 300px, ((min-width: 430px) and (max-width: 530px)) 400px, ((min-width: 530px) and (max-width: 630px)) 500px, ((min-width: 630px) and (max-width: 730px)) 600px, ((min-width: 730px) and (max-width: 767px)) 700px, (max-width: 768px) 768px
