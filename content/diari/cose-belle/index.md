@@ -1,7 +1,9 @@
-#+TITLE: Cose belle
-#+DATE: 2024-08-02T19:48:45Z
-#+SUMMARY: Un elenco di quelle cose che ogni volta che le sperimenti ti fanno sprofondare nell'attimo presente.
-#+WEIGHT: 3
+---
+title: Cose belle
+date: 2024-08-02T19:48:45Z
+summary: Un elenco di quelle cose che ogni volta che le sperimenti ti fanno sprofondare nell'attimo presente.
+weight: 3
+---
 
 - Le lenzuola pulite
 - I fiori dimenticati tra le pagine dei libri
