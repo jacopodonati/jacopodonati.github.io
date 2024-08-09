@@ -22,7 +22,6 @@ defaultContentLanguageInSubdir = true
     languageCode = 'it'
     languageDirection = 'ltr'
     languageName = 'Italiano'
-    title = 'Projekt Dokumentation'
     weight = 1
   [languages.en]
     disabled = false
