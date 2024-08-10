@@ -2,7 +2,7 @@
 title: Logs
 date: 2024-08-09T08:04:42Z
 weight: 1
-url: logs
+slug: logs
 ---
 
 Since I was a kid I tried to keep a personal diary but somehow, sooner rather than later, I always fail.
