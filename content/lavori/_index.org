@@ -1,7 +1,0 @@
-#+TITLE: Lavori
-#+DATE: 2024-08-08T13:46:50Z
-#+WEIGHT: 3
-
-Per il momento in questa sezione ci sono solamente i libri che ho pubblicato. O, sarebbe meglio dire, i libri che contengono racconti scritti da me.  Con il tempo raccoglierò qui anche le foto e il software.  Ci vuole tempo, però, e non è proprio una priorità.
-
-In ogni caso, per ciò che riguarda il software, si trova tutto su [[https://github.com/jacopodonati][GitHub]].

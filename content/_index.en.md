@@ -11,7 +11,7 @@ As you can see from my name, I'm not British, American, or from any other Englis
 {.avvertenza}
 
 ![Una foto dell'autore](/img/home/io.png)
-{id="io" width="200" height="200" srcset="/img/home/io.png 1x, /img/home/io@2x.png 2x, /img/home/io@3x.png 3x"}
+{id="io" width="200" height="200"} {{/* srcset="/img/home/io.png 1x, /img/home/io@2x.png 2x, /img/home/io@3x.png 3x" */}}
 
 This website, in some form or another, exists since 2012, or maybe 2013.  For most of the time it's been a blog, for the rest some sort of... portfolio?  I'm not sure how to define it, but let's say that the only way I could justify to myself the existence of this space was by telling what I was doing and what I already did.  Let's say it was some sort of self-advertising.  The problem with a website like that is that only a specific kind of content can be published.  This is the problem with any website built for a specific use-case.
 
