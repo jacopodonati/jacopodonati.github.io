@@ -1,13 +1,9 @@
 baseURL = 'https://www.jacopodonati.it/'
 defaultContentLanguage = 'it'
 title = 'Jacopo Donati'
+theme = 'no-frills'
 
 ignoreFiles = ['#\.']
-
-sectionPagesMenu = 'main'
-# uglyURLs = true
-
-theme = 'no-frills'
 
 [author]
 given_name = 'Jacopo'
@@ -39,3 +35,19 @@ defaultContentLanguageInSubdir = true
       [markup.goldmark.parser.attribute]
         block = true
         title = true
+
+[menus]
+  [[menus.main]]
+  name = 'cose belle'
+  pageRef = '/cose-belle'
+  weight = 10
+
+  [[menus.main]]
+  name = 'manuale per vivere'
+  pageRef = '/manuale'
+  weight = 20
+  
+  [[menus.main]]
+  name = 'libri'
+  pageRef = '/libri'
+  weight = 30
