@@ -3,7 +3,7 @@ title: Nice things
 date: 2024-08-02T19:48:45Z
 summary: A list of those things that everytime make me slip in the present.
 weight: 3
-url: nice-things
+slug: nice-things
 ---
 
 - Fresh sheets

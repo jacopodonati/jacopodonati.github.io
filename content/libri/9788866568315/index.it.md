@@ -24,5 +24,5 @@ layout: libro
 homepage: true
 ---
 
-Nero come il buio, come la paura, come le tenebre che celano chissà quali mostri, chissà quali orrori. Nero, per chi ama il brivido. Un libro di narrativa per ragazzi e ragazze dai 13 anni. Cinquanta racconti brevi, perfetti per lettori in cerca di emozioni e avventure. Storie per tutti i gusti, da leggere nel tempo di un reel. Età di lettura: da 13 anni.
+_Black_ è una raccolta per ragazzi pubblicata da Einaudi Ragazzi nel 2024 nella collana "BookTok".  Se non ricordo male, è composta da una cinquantina di racconti brevissimi, uno dei quali è firmato da me.  Il libro, al momento, è introvabile in quanto è stato ritirato dalle librerie per richiesta di TikTok.  L'editore dice che presto o tardi verrà ripubblicato in una collana diversa.
 
