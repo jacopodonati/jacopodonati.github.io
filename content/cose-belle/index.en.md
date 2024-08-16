@@ -14,3 +14,5 @@ slug: nice-things
 - Tight hugs
 - The smell of burning wood
 - The smell of wisterias in April
+- Autumn leaves
+- The moist moss
