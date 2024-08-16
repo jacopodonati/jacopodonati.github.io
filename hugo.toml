@@ -37,17 +37,27 @@ defaultContentLanguageInSubdir = true
         title = true
 
 [menus]
+
+  [[menus.main]]
+  name = 'libri'
+  identifier = 'menu_libri'
+  pageRef = '/libri'
+  weight = 20
+  
+    [[menus.main.libri]]
+    parent = 'libri'
+    name = 'black'
+    identifier = 'menu_libri_black'
+    pageRef = '/libri/9788866568315'
+
   [[menus.main]]
   name = 'cose belle'
   pageRef = '/cose-belle'
-  weight = 10
+  identifier = 'menu_cose_belle'
+  weight = 40
 
   [[menus.main]]
   name = 'manuale per vivere'
+  identifier = 'menu_manuale'
   pageRef = '/manuale'
-  weight = 20
-  
-  [[menus.main]]
-  name = 'libri'
-  pageRef = '/libri'
   weight = 30
