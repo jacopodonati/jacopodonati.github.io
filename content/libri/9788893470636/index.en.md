@@ -1,5 +1,5 @@
 ---
-title: Misteri e manicaretti a Bologna
+title: Misteri e manicaretti a Bologna (9788893470636)
 isbn: 9788893470636
 publisher: Edizioni del Loggione
 published: 2019-01-01

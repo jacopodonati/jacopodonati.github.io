@@ -1,5 +1,5 @@
 ---
-title: Black
+title: Black (9788866568315)
 isbn: 9788866568315
 publisher: Einaudi Ragazzi
 published: 2024-01-01
@@ -25,4 +25,3 @@ homepage: true
 ---
 
 _Black_ è una raccolta per ragazzi pubblicata da Einaudi Ragazzi nel 2024 nella collana "BookTok".  Se non ricordo male, è composta da una cinquantina di racconti brevissimi, uno dei quali è firmato da me.  Il libro, al momento, è introvabile in quanto è stato ritirato dalle librerie per richiesta di TikTok.  L'editore dice che presto o tardi verrà ripubblicato in una collana diversa.
-

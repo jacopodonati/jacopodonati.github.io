@@ -1,5 +1,5 @@
 ---
-title: Esercizi di riscaldamento
+title: Esercizi di riscaldamento (9788861457133)
 isbn: 9788861457133
 publisher: Gallucci
 published: 2014-01-01

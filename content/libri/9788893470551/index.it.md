@@ -1,5 +1,5 @@
 ---
-title: Misteri e manicaretti con Pellegrino Artusi
+title: Misteri e manicaretti con Pellegrino Artusi (9788893470551)
 isbn: 9788893470551
 publisher: Edizioni del Loggione
 published: 2018-01-01

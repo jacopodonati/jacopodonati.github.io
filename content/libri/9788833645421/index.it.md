@@ -1,5 +1,5 @@
 ---
-title: Il mondo è da rifare
+title: Il mondo è da rifare (9788833645421)
 isbn: 9788833645421
 description: \"Il mondo è da rifare\" è una raccolta di racconti ispirata alle poesie di Roberto Roversi.
 publisher: Pendragon

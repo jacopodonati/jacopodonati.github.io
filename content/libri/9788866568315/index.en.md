@@ -1,5 +1,5 @@
 ---
-title: Black
+title: Black (9788866568315)
 isbn: 9788866568315
 publisher: Einaudi Ragazzi
 published: 2024-01-01
