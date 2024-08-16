@@ -9,4 +9,4 @@ source_title: The Paris Review
 source_url: https://www.theparisreview.org/interviews/619/the-art-of-journalism-no-1-hunter-s-thompson
 ---
 
-There is no art until it's on paper, there is no art until it's sold.
+Non è arte finché non è scritto, non è arte finché non è venduto.

@@ -9,4 +9,4 @@ source_title: The Indipendent
 source_url: https://www.independent.co.uk/arts-entertainment/films/features/celine-sciamma-interview-portrait-of-a-lady-on-fire-adele-haenel-tomboy-girlhood-a9365411.html
 ---
 
-A relationship is about inventing your own language. You’ve got the jokes, you’ve got the songs, you have this anecdote that’s going to make you laugh three years later. It’s this language that you build. That’s what you mourn for when you’re losing someone you love. This language you’re not going to speak with anybody else.
+In una relazione inventiamo un nostro linguaggio.  Ci sono le battute, le canzoni, quell'aneddoto che che continuerà a farci ridere tre anni dopo.  È questo linguaggio che costruiiamo.  È questo che piangiamo quando perdiamo una persona amata.  Questo linguaggio che non parleremo più con nessun altro.

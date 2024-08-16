@@ -3,7 +3,7 @@ title: "Your taste"
 date: 2021-12-16T11:18:26+01:00
 last_modified_at: 2023-04-01T12:38:16+02:00
 tags: [work, art]
-description: Un discorso fondamentale di Ira Glass sull'importanza del gusto all'inizio del percorso artistico.
+description: A quote by Ira Glass on taste.
 author: Ira Glass
 source_title: Swiss Miss
 source_url: https://www.swiss-miss.com/2021/12/dear-beginner.html

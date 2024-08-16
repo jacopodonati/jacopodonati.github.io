@@ -3,7 +3,7 @@ title: "there you are, still yourself, with your particular way of loving"
 date: 2021-10-20T09:12:16+01:00
 last_modified_at: 2023-04-01T12:38:16+02:00
 tags: [love, relationships]
-description: Una bella citazione di Saunders sull'amore, la sua fine, e i nuovi inizi.
+description: A quote by Saunders about love, its end, and new beginnings.
 author: George Saunders
 source_title: The Marginalian
 source_url: https://www.themarginalian.org/2021/10/20/love-chekhov-the-darling-saunders/
