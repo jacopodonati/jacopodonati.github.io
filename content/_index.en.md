@@ -1,6 +1,7 @@
 ---
 title: Homepage
-date: 2024-08-06T09:29:06+02:00
+date: 2024-08-02
+lastMod: 2024-08-17T20:55:03Z
 ---
 > In most books, the _I_, or first person, is omitted; in this it will be retained.
 >
@@ -19,7 +20,7 @@ I wanted an alternative to the social networks.  I wanted something that didn't 
 
 To be honest, the idea isn't really original.  Part of the inspiration comes from the website of professor P.K.[^2], as he was used to sign his letters.  I was lucky enough to meet him and unlucky enough to enjoy his intelligence for so little.  He called this "Stimmgabel für Seelen".  In the end, I'm afraid, it will look like a memex, but that's not what I'm after.
 
-Anyway, you can find me on GitHub as [@jacopodonati](https://github.com/jacopodonati) or <a href="mailto:&#106;&#097;&#099;&#111;&#112;&#111;&#064;&#106;&#097;&#099;&#111;&#112;&#111;&#100;&#111;&#110;&#097;&#116;&#105;&#046;&#105;&#116;">you can write me an e-mail</a>.
+Anyway, you can get in touch <a href="mailto:&#106;&#097;&#099;&#111;&#112;&#111;&#064;&#106;&#097;&#099;&#111;&#112;&#111;&#100;&#111;&#110;&#097;&#116;&#105;&#046;&#105;&#116;">by writing me an e-mail</a>.
 
 [^1]: To almost quote a dear person from my past: you don't know how brilliant I am in Italian.
 

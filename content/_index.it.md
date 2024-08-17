@@ -1,6 +1,7 @@
 ---
 title: Pagina principale
-date: 2024-08-15T09:02:24Z
+date: 2024-08-02
+lastMod: 2024-08-17T20:55:22Z
 ---
 > In molti libri, l'«io» o prima persona viene omesso; in questo sarà conservato.
 >
@@ -16,7 +17,7 @@ Volevo un'alternativa ai social network.  Volevo qualcosa che non fosse necessar
 
 L'idea, in realtà, non è completamente originale.  Parte dell'ispirazione deriva dal sito del professor P.K.[^2], come amava firmarsi, che ho avuto la fortuna di aver conosciuto e la sfortuna di aver goduto della sua intelligenza per troppo poco tempo. Lui lo chiamava "Stimmgabel für Seelen".  Alla fine, temo, in qualche modo somiglierà a un memex, ma non è questo il mio intento.
 
-In ogni caso, mi trovate su GitHub come [@jacopodonati](https://github.com/jacopodonati) o <a href="mailto:&#106;&#097;&#099;&#111;&#112;&#111;&#064;&#106;&#097;&#099;&#111;&#112;&#111;&#100;&#111;&#110;&#097;&#116;&#105;&#046;&#105;&#116;">inviandomi un'email</a>.
+In ogni caso, potete contattarmi <a href="mailto:&#106;&#097;&#099;&#111;&#112;&#111;&#064;&#106;&#097;&#099;&#111;&#112;&#111;&#100;&#111;&#110;&#097;&#116;&#105;&#046;&#105;&#116;">scrivendomi un'email</a>.
 
 [^1]: E, a conti fatti, non è forse il problema di qualsiasi ente (animato o inanimato) che si identifica in un modo e uno soltanto?
 
