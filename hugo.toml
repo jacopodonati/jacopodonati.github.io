@@ -19,12 +19,38 @@ defaultContentLanguageInSubdir = true
     languageDirection = 'ltr'
     languageName = 'Italiano'
     weight = 1
+    [languages.it.menus]
+      [[languages.it.menus.main]]
+        pageRef = '/libri'
+        identifier = 'menu_libri'
+        weight = 20
+      [[languages.it.menus.main]]
+        pageRef = '/manuale'
+        identifier = 'menu_manuale'
+        weight = 30
+      [[languages.it.menus.main]]
+        pageRef = '/cose-belle'
+        identifier = 'menu_cose_belle'
+        weight = 40
   [languages.en]
     disabled = false
     languageCode = 'en'
     languageDirection = 'ltr'
     languageName = 'English'
     weight = 2
+    [languages.en.menus]
+      [[languages.en.menus.main]]
+        pageRef = '/libri'
+        identifier = 'menu_libri'
+        weight = 20
+      [[languages.en.menus.main]]
+        pageRef = '/manuale'
+        identifier = 'menu_manuale'
+        weight = 30
+      [[languages.en.menus.main]]
+        pageRef = '/cose-belle'
+        identifier = 'menu_cose_belle'
+        weight = 40
 
 [markup]
   [markup.goldmark]
@@ -38,26 +64,4 @@ defaultContentLanguageInSubdir = true
 
 [menus]
 
-  [[menus.main]]
-  name = 'libri'
-  identifier = 'menu_libri'
-  pageRef = '/libri'
-  weight = 20
   
-    [[menus.main.libri]]
-    parent = 'libri'
-    name = 'black'
-    identifier = 'menu_libri_black'
-    pageRef = '/libri/9788866568315'
-
-  [[menus.main]]
-  name = 'cose belle'
-  pageRef = '/cose-belle'
-  identifier = 'menu_cose_belle'
-  weight = 40
-
-  [[menus.main]]
-  name = 'manuale per vivere'
-  identifier = 'menu_manuale'
-  pageRef = '/manuale'
-  weight = 30
