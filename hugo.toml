@@ -21,15 +21,15 @@ defaultContentLanguageInSubdir = true
     weight = 1
     [languages.it.menus]
       [[languages.it.menus.main]]
-        pageRef = '/libri'
+        pageRef = 'libri'
         identifier = 'menu_libri'
         weight = 20
       [[languages.it.menus.main]]
-        pageRef = '/manuale'
+        pageRef = 'manuale'
         identifier = 'menu_manuale'
         weight = 30
       [[languages.it.menus.main]]
-        pageRef = '/cose-belle'
+        pageRef = 'cose-belle'
         identifier = 'menu_cose_belle'
         weight = 40
   [languages.en]
@@ -40,15 +40,15 @@ defaultContentLanguageInSubdir = true
     weight = 2
     [languages.en.menus]
       [[languages.en.menus.main]]
-        pageRef = '/libri'
+        pageRef = 'libri'
         identifier = 'menu_libri'
         weight = 20
       [[languages.en.menus.main]]
-        pageRef = '/manuale'
+        pageRef = 'manuale'
         identifier = 'menu_manuale'
         weight = 30
       [[languages.en.menus.main]]
-        pageRef = '/cose-belle'
+        pageRef = 'cose-belle'
         identifier = 'menu_cose_belle'
         weight = 40
 
