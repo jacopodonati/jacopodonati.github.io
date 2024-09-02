@@ -1,4 +1,0 @@
-#+TITLE: {{ .Date }}
-#+DATE: {{ .Date }}
-#+DRAFT: true
-
