@@ -1,0 +1,98 @@
+/* Tag generici e classi funzionali */
+
+:root {
+    --transparent-text: #00000000;
+}
+
+html {
+    font-size: var(--font-size)
+}
+
+body {
+    color: var(--foreground);
+    background-color: var(--background);
+    font-family: var(--font-stack-base);
+    line-height: 1.5;
+    margin: 1rem
+}
+
+a {
+    color: var(--anchors);
+    text-decoration: none
+}
+
+a:visited {
+    color: var(--anchors-visited)
+}
+
+a:active {
+    background-color: var(--foreground);
+    color: var(--background) !important;
+}
+
+img {
+    image-rendering: pixelated;
+}
+
+.nascosto {
+    display: none;
+}
+
+.esergo {
+    margin-bottom: 4rem;
+    max-width: max-content
+}
+
+.esergo blockquote {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+.esergo > p {
+    font-size: 1rem;
+    text-align: right
+}
+
+/* Intestazione */
+
+#logo-link {
+    text-decoration: none;
+}
+
+img#io {
+    float: right;
+    width: 200px;
+    margin: 0 0 1rem 1rem;
+    mix-blend-mode: multiply
+}
+
+/* Piè di pagina */
+
+footer {
+    margin-top: 1rem;
+    padding: 1rem 0;
+    font-size: .9rem;
+    font-style: italic;
+}
+
+footer p,
+footer ul {
+    margin: 0
+}
+
+/* Note a piè di pagina */
+
+.footnotes {
+    margin-top: 2rem;
+    font-size: .9rem
+}
+
+.footnotes hr {
+    max-width: 14rem;
+    margin-left: 0
+}
+
+.footnotes p {
+    font-size: .9rem;
+    margin: 0
+}

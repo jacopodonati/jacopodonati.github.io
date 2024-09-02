@@ -1,0 +1,19 @@
+{
+    "name": "Jacopo Donati",
+    "short_name": "Jacopo Donati",
+    "icons": [
+        {
+            "src": "/favicon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "anti-theme_color": "#ffd500",
+    "anti-background_color": "#ffffff",
+    "display": "browser"
+}
