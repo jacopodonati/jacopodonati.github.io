@@ -1,6 +1,6 @@
 /* Tag generici e classi funzionali */
 
-:root {
+/* :root {
     --transparent-text: #00000000;
 }
 
@@ -51,11 +51,11 @@ img {
 .esergo > p {
     font-size: 1rem;
     text-align: right
-}
+} */
 
 /* Intestazione */
 
-#logo-link {
+/* #logo-link {
     text-decoration: none;
 }
 
@@ -64,11 +64,11 @@ img#io {
     width: 200px;
     margin: 0 0 1rem 1rem;
     mix-blend-mode: multiply
-}
+} */
 
 /* Piè di pagina */
 
-footer {
+/* footer {
     margin-top: 1rem;
     padding: 1rem 0;
     font-size: .9rem;
@@ -78,11 +78,11 @@ footer {
 footer p,
 footer ul {
     margin: 0
-}
+} */
 
 /* Note a piè di pagina */
 
-.footnotes {
+/* .footnotes {
     margin-top: 2rem;
     font-size: .9rem
 }
@@ -95,4 +95,39 @@ footer ul {
 .footnotes p {
     font-size: .9rem;
     margin: 0
+} */
+
+html {
+    font-size: 19px;
+    image-rendering: pixelated;
+}
+
+body {
+    background-color: var(--background);
+    background-image: url("/img/sfondi/g50.png");
+    font-family: serif;
+}
+
+main {
+    margin: 20vh 10vw;
+}
+
+header {
+    background-color: var(--background);
+    padding: 1rem .4rem;
+    max-width: max-content;
+    border: 1px solid var(--foreground);
+    box-shadow: 4px 4px 0 var(--foreground);
+}
+
+#who, #what, #how {
+    margin: 1rem;
+    font-weight: 400;
+    color: var(--foreground);
+    font-size: 1rem;
+}
+
+#how a {
+    margin: 0;
+    color: var(--anchors);
 }
