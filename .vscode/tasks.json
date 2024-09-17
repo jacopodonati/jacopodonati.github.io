@@ -4,29 +4,22 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Avvia server (con bozze)",
+            "label": "Controlla accessibilità",
             "type": "shell",
-            "command": "hugo server -D"
+            "command": "achecker ./"
         },
         {
-            "label": "Avvia server",
+            "label": "Compila articolo",
             "type": "shell",
-            "command": "hugo server"
-        },
-        {
-            "label": "Ripulisci il progetto",
-            "type": "shell",
-            "command": "rm -Rf public/ resources/"
-        },
-        {
-            "label": "Compila",
-            "type": "shell",
-            "command": "hugo",
+            "command": "pandoc --standalone --metadata-file ${workspaceFolder}/risorse/metadata.yml --template=\"${workspaceFolder}/risorse/templates/articolo.html\" --lua-filter=${workspaceFolder}/risorse/filters/date_format.lua -f markdown -t html -i ${file} -o ${workspaceFolder}/articoli/${fileBasenameNoExtension}.html",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            // "presentation": {
+            //     "clear": true
+            // }
         }
     ]
 }

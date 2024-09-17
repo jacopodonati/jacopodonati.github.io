@@ -1,0 +1,6 @@
+lang: it
+dir: ltr
+css:
+  - /css/stile.css
+  - /css/oreo.css
+author: Jacopo Donati

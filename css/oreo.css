@@ -24,7 +24,7 @@
         --background: #000000;
         --foreground: #ffffff;
         --background-content: #000000;
-        --shadow: #ffffff;
+        --shadow: #000000;
         --anchors: #eebb00;
         --anchors-visited: #c9770c;
         --accent-color: #e3c55a;
@@ -35,5 +35,9 @@
 
     body {
         background-image: url("/img/sfondi/g78.png");
+    }
+
+    header {
+        background-image: url("/img/sfondi/g25.png");
     }
 }
