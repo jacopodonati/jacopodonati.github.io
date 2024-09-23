@@ -3,9 +3,9 @@
     --background: #ffffff;
     --background-content: #ffffff;
     --shadow: #000000;
-    --font-stack-base: serif;
-    --font-stack-details: serif;
-    --font-stack-warning: -system-ui, sans-serif;
+    --font-stack-base: sans-serif;
+    --font-stack-details: sans-serif;
+    --font-stack-warning: sans-serif;
     --font-stack-mono: monospace;
     --font-size: 16px;
     --max-width: calc(var(--font-size) * 48);

@@ -1,14 +1,14 @@
 /* Tag generici e classi funzionali */
 
 html {
-    font-size: 16px;
+    font-size: var(--font-size);
     image-rendering: pixelated;
 }
 
 body {
     background-color: var(--background);
-    background-image: url("/img/sfondi/g50.png");
-    font-family: serif;
+    color: var(--foreground);
+    font-family: var(--font-stack-base);
     margin: 0;
 }
 
@@ -16,88 +16,20 @@ a {
     color: var(--anchors);
 }
 
-#homepage > main > header {
-    display: flex;
-    align-items: center;
-    max-width: max-content;
-}
-
-#homepage > main > header,
-article {
-    margin: 1rem;
-    background-color: var(--background);
-    box-shadow: 4px 4px 0 var(--shadow);
-    border: 1px solid var(--shadow);
-}
-
-article {
-    box-shadow: 2px 2px 0 var(--shadow);
-    padding: 2rem;
-    max-width: 38rem;
-}
-
-#homepage > main > header div:first-child {
-    margin-left: 1rem;
+#homepage main {
+    margin: 20vh 0 0 10vw;
 }
 
 #who,
 #what,
 #how {
     font-size: 1.2rem;
-    margin: 1rem;
+    margin: .8rem;
     font-weight: 400;
     color: var(--foreground);
+    text-transform: lowercase;
 }
 
 #how a {
     margin: 0;
-}
-
-#look {
-    margin: 1rem;
-}
-
-#back-home {
-    font-size: .8rem;
-    background-color: var(--background);
-    border: 1px solid var(--shadow);
-    max-width: max-content;
-    padding: .2rem .8rem;
-}
-
-.last-update {
-    font-size: .8rem;
-    font-style: italic;
-}
-
-article > header {
-    text-align: center;
-    margin-bottom: 6rem;
-}
-
-article > header h1 {
-    font-size: 2.8rem;
-}
-
-article > header .subtitle {
-    font-size: 1.4rem;
-}
-
-article > #footnotes {
-    font-size: .9rem;
-}
-
-article > #footnotes hr {
-    display: inline-block;
-    width: 30%;
-}
-
-article > #footnotes ol {
-    padding-left: 1rem;
-}
-
-@media (min-width: 500px) {
-    #homepage main {
-        margin: 20vh 0 0 10vw;
-    }
 }

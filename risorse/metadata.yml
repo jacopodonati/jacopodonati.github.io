@@ -2,5 +2,5 @@ lang: it
 dir: ltr
 css:
   - /css/stile.css
-  - /css/oreo.css
+  - /css/macos8.css
 author: Jacopo Donati

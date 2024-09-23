@@ -1,8 +1,8 @@
 :root {
     --foreground: #000000;
-    --background: #ffffff;
+    --background: #dadada;
     --background-content: #ffffff;
-    --shadow: #000000;
+    --shadow: #00000080;
     --font-stack-base: serif;
     --font-stack-details: serif;
     --font-stack-warning: -system-ui, sans-serif;
@@ -23,15 +23,16 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: #000000;
+        --background: #1e1e1e;
         --foreground: #ffffff;
-        --background-content: #000000;
+        --background-content: #3e3d3d;
         --shadow: #000000;
         --anchors: #eebb00;
         --anchors-visited: #c9770c;
         --accent-color: #e3c55a;
         --muted-color: #b3cef5;
-        --warning-background: #5c80b0;
+        --warning-background: #8f6a0b;
         --warning-border: #b4c2d5;
+        --warning-foreground: #6c0a0a;
     }
 }
