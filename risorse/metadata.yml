@@ -1,6 +1,6 @@
 lang: it
 dir: ltr
 css:
+  - /css/brut.css
   - /css/stile.css
-  - /css/macos8.css
 author: Jacopo Donati

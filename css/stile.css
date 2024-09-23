@@ -16,6 +16,10 @@ a {
     color: var(--anchors);
 }
 
+a:visited {
+    color: var(--anchors-visited);
+}
+
 #homepage main {
     margin: 20vh 0 0 10vw;
 }
@@ -32,4 +36,48 @@ a {
 
 #how a {
     margin: 0;
+}
+
+#homepage header {
+    margin-bottom: 20vh;
+}
+
+#homepage h2 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+/* Articolo */
+
+#back-home {
+    font-size: .8rem;
+    margin-left: 1rem;
+}
+
+article {
+    margin-left: 2rem;
+    max-width: var(--max-width);
+}
+
+article #title-block-header {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+article .title {
+    font-size: 1.5rem;
+}
+
+article .subtitle {
+    font-size: 1.2rem;
+}
+
+#footnotes {
+    font-size: .9rem;
+}
+
+#footnotes hr {
+    width: 20vw;
+    display: inline-block;
 }
