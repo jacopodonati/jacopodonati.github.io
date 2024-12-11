@@ -6,6 +6,7 @@
     --font-stack-base: sans-serif;
     --font-size: 16px;
     --max-width: 38rem;
+    --section-1-background: #40e0d0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,5 +15,10 @@
         --foreground: #ffffff;
         --anchors: #ffff11;
         --anchors-visited: #ccff11;
+        --section-1-background: #b50db5;
+    }
+
+    #logo {
+        filter: invert();
     }
 }

@@ -20,10 +20,21 @@ a:visited {
     color: var(--anchors-visited);
 }
 
-#homepage main {
-    margin: 20vh 0 0 10vw;
+.nascosto,
+.hidden {
+    display: none;
 }
 
+#homepage main {
+    margin-left: 1rem;
+    max-width: var(--max-width);
+}
+
+#logo {
+    width: 100px;
+}
+
+#screen,
 #who,
 #what,
 #how {
@@ -32,6 +43,8 @@ a:visited {
     font-weight: 400;
     color: var(--foreground);
     text-transform: lowercase;
+    list-style-type: none;
+    padding-left: 0;
 }
 
 #how a {
@@ -39,12 +52,55 @@ a:visited {
 }
 
 #homepage header {
-    margin-bottom: 20vh;
+    margin: 20vh 0 0 10vw;
+}
+
+#homepage footer {
+    text-align: center;
+}
+
+#homepage footer svg {
+    height: .8rem;
+    fill: var(--foreground);
 }
 
 #homepage h2 {
     font-weight: normal;
     font-size: 1rem;
+}
+
+#homepage #books {
+    padding: 1rem;
+    display: inline-block;
+    background-color: var(--section-1-background);
+}
+
+#homepage #books ul {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#homepage #books img {
+    width: 100px;
+}
+
+#homepage #articles {
+    margin: 2rem 0;
+}
+
+#homepage #articles ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#homepage #articles .title {
+    font-size: 1.2rem;
 }
 
 /* Articolo */
