@@ -1,9 +1,10 @@
 function resizeHeader() {
     let header = document.querySelector('body>main>header')
     let main = document.querySelector('body>main')
-    let mainTopMargin = parseInt(window.getComputedStyle(main).marginTop)
-    let headerBottomMargin = parseInt(window.getComputedStyle(header).marginBottom)
-    let finalHeight = window.innerHeight - mainTopMargin - headerBottomMargin
+    let mainTopMargin = parseFloat(window.getComputedStyle(main).marginTop)
+    let headerTopMargin = parseFloat(window.getComputedStyle(header).marginTop)
+    let headerBottomMargin = parseFloat(window.getComputedStyle(header).marginBottom)
+    let finalHeight = window.innerHeight - mainTopMargin - headerTopMargin - headerBottomMargin
     header.style.height = finalHeight + 'px'
 }
 
