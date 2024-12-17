@@ -8,5 +8,27 @@ function resizeHeader() {
     header.style.height = finalHeight + 'px'
 }
 
-document.addEventListener('DOMContentLoaded', resizeHeader)
-window.addEventListener('resize', resizeHeader)
+function resizeEverythingElse() {
+    let totalHeight = 0
+    let sections = document.querySelectorAll('section')
+    sections.forEach(section => {
+        totalHeight += parseFloat(window.getComputedStyle(section).height)
+        totalHeight += parseFloat(window.getComputedStyle(section).marginTop)
+        totalHeight += parseFloat(window.getComputedStyle(section).marginBottom)
+        console.log(section, totalHeight)
+    });
+    let footer = document.querySelector('footer')
+    totalHeight += parseFloat(window.getComputedStyle(footer).height)
+    if (totalHeight < window.innerHeight) {
+        let finalMargin = window.innerHeight - totalHeight
+        footer.style.paddingTop = finalMargin + 'px'
+    }
+}
+
+function resize() {
+    resizeHeader()
+    resizeEverythingElse()
+}
+
+document.addEventListener('DOMContentLoaded', resize)
+window.addEventListener('resize', resize)
