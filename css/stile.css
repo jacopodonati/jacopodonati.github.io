@@ -69,6 +69,14 @@ a:visited {
     font-size: 1rem;
 }
 
+#homepage section {
+    margin-top: 2rem;
+}
+
+#homepage section:first-of-type {
+    margin-top: 0;
+}
+
 #homepage #books {
     padding: 1rem;
     display: inline-block;
@@ -87,10 +95,6 @@ a:visited {
 
 #homepage #books img {
     width: 100px;
-}
-
-#homepage #articles {
-    margin: 2rem 0;
 }
 
 #homepage #articles ul {

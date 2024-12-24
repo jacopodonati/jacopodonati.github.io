@@ -12,10 +12,9 @@ function resizeEverythingElse() {
     let totalHeight = 0
     let sections = document.querySelectorAll('section')
     sections.forEach(section => {
-        totalHeight += parseFloat(window.getComputedStyle(section).height)
+        totalHeight += section.clientHeight
         totalHeight += parseFloat(window.getComputedStyle(section).marginTop)
         totalHeight += parseFloat(window.getComputedStyle(section).marginBottom)
-        console.log(section, totalHeight)
     });
     let footer = document.querySelector('footer')
     totalHeight += parseFloat(window.getComputedStyle(footer).height)
@@ -27,7 +26,7 @@ function resizeEverythingElse() {
 
 function resize() {
     resizeHeader()
-    resizeEverythingElse()
+    // resizeEverythingElse()
 }
 
 document.addEventListener('DOMContentLoaded', resize)
