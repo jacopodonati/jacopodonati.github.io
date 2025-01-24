@@ -11,7 +11,7 @@
         {
             "label": "Compila articolo",
             "type": "shell",
-            "command": "pandoc --standalone --metadata-file ${workspaceFolder}/risorse/metadata.yml --template=\"${workspaceFolder}/risorse/templates/articolo.html\" --lua-filter=${workspaceFolder}/risorse/filters/date_format.lua -f markdown -t html -i ${file} -o ${workspaceFolder}/articoli/${fileBasenameNoExtension}.html",
+            "command": "pandoc --standalone --metadata-file ${workspaceFolder}/risorse/articoli/metadata.yml --template=\"${workspaceFolder}/risorse/articoli/templates/articolo.html\" --lua-filter=${workspaceFolder}/risorse/articoli/filters/date_format.lua -f markdown -t html -i ${file} -o ${workspaceFolder}/${fileBasenameNoExtension}.html",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
