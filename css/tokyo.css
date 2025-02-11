@@ -4,7 +4,7 @@
     --desktop: #cccccc;
     --anchors: #0000ee;
     --anchors-visited: #3300ee;
-    --font-stack-base: sans-serif;
+    --font-stack-base: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-stack-article: "Prestige Elite Std", monospace;
     --font-size: 16px;
     --max-width: 27rem;

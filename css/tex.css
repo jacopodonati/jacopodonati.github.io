@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Latin Modern Mono";
+    src: url("/fonts/lmmono10-regular.woff2");
+}
+
+@font-face {
+    font-family: "Latin Modern Mono";
+    src: url("/fonts/lmmono10-italic.woff2");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Latin Modern Mono Caps";
+    src: url("/fonts/lmmonocaps10-regular.woff2");
+    font-feature-settings: "smcp" on;
+    font-variant: small-caps;
+}
+
+@font-face {
+    font-family: "Latin Modern Mono Caps";
+    src: url("/fonts/lmmonocaps10-oblique.woff2");
+    font-variant: small-caps;
+    font-style: italic;
+    font-feature-settings: "smcp" on;
+}
+
+@font-face {
+    font-family: "Micro5";
+    src: url("/fonts/Micro5-Regular.woff2");
+}
+
+.maiuscoletto {
+    font-family: "Latin Modern Mono Caps";
+}
+
+:root {
+    --foreground: #000000;
+    --background: #ffffff;
+    --desktop: #cccccc;
+    --anchors: #0000ee;
+    --anchors-visited: #3300ee;
+    --font-stack-base: sans-serif;
+    --font-stack-article: "Latin Modern Mono", monospace;
+    --font-stack-directions: "Micro5", sans-serif;
+    --font-size: 16px;
+    --max-width: 27rem;
+    --margin-left: 4rem;
+    --margin-right: var(--margin-left);
+    --margin-top: 6rem;
+    --margin-bottom: 2rem;
+    --section-1-background: #40e0d0;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #343434;
+        --foreground: #ffffff;
+        --desktop: #202020;
+        --anchors: #ffff11;
+        --anchors-visited: #ccff11;
+        --section-1-background: #b50db5;
+    }
+
+    #logo {
+        filter: invert();
+    }
+}

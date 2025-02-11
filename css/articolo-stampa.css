@@ -1,0 +1,14 @@
+#back-home {
+    display: none;
+}
+
+body {
+    background-color: transparent;
+}
+
+main {
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    max-width: none;
+}
