@@ -1,0 +1,179 @@
+/* Variabili */
+
+:root {
+    --foreground: #000000;
+    --background: #ffffff;
+    --desktop: #cccccc;
+    --anchors: #0000ee;
+    --anchors-visited: #3300ee;
+    --font-stack-base: "Times New Roman", Times, serif;
+    --font-stack-article: "Prestige Elite Std", monospace;
+    --font-size: 16px;
+    --max-width: 60rem;
+    --margin-left: 4rem;
+    --margin-right: var(--margin-left);
+    --margin-top: 6rem;
+    --margin-bottom: 2rem;
+    --section-bio-background: #333333;
+    --section-bio-foreground: #fafafa;
+    --section-bio-anchors: #ffe600;
+    --section-bio-anchors-visited: #ffbf00;
+    --section-contatti-background: #f9eb2e;
+    --section-contatti-foreground: #fafafa;
+    --section-contatti-anchors: #ffe600;
+    --section-contatti-anchors-visited: #ffbf00;
+    --section-footer-background: #f96a90;
+    --section-footer-foreground: #fafafa;
+    --section-footer-anchors: #ffe600;
+    --section-footer-anchors-visited: #ffbf00;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #000000;
+        --foreground: #ffffff;
+        --anchors: #ffff11;
+        --anchors-visited: #ccff11;
+        --section-contatti-background: #3a50a6;
+        --section-footer-background: #d06e18;
+    }
+}
+
+/* Tag generici e classi funzionali */
+
+html {
+    font-size: var(--font-size);
+    image-rendering: pixelated;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-stack-base);
+    margin: 0;
+}
+
+a {
+    color: var(--anchors);
+}
+
+a:visited {
+    color: var(--anchors-visited);
+}
+
+img {
+    image-rendering: pixelated;
+}
+
+.nascosto,
+.hidden {
+    display: none;
+}
+
+.spiana {
+    clear: both;
+    height: 0px;
+}
+
+#logo {
+    width: 100px;
+}
+
+#screen,
+#who,
+#what,
+#how {
+    font-size: 1.2rem;
+    margin: .6rem;
+    font-weight: 400;
+    color: var(--foreground);
+    text-transform: lowercase;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#how a {
+    margin: 0;
+}
+
+header {
+    max-width: var(--max-width);
+    margin: 20vh 0 0 10vw;
+}
+
+footer {
+    background-color: var(--section-footer-background);
+}
+
+footer div {
+    text-align: center;
+    padding: 1rem;
+    max-width: var(--max-width);
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+section {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    padding: 1rem;
+}
+
+section p:first-of-type {
+    margin-top: 0;
+}
+
+section .container {
+    max-width: var(--max-width);
+}
+
+#bio {
+    background-color: var(--section-bio-background);
+    color: var(--section-bio-foreground);
+    gap: 3rem;
+}
+
+#bio a {
+    color: var(--section-bio-anchors);
+}
+
+#bio a:visited {
+    color: var(--section-bio-anchors-visited);
+}
+
+#bio #foto {
+    max-width: 400px;
+    margin-top: -1rem;
+    float: right;
+}
+
+#contatti {
+    background-color: var(--section-contatti-background);
+}
+
+#contatti p {
+    margin-top: 0;
+}
+
+#contatti p.piccinino {
+    font-size: 1rem;
+}
+
+#contatti ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 650px) {
+    #bio #foto {
+        float: none;
+        margin: 1rem auto;
+        max-width: 100%;
+    }
+}
