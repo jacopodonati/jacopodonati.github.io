@@ -170,10 +170,22 @@ section .container {
     gap: 1rem;
 }
 
+#contatti ul li a {
+    display: flex;
+    flex-direction: column;
+    width: 64px;
+    font-style: italic;
+    font-size: 1rem;
+    text-align: center;
+}
+
 @media only screen and (max-width: 650px) {
     #bio #foto {
         float: none;
         margin: 1rem auto;
         max-width: 100%;
+    }
+    #contatti ul {
+        gap: 2rem;
     }
 }
