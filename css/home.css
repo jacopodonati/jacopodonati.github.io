@@ -148,6 +148,7 @@ section .container {
     max-width: 400px;
     margin-top: -1rem;
     float: right;
+    object-fit: cover;
 }
 
 #contatti {
