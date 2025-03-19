@@ -1,0 +1,20 @@
+main {
+    width: 210mm;
+    height: 297mm;
+    border: 1px solid black;
+    background-image: url(/img/dettami/dettami-clld1.png);
+    background-size: cover;
+}
+
+img {
+    mix-blend-mode: darken;
+}
+
+h1, p {
+    position: absolute;
+}
+
+h1 {
+    left: 96px;
+    top: 74px;
+}

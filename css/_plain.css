@@ -4,10 +4,10 @@
     --desktop: #cccccc;
     --anchors: #0000ee;
     --anchors-visited: #3300ee;
-    --font-stack-base: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-stack-base: "Times New Roman", Times, serif;
     --font-stack-article: "Prestige Elite Std", monospace;
     --font-size: 16px;
-    --max-width: 27rem;
+    --max-width: 60rem;
     --margin-left: 4rem;
     --margin-right: var(--margin-left);
     --margin-top: 6rem;
