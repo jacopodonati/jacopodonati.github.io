@@ -1,14 +1,22 @@
+body {
+    margin: 0;
+    background-image: url(/img/dettami/g50.png);
+}
+
 article {
-    position: absolute;
-    top: 0;
-    z-index: -1;
+    display: none;
 }
 
 img {
-    max-width: 100%;
+    width: 700px;
 }
 
 .data {
     text-align: right;
 }
 
+@media only screen and (max-width: 700px) {
+    img {
+        max-width: 100%;
+    }
+}
