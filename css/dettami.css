@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-image: url(/img/dettami/g50.png);
+    image-rendering: pixelated;
 }
 
 article {
@@ -9,6 +10,7 @@ article {
 
 img {
     width: 700px;
+    image-rendering: pixelated;
 }
 
 .data {
