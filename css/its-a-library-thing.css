@@ -1,0 +1,63 @@
+:root {
+    --base-font-stack: system-ui, sans-serif;
+    --fg-color: #000;
+    --bg-color: #fff;
+    --link-color: #3171a5;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --fg-color: #fff;
+        --bg-color: #000;
+        --link-color: #f09262;
+    }
+
+    #newsletter img {
+        filter: invert();
+    }
+}
+
+body {
+    font-family: var(--base-font-stack);
+    color: var(--fg-color);
+    background-color: var(--bg-color);
+    font-size: 16px;
+}
+
+a {
+    color: var(--link-color);
+}
+
+main {
+    display: flex;
+    gap: 1rem;
+    align-items: end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#bio {
+    width: 200px;
+    padding: 1rem;
+}
+
+#bio #nome {
+    font-weight: 600;
+}
+
+#bio p {
+    margin-block-start: .6rem;
+    margin-block-end: .6rem;
+}
+
+.libro img {
+    border-radius: 2px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+footer {
+    margin-top: 2rem;
+    font-size: .8rem;
+    text-align: center;
+    opacity: .6;
+}
