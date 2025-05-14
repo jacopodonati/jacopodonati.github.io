@@ -18,6 +18,7 @@
     --section-bio-foreground: #fafafa;
     --section-bio-anchors: #ffe600;
     --section-bio-anchors-visited: #ffbf00;
+    --section-newsletter-background: #649fe0;
     --section-contatti-background: #f9eb2e;
     --section-contatti-foreground: #fafafa;
     --section-contatti-anchors: #ffe600;
@@ -149,6 +150,10 @@ section .container {
     margin-top: -1rem;
     float: right;
     object-fit: cover;
+}
+
+#newsletter {
+    background-color: var(--section-newsletter-background);
 }
 
 #contatti {
