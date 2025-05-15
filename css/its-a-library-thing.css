@@ -30,7 +30,7 @@ a {
 
 main {
     display: flex;
-    gap: 1rem;
+    gap: .6rem;
     align-items: end;
     flex-direction: row;
     flex-wrap: wrap;
