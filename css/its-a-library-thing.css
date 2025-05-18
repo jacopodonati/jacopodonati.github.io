@@ -53,7 +53,7 @@ main {
 }
 
 .progetto {
-    filter: grayscale(0%) opacity(100%);
+    filter: grayscale(0%) opacity(100%) blur(0);
     transition: var(--animation-speed) filter var(--animation-mode);
 }
 
@@ -83,7 +83,7 @@ footer {
 }
 
 .secondo-piano {
-    filter: grayscale() opacity(40%);
+    filter: grayscale() opacity(20%) blur(4px);
     transition: var(--animation-speed) filter var(--animation-mode);
 }
 
