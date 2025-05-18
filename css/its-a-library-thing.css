@@ -3,6 +3,8 @@
     --fg-color: #000;
     --bg-color: #fff;
     --link-color: #3171a5;
+    --animation-speed: .2s;
+    --animation-mode: linear;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -50,14 +52,39 @@ main {
     margin-block-end: .6rem;
 }
 
-.libro img {
+.progetto {
+    filter: grayscale(0%) opacity(100%);
+    transition: var(--animation-speed) filter var(--animation-mode);
+}
+
+.progetto img {
     border-radius: 2px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: var(--animation-speed) filter var(--animation-mode);
 }
 
 footer {
     margin-top: 2rem;
     font-size: .8rem;
     text-align: center;
-    /* opacity: .6; */
+}
+
+#selettore {
+    font-size: .9rem;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.secondo-piano {
+    filter: grayscale() opacity(40%);
+    transition: var(--animation-speed) filter var(--animation-mode);
+}
+
+.secondo-piano img {
+    box-shadow: none;
+    transition: var(--animation-speed) filter var(--animation-mode),
 }
