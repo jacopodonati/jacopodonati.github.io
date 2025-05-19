@@ -59,4 +59,4 @@ selettori.forEach(selettore => {
 });
 
 resetButton.addEventListener('click', resetta);
-document.addEventListener('DOMContentLoaded', riordinaCasualmente);
+// document.addEventListener('DOMContentLoaded', riordinaCasualmente);
